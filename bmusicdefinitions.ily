@@ -384,7 +384,7 @@ smuflOn = {
   %\override Staff.Flag.stencil = #smufl-flag
   %\override Staff.Dots.stencil = #smufl-dots
   \override Staff.Accidental.stencil = #smufl-accidental
-  \override Staff.Rest.stencil = #smufl-rest
+  %\override Staff.Rest.stencil = #smufl-rest
   \override Staff.Script.stencil = #smufl-script
   %\override Staff.DynamicText.stencil = #smufl-dynamic-text
   \override Staff.TupletNumber.stencil = #smufl-tuplet-number
@@ -406,36 +406,12 @@ bravuraOn = {
   \override Staff.StaffSymbol.thickness = #1.2
   \override Staff.Beam.beam-thickness = #0.55
   \override Staff.Slur.thickness = #1.2
-  %\set fontSize = #1
-  %\override Staff.Clef.font-size = #.7
-  %\override StaffSymbol.staff-space = #1.1
   \override Staff.NoteHead.font-size = #1.15
-  %\override Stem.font-size = #-5
-  %\override Flag.font-size = #-.2
- % \override Stem.font-size = #-1
-%  \override Staff.Stem.font-size = #0.8
-%  \override Staff.font-size = #2
-\override Staff.Stem.thickness=#1.15
-  %%%%%\override Staff.NoteHead.stem-attachment = #'(1.011 . 0.15)
-  %\override Staff.Stem.thickness = #.985
-%\override Staff.Dots.font-size = #-1
-%\override Staff.Dots.stencil = #ly:text-interface::print
-%\override Staff.Dots.extra-spacing-width '(0.0 . 0.2)
-%\override Staff.Dots.text = \markup{\hspace #1 \musicglyph "dots.dot"}
-%\override Staff.Dots.font-name = "emmentaler"
-%\override Staff.Dots.font-encoding = #'fetaMusic
-  %\override Flag.X-offset = #0.1
-  %\override Flag.Y-offset = #-0.05
-  %\offset Y-offset #0.5 Flag
-  %\offset Y-extent #'(5 5) Flag
-  %\override Flag.Y-offset = #(lambda (flag) (let ((default (ly:flag::calc-y-offset flag))) (* default 1.03)))
-
-
-
-\override Staff.ClefModifier.font-name = #"BMusicalTextFont"
-\override Staff.ClefModifier.font-size = #-4
-\override Staff.ClefModifier.padding = -0.11
-\override DynamicText.font-name = "BMusicalTextFont" \override DynamicText.font-size = #5
+  \override Staff.Stem.thickness=#1.15
+  \override Staff.ClefModifier.font-name = #"BMusicalTextFont"
+  \override Staff.ClefModifier.font-size = #-4
+  \override Staff.ClefModifier.padding = -0.11
+  \override DynamicText.font-name = "BMusicalTextFont" \override DynamicText.font-size = #5
 
 }
 
