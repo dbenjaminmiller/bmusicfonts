@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1588069871
-ModificationTime: 1593120767
+ModificationTime: 1593287930
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,6 +56,7 @@ OS2XHeight: 292
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000001.10000000.00000000.00000000
+Lookup: 4 0 1 "BMusicFont-11-ligaStandardLigaturesinLatinlookup0" { "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable"  } ['liga' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtfTable: LILF 84
@@ -1653,14 +1654,13 @@ BHSoM2(gUA0ebO8$7K_%A7oIoCh[cuFD,AuCMm^)F!*(X0J5@@3ANB>$7KFrF(o9)?ZTq-AKWTJ
 0f:RC2^o(^@Vft)?Y!kZD.Rg#EZctW0J512$31&+
 EndTtf
 LangName: 1033
-Encoding: UnicodeBmp
-Compacted: 1
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 8 2
+WinInfo: 553 7 6
 BeginPrivate: 7
 BlueValues 30 [-8 0 267 292 469 469 500 501]
 OtherBlues 11 [-146 -146]
@@ -1670,17 +1670,17 @@ StdVW 4 [38]
 StemSnapH 35 [26 38 57 65 76 81 103 125 133 220]
 StemSnapV 19 [19 33 38 42 47 58]
 EndPrivate
-BeginChars: 65539 570
+BeginChars: 591 592
 
 StartChar: uniE059
-Encoding: 57433 57433 0
+Encoding: 22 57433 0
 Width: 1000
 Flags: HMW
 LayerCount: 2
 EndChar
 
 StartChar: rests.0
-Encoding: 57600 57600 1
+Encoding: 23 57600 1
 Width: 283
 Flags: HMW
 LayerCount: 2
@@ -1699,7 +1699,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.1
-Encoding: 57601 57601 2
+Encoding: 24 57601 2
 Width: 283
 Flags: HMW
 LayerCount: 2
@@ -1718,7 +1718,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.0o
-Encoding: 57602 57602 3
+Encoding: 25 57602 3
 Width: 282
 Flags: HMW
 LayerCount: 2
@@ -1743,7 +1743,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.1o
-Encoding: 57603 57603 4
+Encoding: 26 57603 4
 Width: 282
 Flags: HMW
 LayerCount: 2
@@ -1768,7 +1768,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M3
-Encoding: 57604 57604 5
+Encoding: 27 57604 5
 Width: 381
 Flags: HMW
 LayerCount: 2
@@ -1796,7 +1796,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M2
-Encoding: 57605 57605 6
+Encoding: 28 57605 6
 Width: 125
 Flags: HMW
 LayerCount: 2
@@ -1815,7 +1815,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M1
-Encoding: 57606 57606 7
+Encoding: 29 57606 7
 Width: 126
 Flags: HMW
 LayerCount: 2
@@ -1834,7 +1834,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M1o
-Encoding: 57607 57607 8
+Encoding: 30 57607 8
 Width: 294
 Flags: HMW
 LayerCount: 2
@@ -1865,7 +1865,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.2
-Encoding: 57608 57608 9
+Encoding: 31 57608 9
 Width: 270
 Flags: HMW
 LayerCount: 2
@@ -1910,7 +1910,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.2classical
-Encoding: 57609 57609 10
+Encoding: 32 57609 10
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -1940,7 +1940,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.3
-Encoding: 57610 57610 11
+Encoding: 33 57610 11
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -1969,7 +1969,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.4
-Encoding: 57611 57611 12
+Encoding: 34 57611 12
 Width: 320
 Flags: HMW
 LayerCount: 2
@@ -2007,7 +2007,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.5
-Encoding: 57612 57612 13
+Encoding: 35 57612 13
 Width: 363
 Flags: HMW
 LayerCount: 2
@@ -2058,7 +2058,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.6
-Encoding: 57613 57613 14
+Encoding: 36 57613 14
 Width: 424
 Flags: HMW
 LayerCount: 2
@@ -2123,7 +2123,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.7
-Encoding: 57614 57614 15
+Encoding: 37 57614 15
 Width: 485
 Flags: HMW
 LayerCount: 2
@@ -2199,7 +2199,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp
-Encoding: 57615 57615 16
+Encoding: 38 57615 16
 Width: 249
 Flags: HMW
 LayerCount: 2
@@ -2279,7 +2279,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp.arrowup
-Encoding: 57616 57616 17
+Encoding: 39 57616 17
 Width: 249
 Flags: HMW
 LayerCount: 2
@@ -2361,7 +2361,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp.arrowdown
-Encoding: 57617 57617 18
+Encoding: 40 57617 18
 Width: 249
 Flags: HMW
 LayerCount: 2
@@ -2443,7 +2443,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp.arrowboth
-Encoding: 57618 57618 19
+Encoding: 41 57618 19
 Width: 275
 Flags: HMW
 LayerCount: 2
@@ -2522,7 +2522,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp.slashslash.stem
-Encoding: 57619 57619 20
+Encoding: 42 57619 20
 Width: 179
 Flags: HMW
 LayerCount: 2
@@ -2578,7 +2578,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp.slashslashslash.stemstem
-Encoding: 57620 57620 21
+Encoding: 43 57620 21
 Width: 341
 Flags: HMW
 LayerCount: 2
@@ -2684,7 +2684,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp.slashslashslash.stem
-Encoding: 57621 57621 22
+Encoding: 44 57621 22
 Width: 339
 Flags: HMW
 LayerCount: 2
@@ -2759,7 +2759,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.sharp.slashslash.stemstemstem
-Encoding: 57622 57622 23
+Encoding: 45 57622 23
 Width: 317
 Flags: HMW
 LayerCount: 2
@@ -2860,7 +2860,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.natural
-Encoding: 57623 57623 24
+Encoding: 46 57623 24
 Width: 168
 Flags: HMW
 LayerCount: 2
@@ -2899,7 +2899,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.natural.arrowup
-Encoding: 57624 57624 25
+Encoding: 47 57624 25
 Width: 168
 Flags: HMW
 LayerCount: 2
@@ -2939,7 +2939,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.natural.arrowdown
-Encoding: 57625 57625 26
+Encoding: 48 57625 26
 Width: 168
 Flags: HMW
 LayerCount: 2
@@ -2979,7 +2979,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.natural.arrowboth
-Encoding: 57626 57626 27
+Encoding: 49 57626 27
 Width: 166
 Flags: HMW
 LayerCount: 2
@@ -3027,7 +3027,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flat
-Encoding: 57627 57627 28
+Encoding: 50 57627 28
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -3063,7 +3063,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flat.arrowup
-Encoding: 57628 57628 29
+Encoding: 51 57628 29
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -3101,7 +3101,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flat.arrowdown
-Encoding: 57629 57629 30
+Encoding: 52 57629 30
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -3141,7 +3141,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flat.arrowboth
-Encoding: 57630 57630 31
+Encoding: 53 57630 31
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -3188,7 +3188,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flat.slash
-Encoding: 57631 57631 32
+Encoding: 54 57631 32
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -3241,7 +3241,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flat.slashslash
-Encoding: 57632 57632 33
+Encoding: 55 57632 33
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -3310,7 +3310,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.mirroredflat.flat
-Encoding: 57633 57633 34
+Encoding: 56 57633 34
 Width: 465
 Flags: HMW
 LayerCount: 2
@@ -3373,7 +3373,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.mirroredflat
-Encoding: 57634 57634 35
+Encoding: 57 57634 35
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -3409,7 +3409,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.mirroredflat.backslash
-Encoding: 57635 57635 36
+Encoding: 58 57635 36
 Width: 174
 Flags: HMW
 LayerCount: 2
@@ -3462,7 +3462,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flatflat
-Encoding: 57636 57636 37
+Encoding: 59 57636 37
 Width: 386
 Flags: HMW
 LayerCount: 2
@@ -3526,7 +3526,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.flatflat.slash
-Encoding: 57637 57637 38
+Encoding: 60 57637 38
 Width: 385
 Flags: HMW
 LayerCount: 2
@@ -3615,7 +3615,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.doublesharp
-Encoding: 57638 57638 39
+Encoding: 61 57638 39
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -3663,7 +3663,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.rightparen
-Encoding: 57639 57639 40
+Encoding: 62 57639 40
 Width: 201
 Flags: HMW
 LayerCount: 2
@@ -3686,7 +3686,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.leftparen
-Encoding: 57640 57640 41
+Encoding: 63 57640 41
 Width: 163
 Flags: HMW
 LayerCount: 2
@@ -3709,7 +3709,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.open.01
-Encoding: 57641 57641 42
+Encoding: 64 57641 42
 Width: 20
 Flags: HMW
 LayerCount: 2
@@ -3738,7 +3738,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.open.0M1
-Encoding: 57642 57642 43
+Encoding: 65 57642 43
 Width: 259
 Flags: HMW
 LayerCount: 2
@@ -3767,7 +3767,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.open.11
-Encoding: 57643 57643 44
+Encoding: 66 57643 44
 Width: 105
 Flags: HMW
 LayerCount: 2
@@ -3796,7 +3796,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.open.1M1
-Encoding: 57644 57644 45
+Encoding: 67 57644 45
 Width: 105
 Flags: HMW
 LayerCount: 2
@@ -3825,7 +3825,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.close.01
-Encoding: 57645 57645 46
+Encoding: 68 57645 46
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -3848,7 +3848,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.close.0M1
-Encoding: 57646 57646 47
+Encoding: 69 57646 47
 Width: 271
 Flags: HMW
 LayerCount: 2
@@ -3871,7 +3871,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.close.11
-Encoding: 57647 57647 48
+Encoding: 70 57647 48
 Width: 113
 Flags: HMW
 LayerCount: 2
@@ -3890,7 +3890,7 @@ EndSplineSet
 EndChar
 
 StartChar: arrowheads.close.1M1
-Encoding: 57648 57648 49
+Encoding: 71 57648 49
 Width: 113
 Flags: HMW
 LayerCount: 2
@@ -3909,7 +3909,7 @@ EndSplineSet
 EndChar
 
 StartChar: dots.dot
-Encoding: 57649 57649 50
+Encoding: 72 57649 50
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -3924,7 +3924,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.ufermata
-Encoding: 57650 57650 51
+Encoding: 73 57650 51
 Width: 301
 Flags: HMW
 LayerCount: 2
@@ -3952,7 +3952,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dfermata
-Encoding: 57651 57651 52
+Encoding: 74 57651 52
 Width: 303
 Flags: HMW
 LayerCount: 2
@@ -3980,7 +3980,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.ushortfermata
-Encoding: 57652 57652 53
+Encoding: 75 57652 53
 Width: 303
 Flags: HMW
 LayerCount: 2
@@ -4008,7 +4008,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dshortfermata
-Encoding: 57653 57653 54
+Encoding: 76 57653 54
 Width: 303
 Flags: HMW
 LayerCount: 2
@@ -4036,7 +4036,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.ulongfermata
-Encoding: 57654 57654 55
+Encoding: 77 57654 55
 Width: 302
 Flags: HMW
 LayerCount: 2
@@ -4065,7 +4065,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dlongfermata
-Encoding: 57655 57655 56
+Encoding: 78 57655 56
 Width: 302
 Flags: HMW
 LayerCount: 2
@@ -4094,7 +4094,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.uverylongfermata
-Encoding: 57656 57656 57
+Encoding: 79 57656 57
 Width: 353
 Flags: HMW
 LayerCount: 2
@@ -4137,7 +4137,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dverylongfermata
-Encoding: 57657 57657 58
+Encoding: 80 57657 58
 Width: 353
 Flags: HMW
 LayerCount: 2
@@ -4180,7 +4180,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.thumb
-Encoding: 57658 57658 59
+Encoding: 81 57658 59
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -4204,7 +4204,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.sforzato
-Encoding: 57659 57659 60
+Encoding: 82 57659 60
 Width: 169
 Flags: HMW
 LayerCount: 2
@@ -4231,7 +4231,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.espr
-Encoding: 57660 57660 61
+Encoding: 83 57660 61
 Width: 181
 Flags: HMW
 LayerCount: 2
@@ -4275,7 +4275,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.staccato
-Encoding: 57661 57661 62
+Encoding: 84 57661 62
 Width: 61
 Flags: HMW
 LayerCount: 2
@@ -4290,7 +4290,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.ustaccatissimo
-Encoding: 57662 57662 63
+Encoding: 85 57662 63
 Width: 50
 Flags: HMW
 LayerCount: 2
@@ -4305,7 +4305,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dstaccatissimo
-Encoding: 57663 57663 64
+Encoding: 86 57663 64
 Width: 50
 Flags: HMW
 LayerCount: 2
@@ -4320,7 +4320,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.tenuto
-Encoding: 57664 57664 65
+Encoding: 87 57664 65
 Width: 169
 Flags: HMW
 LayerCount: 2
@@ -4337,7 +4337,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.uportato
-Encoding: 57665 57665 66
+Encoding: 88 57665 66
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -4359,7 +4359,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dportato
-Encoding: 57666 57666 67
+Encoding: 89 57666 67
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -4381,7 +4381,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.umarcato
-Encoding: 57667 57667 68
+Encoding: 90 57667 68
 Width: 125
 Flags: HMW
 LayerCount: 2
@@ -4408,7 +4408,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dmarcato
-Encoding: 57668 57668 69
+Encoding: 91 57668 69
 Width: 125
 Flags: HW
 LayerCount: 2
@@ -4435,7 +4435,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.open
-Encoding: 57669 57669 70
+Encoding: 92 57669 70
 Width: 152
 Flags: HW
 LayerCount: 2
@@ -4455,7 +4455,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.halfopen
-Encoding: 57670 57670 71
+Encoding: 93 57670 71
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -4492,7 +4492,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.halfopenvertical
-Encoding: 57671 57671 72
+Encoding: 94 57671 72
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -4523,7 +4523,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.stopped
-Encoding: 57672 57672 73
+Encoding: 95 57672 73
 Width: 136
 Flags: HMW
 LayerCount: 2
@@ -4546,7 +4546,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.upbow
-Encoding: 57673 57673 74
+Encoding: 96 57673 74
 Width: 162
 Flags: HMW
 LayerCount: 2
@@ -4571,7 +4571,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.downbow
-Encoding: 57674 57674 75
+Encoding: 97 57674 75
 Width: 187
 Flags: HMW
 LayerCount: 2
@@ -4597,7 +4597,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.reverseturn
-Encoding: 57675 57675 76
+Encoding: 98 57675 76
 Width: 229
 Flags: HMW
 LayerCount: 2
@@ -4629,7 +4629,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.turn
-Encoding: 57676 57676 77
+Encoding: 99 57676 77
 Width: 273
 Flags: HMW
 LayerCount: 2
@@ -4661,7 +4661,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.trill
-Encoding: 57677 57677 78
+Encoding: 100 57677 78
 Width: 196
 Flags: HMW
 LayerCount: 2
@@ -4734,7 +4734,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.upedalheel
-Encoding: 57678 57678 79
+Encoding: 101 57678 79
 Width: 213
 Flags: HMW
 LayerCount: 2
@@ -4761,7 +4761,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dpedalheel
-Encoding: 57679 57679 80
+Encoding: 102 57679 80
 Width: 213
 Flags: HMW
 LayerCount: 2
@@ -4788,7 +4788,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.upedaltoe
-Encoding: 57680 57680 81
+Encoding: 103 57680 81
 Width: 219
 Flags: HMW
 LayerCount: 2
@@ -4807,7 +4807,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dpedaltoe
-Encoding: 57681 57681 82
+Encoding: 104 57681 82
 Width: 219
 Flags: HMW
 LayerCount: 2
@@ -4826,7 +4826,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.flageolet
-Encoding: 57682 57682 83
+Encoding: 105 57682 83
 Width: 133
 Flags: HMW
 LayerCount: 2
@@ -4846,7 +4846,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.segno
-Encoding: 57683 57683 84
+Encoding: 106 57683 84
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -4910,7 +4910,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.varsegno
-Encoding: 57684 57684 85
+Encoding: 107 57684 85
 Width: 85
 Flags: HMW
 LayerCount: 2
@@ -4980,7 +4980,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.coda
-Encoding: 57685 57685 86
+Encoding: 108 57685 86
 Width: 659
 Flags: HMW
 LayerCount: 2
@@ -5027,7 +5027,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.varcoda
-Encoding: 57686 57686 87
+Encoding: 109 57686 87
 Width: 509
 Flags: HMW
 LayerCount: 2
@@ -5094,7 +5094,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.rcomma
-Encoding: 57687 57687 88
+Encoding: 110 57687 88
 Width: 153
 Flags: HMW
 LayerCount: 2
@@ -5118,7 +5118,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.lcomma
-Encoding: 57688 57688 89
+Encoding: 111 57688 89
 Width: 153
 Flags: HMW
 LayerCount: 2
@@ -5142,7 +5142,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.rvarcomma
-Encoding: 57689 57689 90
+Encoding: 112 57689 90
 Width: 62
 Flags: HMW
 LayerCount: 2
@@ -5162,7 +5162,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.lvarcomma
-Encoding: 57690 57690 91
+Encoding: 113 57690 91
 Width: 62
 Flags: HMW
 LayerCount: 2
@@ -5182,7 +5182,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.arpeggio
-Encoding: 57691 57691 92
+Encoding: 114 57691 92
 Width: 163
 Flags: HMW
 LayerCount: 2
@@ -5207,7 +5207,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.trill_element
-Encoding: 57692 57692 93
+Encoding: 115 57692 93
 Width: 249
 Flags: HMW
 LayerCount: 2
@@ -5231,7 +5231,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.arpeggio.arrow.M1
-Encoding: 57693 57693 94
+Encoding: 116 57693 94
 Width: 199
 Flags: HMW
 LayerCount: 2
@@ -5256,7 +5256,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.arpeggio.arrow.1
-Encoding: 57694 57694 95
+Encoding: 117 57694 95
 Width: 199
 Flags: HMW
 LayerCount: 2
@@ -5281,7 +5281,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.trilelement
-Encoding: 57695 57695 96
+Encoding: 118 57695 96
 Width: 104
 Flags: HMW
 LayerCount: 2
@@ -5304,7 +5304,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.prall
-Encoding: 57696 57696 97
+Encoding: 119 57696 97
 Width: 302
 Flags: HMW
 LayerCount: 2
@@ -5353,7 +5353,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.mordent
-Encoding: 57697 57697 98
+Encoding: 120 57697 98
 Width: 317
 Flags: HMW
 LayerCount: 2
@@ -5407,7 +5407,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.prallprall
-Encoding: 57698 57698 99
+Encoding: 121 57698 99
 Width: 447
 Flags: HMW
 LayerCount: 2
@@ -5465,7 +5465,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.prallmordent
-Encoding: 57699 57699 100
+Encoding: 122 57699 100
 Width: 430
 Flags: HMW
 LayerCount: 2
@@ -5529,7 +5529,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.upprall
-Encoding: 57700 57700 101
+Encoding: 123 57700 101
 Width: 476
 Flags: HMW
 LayerCount: 2
@@ -5590,7 +5590,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.upmordent
-Encoding: 57701 57701 102
+Encoding: 124 57701 102
 Width: 456
 Flags: HMW
 LayerCount: 2
@@ -5663,7 +5663,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.pralldown
-Encoding: 57702 57702 103
+Encoding: 125 57702 103
 Width: 392
 Flags: HMW
 LayerCount: 2
@@ -5718,7 +5718,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.downprall
-Encoding: 57703 57703 104
+Encoding: 126 57703 104
 Width: 569
 Flags: HMW
 LayerCount: 2
@@ -5784,7 +5784,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.downmordent
-Encoding: 57704 57704 105
+Encoding: 127 57704 105
 Width: 563
 Flags: HMW
 LayerCount: 2
@@ -5855,7 +5855,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.prallup
-Encoding: 57705 57705 106
+Encoding: 128 57705 106
 Width: 379
 Flags: HMW
 LayerCount: 2
@@ -5915,7 +5915,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.lineprall
-Encoding: 57706 57706 107
+Encoding: 129 57706 107
 Width: 520
 Flags: HMW
 LayerCount: 2
@@ -5982,7 +5982,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.caesura.curved
-Encoding: 57707 57707 108
+Encoding: 130 57707 108
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -6011,7 +6011,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.caesura.straight
-Encoding: 57708 57708 109
+Encoding: 131 57708 109
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -6043,7 +6043,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.tickmark
-Encoding: 57709 57709 110
+Encoding: 132 57709 110
 Width: 367
 Flags: HMW
 LayerCount: 2
@@ -6066,7 +6066,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.snappizzicato
-Encoding: 57710 57710 111
+Encoding: 133 57710 111
 Width: 133
 Flags: HMW
 LayerCount: 2
@@ -6092,7 +6092,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.C
-Encoding: 57711 57711 112
+Encoding: 134 57711 112
 Width: 699
 Flags: HMW
 LayerCount: 2
@@ -6157,7 +6157,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.C_change
-Encoding: 57712 57712 113
+Encoding: 135 57712 113
 Width: 506
 Flags: HMW
 LayerCount: 2
@@ -6223,7 +6223,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.F
-Encoding: 57713 57713 114
+Encoding: 136 57713 114
 Width: 684
 Flags: HMW
 LayerCount: 2
@@ -6258,7 +6258,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.F_change
-Encoding: 57714 57714 115
+Encoding: 137 57714 115
 Width: 462
 Flags: HMW
 LayerCount: 2
@@ -6302,7 +6302,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.G
-Encoding: 57715 57715 116
+Encoding: 138 57715 116
 Width: 671
 Flags: HMW
 LayerCount: 2
@@ -6370,7 +6370,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.G_change
-Encoding: 57716 57716 117
+Encoding: 139 57716 117
 Width: 440
 Flags: HMW
 LayerCount: 2
@@ -6441,7 +6441,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.percussion
-Encoding: 57717 57717 118
+Encoding: 140 57717 118
 Width: 382
 Flags: HMW
 LayerCount: 2
@@ -6469,7 +6469,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.percussion_change
-Encoding: 57718 57718 119
+Encoding: 141 57718 119
 Width: 306
 Flags: HMW
 LayerCount: 2
@@ -6497,7 +6497,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.tab
-Encoding: 57719 57719 120
+Encoding: 142 57719 120
 Width: 408
 Flags: HW
 LayerCount: 2
@@ -6549,7 +6549,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.tab_change
-Encoding: 57720 57720 121
+Encoding: 143 57720 121
 Width: 272
 Flags: HMW
 LayerCount: 2
@@ -6601,7 +6601,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.C44
-Encoding: 57721 57721 122
+Encoding: 144 57721 122
 Width: 424
 Flags: HMW
 LayerCount: 2
@@ -6627,7 +6627,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.C22
-Encoding: 57722 57722 123
+Encoding: 145 57722 123
 Width: 417
 Flags: HMW
 LayerCount: 2
@@ -6677,7 +6677,7 @@ EndSplineSet
 EndChar
 
 StartChar: pedal.*
-Encoding: 57723 57723 124
+Encoding: 146 57723 124
 Width: 450
 Flags: HMW
 LayerCount: 2
@@ -6769,7 +6769,7 @@ EndSplineSet
 EndChar
 
 StartChar: pedal.M
-Encoding: 57724 57724 125
+Encoding: 147 57724 125
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -6792,7 +6792,7 @@ EndSplineSet
 EndChar
 
 StartChar: pedal.P
-Encoding: 57726 57726 126
+Encoding: 148 57726 126
 Width: 474
 Flags: HMW
 LayerCount: 2
@@ -6850,7 +6850,7 @@ EndSplineSet
 EndChar
 
 StartChar: pedal.d
-Encoding: 57727 57727 127
+Encoding: 149 57727 127
 Width: 257
 Flags: HMW
 LayerCount: 2
@@ -6875,7 +6875,7 @@ EndSplineSet
 EndChar
 
 StartChar: pedal.e
-Encoding: 57728 57728 128
+Encoding: 150 57728 128
 Width: 212
 Flags: HMW
 LayerCount: 2
@@ -6907,7 +6907,7 @@ EndSplineSet
 EndChar
 
 StartChar: pedal.Ped
-Encoding: 57729 57729 129
+Encoding: 151 57729 129
 Width: 1019
 Flags: HMW
 LayerCount: 2
@@ -7007,7 +7007,7 @@ EndSplineSet
 EndChar
 
 StartChar: brackettips.up
-Encoding: 57730 57730 130
+Encoding: 152 57730 130
 Width: 540
 Flags: HMW
 LayerCount: 2
@@ -7030,7 +7030,7 @@ EndSplineSet
 EndChar
 
 StartChar: brackettips.down
-Encoding: 57731 57731 131
+Encoding: 153 57731 131
 Width: 540
 Flags: HMW
 LayerCount: 2
@@ -7052,7 +7052,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.discant
-Encoding: 57732 57732 132
+Encoding: 154 57732 132
 Width: 391
 Flags: HMW
 LayerCount: 2
@@ -7098,7 +7098,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.dot
-Encoding: 57733 57733 133
+Encoding: 155 57733 133
 Width: 62
 Flags: HMW
 LayerCount: 2
@@ -7113,7 +7113,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.freebass
-Encoding: 57734 57734 134
+Encoding: 156 57734 134
 Width: 266
 Flags: HMW
 LayerCount: 2
@@ -7152,7 +7152,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.stdbass
-Encoding: 57735 57735 135
+Encoding: 157 57735 135
 Width: 516
 Flags: HMW
 LayerCount: 2
@@ -7201,7 +7201,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.bayanbass
-Encoding: 57736 57736 136
+Encoding: 158 57736 136
 Width: 321
 Flags: HMW
 LayerCount: 2
@@ -7231,7 +7231,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.oldEE
-Encoding: 57737 57737 137
+Encoding: 159 57737 137
 Width: 266
 Flags: HMW
 LayerCount: 2
@@ -7312,7 +7312,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.push
-Encoding: 57738 57738 138
+Encoding: 160 57738 138
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -7335,7 +7335,7 @@ EndSplineSet
 EndChar
 
 StartChar: accordion.pull
-Encoding: 57739 57739 139
+Encoding: 161 57739 139
 Width: 37
 Flags: HMW
 LayerCount: 2
@@ -7356,7 +7356,7 @@ EndSplineSet
 EndChar
 
 StartChar: ties.lyric.short
-Encoding: 57740 57740 140
+Encoding: 162 57740 140
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -7377,7 +7377,7 @@ EndSplineSet
 EndChar
 
 StartChar: ties.lyric.default
-Encoding: 57741 57741 141
+Encoding: 163 57741 141
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -7394,7 +7394,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM2
-Encoding: 57742 57742 142
+Encoding: 164 57742 142
 Width: 494
 Flags: HMW
 LayerCount: 2
@@ -7438,7 +7438,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM2
-Encoding: 57743 57743 143
+Encoding: 165 57743 143
 Width: 494
 Flags: HMW
 LayerCount: 2
@@ -7482,7 +7482,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM1
-Encoding: 57744 57744 144
+Encoding: 166 57744 144
 Width: 494
 Flags: HMW
 LayerCount: 2
@@ -7526,7 +7526,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM1double
-Encoding: 57745 57745 145
+Encoding: 167 57745 145
 Width: 557
 Flags: HMW
 LayerCount: 2
@@ -7588,7 +7588,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0
-Encoding: 57746 57746 146
+Encoding: 168 57746 146
 Width: 495
 Flags: HMW
 LayerCount: 2
@@ -7614,7 +7614,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1
-Encoding: 57747 57747 147
+Encoding: 169 57747 147
 Width: 341
 Flags: HMW
 LayerCount: 2
@@ -7638,7 +7638,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2
-Encoding: 57748 57748 148
+Encoding: 170 57748 148
 Width: 332
 Flags: HMW
 LayerCount: 2
@@ -7653,7 +7653,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0diamond
-Encoding: 57749 57749 149
+Encoding: 171 57749 149
 Width: 495
 Flags: HMW
 LayerCount: 2
@@ -7679,7 +7679,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1diamond
-Encoding: 57750 57750 150
+Encoding: 172 57750 150
 Width: 364
 Flags: HMW
 LayerCount: 2
@@ -7713,7 +7713,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2diamond
-Encoding: 57751 57751 151
+Encoding: 173 57751 151
 Width: 368
 Flags: HMW
 LayerCount: 2
@@ -7736,7 +7736,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0triangle
-Encoding: 57752 57752 152
+Encoding: 174 57752 152
 Width: 578
 Flags: HMW
 LayerCount: 2
@@ -7765,7 +7765,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1triangle
-Encoding: 57753 57753 153
+Encoding: 175 57753 153
 Width: 418
 Flags: HMW
 LayerCount: 2
@@ -7793,7 +7793,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1triangle
-Encoding: 57754 57754 154
+Encoding: 176 57754 154
 Width: 418
 Flags: HMW
 LayerCount: 2
@@ -7821,7 +7821,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2triangle
-Encoding: 57755 57755 155
+Encoding: 177 57755 155
 Width: 348
 Flags: HMW
 LayerCount: 2
@@ -7842,7 +7842,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2triangle
-Encoding: 57756 57756 156
+Encoding: 178 57756 156
 Width: 348
 Flags: HMW
 LayerCount: 2
@@ -7863,7 +7863,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0slash
-Encoding: 57757 57757 157
+Encoding: 179 57757 157
 Width: 980
 Flags: HMW
 LayerCount: 2
@@ -7883,7 +7883,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1slash
-Encoding: 57758 57758 158
+Encoding: 180 57758 158
 Width: 780
 Flags: HMW
 LayerCount: 2
@@ -7903,7 +7903,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2slash
-Encoding: 57759 57759 159
+Encoding: 181 57759 159
 Width: 530
 Flags: HMW
 LayerCount: 2
@@ -7918,7 +7918,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0cross
-Encoding: 57760 57760 160
+Encoding: 182 57760 160
 Width: 429
 Flags: HMW
 LayerCount: 2
@@ -7978,7 +7978,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1cross
-Encoding: 57761 57761 161
+Encoding: 183 57761 161
 Width: 379
 Flags: HMW
 LayerCount: 2
@@ -8038,7 +8038,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2cross
-Encoding: 57762 57762 162
+Encoding: 184 57762 162
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8077,7 +8077,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2xcircle
-Encoding: 57763 57763 163
+Encoding: 185 57763 163
 Width: 391
 Flags: HMW
 LayerCount: 2
@@ -8112,7 +8112,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0do
-Encoding: 57764 57764 164
+Encoding: 186 57764 164
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8136,7 +8136,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1do
-Encoding: 57765 57765 165
+Encoding: 187 57765 165
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8160,7 +8160,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1do
-Encoding: 57766 57766 166
+Encoding: 188 57766 166
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8184,7 +8184,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2do
-Encoding: 57767 57767 167
+Encoding: 189 57767 167
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8204,7 +8204,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2do
-Encoding: 57768 57768 168
+Encoding: 190 57768 168
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8224,7 +8224,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0doThin
-Encoding: 57769 57769 169
+Encoding: 191 57769 169
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8248,7 +8248,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1doThin
-Encoding: 57770 57770 170
+Encoding: 192 57770 170
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8272,7 +8272,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1doThin
-Encoding: 57771 57771 171
+Encoding: 193 57771 171
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8296,7 +8296,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2doThin
-Encoding: 57772 57772 172
+Encoding: 194 57772 172
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8316,7 +8316,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2doThin
-Encoding: 57773 57773 173
+Encoding: 195 57773 173
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8336,7 +8336,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0re
-Encoding: 57774 57774 174
+Encoding: 196 57774 174
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8360,7 +8360,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1re
-Encoding: 57775 57775 175
+Encoding: 197 57775 175
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8384,7 +8384,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1re
-Encoding: 57776 57776 176
+Encoding: 198 57776 176
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8408,7 +8408,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2re
-Encoding: 57777 57777 177
+Encoding: 199 57777 177
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8426,7 +8426,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2re
-Encoding: 57778 57778 178
+Encoding: 200 57778 178
 Width: 329
 Flags: HW
 LayerCount: 2
@@ -8444,7 +8444,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0reThin
-Encoding: 57779 57779 179
+Encoding: 201 57779 179
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8468,7 +8468,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1reThin
-Encoding: 57780 57780 180
+Encoding: 202 57780 180
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8492,7 +8492,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1reThin
-Encoding: 57781 57781 181
+Encoding: 203 57781 181
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8516,7 +8516,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2reThin
-Encoding: 57782 57782 182
+Encoding: 204 57782 182
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8534,7 +8534,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2reThin
-Encoding: 57783 57783 183
+Encoding: 205 57783 183
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8552,7 +8552,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0mi
-Encoding: 57784 57784 184
+Encoding: 206 57784 184
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8580,7 +8580,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1mi
-Encoding: 57785 57785 185
+Encoding: 207 57785 185
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8608,7 +8608,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2mi
-Encoding: 57786 57786 186
+Encoding: 208 57786 186
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8631,7 +8631,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0miMirror
-Encoding: 57787 57787 187
+Encoding: 209 57787 187
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8659,7 +8659,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1miMirror
-Encoding: 57788 57788 188
+Encoding: 210 57788 188
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8687,7 +8687,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2miMirror
-Encoding: 57789 57789 189
+Encoding: 211 57789 189
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8710,7 +8710,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0miThin
-Encoding: 57790 57790 190
+Encoding: 212 57790 190
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8738,7 +8738,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1miThin
-Encoding: 57791 57791 191
+Encoding: 213 57791 191
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8766,7 +8766,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2miThin
-Encoding: 57792 57792 192
+Encoding: 214 57792 192
 Width: 394
 Flags: HMW
 LayerCount: 2
@@ -8789,7 +8789,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u0fa
-Encoding: 57793 57793 193
+Encoding: 215 57793 193
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8812,7 +8812,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d0fa
-Encoding: 57794 57794 194
+Encoding: 216 57794 194
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8835,7 +8835,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1fa
-Encoding: 57795 57795 195
+Encoding: 217 57795 195
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8858,7 +8858,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1fa
-Encoding: 57796 57796 196
+Encoding: 218 57796 196
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8881,7 +8881,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2fa
-Encoding: 57797 57797 197
+Encoding: 219 57797 197
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8900,7 +8900,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2fa
-Encoding: 57798 57798 198
+Encoding: 220 57798 198
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8919,7 +8919,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u0faThin
-Encoding: 57799 57799 199
+Encoding: 221 57799 199
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8942,7 +8942,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d0faThin
-Encoding: 57800 57800 200
+Encoding: 222 57800 200
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8965,7 +8965,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1faThin
-Encoding: 57801 57801 201
+Encoding: 223 57801 201
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -8988,7 +8988,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1faThin
-Encoding: 57802 57802 202
+Encoding: 224 57802 202
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9011,7 +9011,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2faThin
-Encoding: 57803 57803 203
+Encoding: 225 57803 203
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9030,7 +9030,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2faThin
-Encoding: 57804 57804 204
+Encoding: 226 57804 204
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9049,7 +9049,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0sol
-Encoding: 57805 57805 205
+Encoding: 227 57805 205
 Width: 347
 Flags: HMW
 LayerCount: 2
@@ -9079,7 +9079,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1sol
-Encoding: 57806 57806 206
+Encoding: 228 57806 206
 Width: 347
 Flags: HMW
 LayerCount: 2
@@ -9109,7 +9109,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2sol
-Encoding: 57807 57807 207
+Encoding: 229 57807 207
 Width: 347
 Flags: HMW
 LayerCount: 2
@@ -9128,7 +9128,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0la
-Encoding: 57808 57808 208
+Encoding: 230 57808 208
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9152,7 +9152,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1la
-Encoding: 57809 57809 209
+Encoding: 231 57809 209
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9176,7 +9176,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2la
-Encoding: 57810 57810 210
+Encoding: 232 57810 210
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9195,7 +9195,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0laThin
-Encoding: 57811 57811 211
+Encoding: 233 57811 211
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9219,7 +9219,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1laThin
-Encoding: 57812 57812 212
+Encoding: 234 57812 212
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9243,7 +9243,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2laThin
-Encoding: 57813 57813 213
+Encoding: 235 57813 213
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9262,7 +9262,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0ti
-Encoding: 57814 57814 214
+Encoding: 236 57814 214
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9288,7 +9288,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1ti
-Encoding: 57815 57815 215
+Encoding: 237 57815 215
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9314,7 +9314,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1ti
-Encoding: 57816 57816 216
+Encoding: 238 57816 216
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9340,7 +9340,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2ti
-Encoding: 57817 57817 217
+Encoding: 239 57817 217
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9361,7 +9361,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2ti
-Encoding: 57818 57818 218
+Encoding: 240 57818 218
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9382,7 +9382,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0tiThin
-Encoding: 57819 57819 219
+Encoding: 241 57819 219
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9408,7 +9408,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1tiThin
-Encoding: 57820 57820 220
+Encoding: 242 57820 220
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9434,7 +9434,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1tiThin
-Encoding: 57821 57821 221
+Encoding: 243 57821 221
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9460,7 +9460,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2tiThin
-Encoding: 57822 57822 222
+Encoding: 244 57822 222
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9481,7 +9481,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2tiThin
-Encoding: 57823 57823 223
+Encoding: 245 57823 223
 Width: 329
 Flags: HMW
 LayerCount: 2
@@ -9502,7 +9502,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u0doFunk
-Encoding: 57824 57824 224
+Encoding: 246 57824 224
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9522,7 +9522,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d0doFunk
-Encoding: 57825 57825 225
+Encoding: 247 57825 225
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9542,7 +9542,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1doFunk
-Encoding: 57826 57826 226
+Encoding: 248 57826 226
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9562,7 +9562,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1doFunk
-Encoding: 57827 57827 227
+Encoding: 249 57827 227
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9582,7 +9582,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2doFunk
-Encoding: 57828 57828 228
+Encoding: 250 57828 228
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9598,7 +9598,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2doFunk
-Encoding: 57829 57829 229
+Encoding: 251 57829 229
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9614,7 +9614,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u0reFunk
-Encoding: 57830 57830 230
+Encoding: 252 57830 230
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9642,7 +9642,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d0reFunk
-Encoding: 57831 57831 231
+Encoding: 253 57831 231
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9670,7 +9670,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1reFunk
-Encoding: 57832 57832 232
+Encoding: 254 57832 232
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9698,7 +9698,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1reFunk
-Encoding: 57833 57833 233
+Encoding: 255 57833 233
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9726,7 +9726,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2reFunk
-Encoding: 57834 57834 234
+Encoding: 256 57834 234
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9749,7 +9749,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2reFunk
-Encoding: 57835 57835 235
+Encoding: 257 57835 235
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9772,7 +9772,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u0miFunk
-Encoding: 57836 57836 236
+Encoding: 258 57836 236
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -9800,7 +9800,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d0miFunk
-Encoding: 57837 57837 237
+Encoding: 259 57837 237
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -9828,7 +9828,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1miFunk
-Encoding: 57838 57838 238
+Encoding: 260 57838 238
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -9856,7 +9856,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1miFunk
-Encoding: 57839 57839 239
+Encoding: 261 57839 239
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -9884,7 +9884,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2miFunk
-Encoding: 57840 57840 240
+Encoding: 262 57840 240
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -9907,7 +9907,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u0faFunk
-Encoding: 57841 57841 241
+Encoding: 263 57841 241
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9930,7 +9930,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d0faFunk
-Encoding: 57842 57842 242
+Encoding: 264 57842 242
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9953,7 +9953,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1faFunk
-Encoding: 57843 57843 243
+Encoding: 265 57843 243
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9976,7 +9976,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1faFunk
-Encoding: 57844 57844 244
+Encoding: 266 57844 244
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -9999,7 +9999,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2faFunk
-Encoding: 57845 57845 245
+Encoding: 267 57845 245
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10018,7 +10018,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2faFunk
-Encoding: 57846 57846 246
+Encoding: 268 57846 246
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10037,7 +10037,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0solFunk
-Encoding: 57847 57847 247
+Encoding: 269 57847 247
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -10059,7 +10059,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1solFunk
-Encoding: 57848 57848 248
+Encoding: 270 57848 248
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -10081,7 +10081,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2solFunk
-Encoding: 57849 57849 249
+Encoding: 271 57849 249
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -10096,7 +10096,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0laFunk
-Encoding: 57850 57850 250
+Encoding: 272 57850 250
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10120,7 +10120,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1laFunk
-Encoding: 57851 57851 251
+Encoding: 273 57851 251
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10144,7 +10144,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2laFunk
-Encoding: 57852 57852 252
+Encoding: 274 57852 252
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10163,7 +10163,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u0tiFunk
-Encoding: 57853 57853 253
+Encoding: 275 57853 253
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10189,7 +10189,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d0tiFunk
-Encoding: 57854 57854 254
+Encoding: 276 57854 254
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10215,7 +10215,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1tiFunk
-Encoding: 57855 57855 255
+Encoding: 277 57855 255
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10241,7 +10241,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1tiFunk
-Encoding: 57856 57856 256
+Encoding: 278 57856 256
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10267,7 +10267,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2tiFunk
-Encoding: 57857 57857 257
+Encoding: 279 57857 257
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10288,7 +10288,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2tiFunk
-Encoding: 57858 57858 258
+Encoding: 280 57858 258
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10309,7 +10309,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0doWalker
-Encoding: 57859 57859 259
+Encoding: 281 57859 259
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10335,7 +10335,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1doWalker
-Encoding: 57860 57860 260
+Encoding: 282 57860 260
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10361,7 +10361,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1doWalker
-Encoding: 57861 57861 261
+Encoding: 283 57861 261
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10387,7 +10387,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2doWalker
-Encoding: 57862 57862 262
+Encoding: 284 57862 262
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10408,7 +10408,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2doWalker
-Encoding: 57863 57863 263
+Encoding: 285 57863 263
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10429,7 +10429,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0reWalker
-Encoding: 57864 57864 264
+Encoding: 286 57864 264
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10453,7 +10453,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1reWalker
-Encoding: 57865 57865 265
+Encoding: 287 57865 265
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10477,7 +10477,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1reWalker
-Encoding: 57866 57866 266
+Encoding: 288 57866 266
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10501,7 +10501,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2reWalker
-Encoding: 57867 57867 267
+Encoding: 289 57867 267
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10520,7 +10520,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2reWalker
-Encoding: 57868 57868 268
+Encoding: 290 57868 268
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10539,7 +10539,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0miWalker
-Encoding: 57869 57869 269
+Encoding: 291 57869 269
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -10567,7 +10567,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1miWalker
-Encoding: 57870 57870 270
+Encoding: 292 57870 270
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -10595,7 +10595,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2miWalker
-Encoding: 57871 57871 271
+Encoding: 293 57871 271
 Width: 296
 Flags: HMW
 LayerCount: 2
@@ -10618,7 +10618,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0faWalker
-Encoding: 57872 57872 272
+Encoding: 294 57872 272
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10641,7 +10641,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1faWalker
-Encoding: 57873 57873 273
+Encoding: 295 57873 273
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10664,7 +10664,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1faWalker
-Encoding: 57874 57874 274
+Encoding: 296 57874 274
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10687,7 +10687,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2faWalker
-Encoding: 57875 57875 275
+Encoding: 297 57875 275
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10706,7 +10706,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2faWalker
-Encoding: 57876 57876 276
+Encoding: 298 57876 276
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10725,7 +10725,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0laWalker
-Encoding: 57877 57877 277
+Encoding: 299 57877 277
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10749,7 +10749,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1laWalker
-Encoding: 57878 57878 278
+Encoding: 300 57878 278
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10773,7 +10773,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2laWalker
-Encoding: 57879 57879 279
+Encoding: 301 57879 279
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10792,7 +10792,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0tiWalker
-Encoding: 57880 57880 280
+Encoding: 302 57880 280
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10816,7 +10816,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u1tiWalker
-Encoding: 57881 57881 281
+Encoding: 303 57881 281
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10840,7 +10840,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d1tiWalker
-Encoding: 57882 57882 282
+Encoding: 304 57882 282
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10864,7 +10864,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2tiWalker
-Encoding: 57883 57883 283
+Encoding: 305 57883 283
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10884,7 +10884,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2tiWalker
-Encoding: 57884 57884 284
+Encoding: 306 57884 284
 Width: 246
 Flags: HMW
 LayerCount: 2
@@ -10904,7 +10904,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.u3
-Encoding: 57885 57885 285
+Encoding: 307 57885 285
 Width: 224
 Flags: HMW
 LayerCount: 2
@@ -10925,7 +10925,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.u4
-Encoding: 57886 57886 286
+Encoding: 308 57886 286
 Width: 242
 Flags: HMW
 LayerCount: 2
@@ -10964,7 +10964,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.u5
-Encoding: 57887 57887 287
+Encoding: 309 57887 287
 Width: 229
 Flags: HMW
 LayerCount: 2
@@ -11011,7 +11011,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.u6
-Encoding: 57888 57888 288
+Encoding: 310 57888 288
 Width: 229
 Flags: HMW
 LayerCount: 2
@@ -11068,7 +11068,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.u7
-Encoding: 57889 57889 289
+Encoding: -1 57889 289
 Width: 229
 VWidth: 991
 Flags: MW
@@ -11138,7 +11138,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.d3
-Encoding: 57890 57890 290
+Encoding: 312 57890 290
 Width: 266
 Flags: HMW
 LayerCount: 2
@@ -11158,7 +11158,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.d4
-Encoding: 57891 57891 291
+Encoding: 313 57891 291
 Width: 254
 Flags: HMW
 LayerCount: 2
@@ -11196,7 +11196,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.d5
-Encoding: 57892 57892 292
+Encoding: 314 57892 292
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -11244,7 +11244,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.d6
-Encoding: 57893 57893 293
+Encoding: 315 57893 293
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -11302,7 +11302,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.d7
-Encoding: 57894 57894 294
+Encoding: 316 57894 294
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -11369,7 +11369,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.ugrace
-Encoding: 57895 57895 295
+Encoding: 317 57895 295
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11390,7 +11390,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.dgrace
-Encoding: 57896 57896 296
+Encoding: 318 57896 296
 Width: 244
 Flags: HMW
 LayerCount: 2
@@ -11411,7 +11411,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M3neomensural
-Encoding: 57897 57897 297
+Encoding: 319 57897 297
 Width: 300
 Flags: HMW
 LayerCount: 2
@@ -11439,7 +11439,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M2neomensural
-Encoding: 57898 57898 298
+Encoding: 320 57898 298
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -11458,7 +11458,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M1neomensural
-Encoding: 57899 57899 299
+Encoding: 321 57899 299
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -11477,7 +11477,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.0neomensural
-Encoding: 57900 57900 300
+Encoding: 322 57900 300
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -11496,7 +11496,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.1neomensural
-Encoding: 57901 57901 301
+Encoding: 323 57901 301
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -11515,7 +11515,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.2neomensural
-Encoding: 57902 57902 302
+Encoding: 324 57902 302
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11537,7 +11537,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.3neomensural
-Encoding: 57903 57903 303
+Encoding: 325 57903 303
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11559,7 +11559,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.4neomensural
-Encoding: 57904 57904 304
+Encoding: 326 57904 304
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11587,7 +11587,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M3mensural
-Encoding: 57905 57905 305
+Encoding: 327 57905 305
 Width: 75
 Flags: HMW
 LayerCount: 2
@@ -11602,7 +11602,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M2mensural
-Encoding: 57906 57906 306
+Encoding: 328 57906 306
 Width: 75
 Flags: HMW
 LayerCount: 2
@@ -11617,7 +11617,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.M1mensural
-Encoding: 57907 57907 307
+Encoding: 329 57907 307
 Width: 75
 Flags: HMW
 LayerCount: 2
@@ -11632,7 +11632,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.0mensural
-Encoding: 57908 57908 308
+Encoding: 330 57908 308
 Width: 75
 Flags: HMW
 LayerCount: 2
@@ -11647,7 +11647,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.1mensural
-Encoding: 57909 57909 309
+Encoding: 331 57909 309
 Width: 75
 Flags: HMW
 LayerCount: 2
@@ -11662,7 +11662,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.2mensural
-Encoding: 57910 57910 310
+Encoding: 332 57910 310
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11681,7 +11681,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.3mensural
-Encoding: 57911 57911 311
+Encoding: 333 57911 311
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11700,7 +11700,7 @@ EndSplineSet
 EndChar
 
 StartChar: rests.4mensural
-Encoding: 57912 57912 312
+Encoding: 334 57912 312
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11727,7 +11727,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.vaticana.do
-Encoding: 57913 57913 313
+Encoding: 335 57913 313
 Width: 125
 Flags: HMW
 LayerCount: 2
@@ -11753,7 +11753,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.vaticana.do_change
-Encoding: 57914 57914 314
+Encoding: 336 57914 314
 Width: 125
 Flags: HMW
 LayerCount: 2
@@ -11779,7 +11779,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.vaticana.fa
-Encoding: 57915 57915 315
+Encoding: 337 57915 315
 Width: 262
 Flags: HMW
 LayerCount: 2
@@ -11818,7 +11818,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.vaticana.fa_change
-Encoding: 57916 57916 316
+Encoding: 338 57916 316
 Width: 262
 Flags: HMW
 LayerCount: 2
@@ -11857,7 +11857,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.medicaea.do
-Encoding: 57917 57917 317
+Encoding: 339 57917 317
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -11886,7 +11886,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.medicaea.do_change
-Encoding: 57918 57918 318
+Encoding: 340 57918 318
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -11915,7 +11915,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.medicaea.fa
-Encoding: 57919 57919 319
+Encoding: 341 57919 319
 Width: 424
 Flags: HMW
 LayerCount: 2
@@ -11954,7 +11954,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.medicaea.fa_change
-Encoding: 57920 57920 320
+Encoding: 342 57920 320
 Width: 340
 Flags: HW
 LayerCount: 2
@@ -11993,7 +11993,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.neomensural.c
-Encoding: 57921 57921 321
+Encoding: 343 57921 321
 Width: 650
 Flags: HW
 LayerCount: 2
@@ -12047,7 +12047,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.neomensural.c_change
-Encoding: 57922 57922 322
+Encoding: 344 57922 322
 Width: 520
 Flags: HMW
 LayerCount: 2
@@ -12101,7 +12101,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c1
-Encoding: 57923 57923 323
+Encoding: 345 57923 323
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -12149,7 +12149,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c1_change
-Encoding: 57924 57924 324
+Encoding: 346 57924 324
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -12197,7 +12197,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c2
-Encoding: 57925 57925 325
+Encoding: 347 57925 325
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -12246,7 +12246,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c2_change
-Encoding: 57926 57926 326
+Encoding: 348 57926 326
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -12295,7 +12295,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c3
-Encoding: 57927 57927 327
+Encoding: 349 57927 327
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -12344,7 +12344,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c3_change
-Encoding: 57928 57928 328
+Encoding: 350 57928 328
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -12393,7 +12393,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c4
-Encoding: 57929 57929 329
+Encoding: 351 57929 329
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -12442,7 +12442,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c4_change
-Encoding: 57930 57930 330
+Encoding: 352 57930 330
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -12491,7 +12491,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c5
-Encoding: 57931 57931 331
+Encoding: 353 57931 331
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -12539,7 +12539,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.c5_change
-Encoding: 57932 57932 332
+Encoding: 354 57932 332
 Width: 200
 Flags: HMW
 LayerCount: 2
@@ -12587,7 +12587,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.mensural.c
-Encoding: 57933 57933 333
+Encoding: 355 57933 333
 Width: 285
 Flags: HMW
 LayerCount: 2
@@ -12644,7 +12644,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.mensural.c_change
-Encoding: 57934 57934 334
+Encoding: 356 57934 334
 Width: 235
 Flags: HMW
 LayerCount: 2
@@ -12701,7 +12701,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.blackmensural.c
-Encoding: 57935 57935 335
+Encoding: 357 57935 335
 Width: 285
 Flags: HMW
 LayerCount: 2
@@ -12740,7 +12740,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.blackmensural.c_change
-Encoding: 57936 57936 336
+Encoding: 358 57936 336
 Width: 235
 Flags: HMW
 LayerCount: 2
@@ -12779,7 +12779,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.f
-Encoding: 57937 57937 337
+Encoding: 359 57937 337
 Width: 486
 Flags: HMW
 LayerCount: 2
@@ -12853,7 +12853,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.f_change
-Encoding: 57938 57938 338
+Encoding: 360 57938 338
 Width: 389
 Flags: HMW
 LayerCount: 2
@@ -12925,7 +12925,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.mensural.f
-Encoding: 57939 57939 339
+Encoding: 361 57939 339
 Width: 299
 Flags: HMW
 LayerCount: 2
@@ -12956,7 +12956,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.mensural.f_change
-Encoding: 57940 57940 340
+Encoding: 362 57940 340
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -12987,7 +12987,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.g
-Encoding: 57941 57941 341
+Encoding: 363 57941 341
 Width: 312
 Flags: HMW
 LayerCount: 2
@@ -13048,7 +13048,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.petrucci.g_change
-Encoding: 57942 57942 342
+Encoding: 364 57942 342
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -13106,7 +13106,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.mensural.g
-Encoding: 57943 57943 343
+Encoding: 365 57943 343
 Width: 312
 Flags: HMW
 LayerCount: 2
@@ -13167,7 +13167,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.mensural.g_change
-Encoding: 57944 57944 344
+Encoding: 366 57944 344
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -13225,7 +13225,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.hufnagel.do
-Encoding: 57945 57945 345
+Encoding: 367 57945 345
 Width: 275
 Flags: HMW
 LayerCount: 2
@@ -13256,7 +13256,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.hufnagel.do_change
-Encoding: 57946 57946 346
+Encoding: 368 57946 346
 Width: 220
 Flags: HMW
 LayerCount: 2
@@ -13284,7 +13284,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.hufnagel.fa
-Encoding: 57947 57947 347
+Encoding: 369 57947 347
 Width: 299
 Flags: HMW
 LayerCount: 2
@@ -13319,7 +13319,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.hufnagel.fa_change
-Encoding: 57948 57948 348
+Encoding: 370 57948 348
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -13351,7 +13351,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.hufnagel.do.fa
-Encoding: 57949 57949 349
+Encoding: 371 57949 349
 Width: 299
 Flags: HMW
 LayerCount: 2
@@ -13406,7 +13406,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.hufnagel.do.fa_change
-Encoding: 57950 57950 350
+Encoding: 372 57950 350
 Width: 240
 Flags: HMW
 LayerCount: 2
@@ -13455,7 +13455,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.kievan.do
-Encoding: 57951 57951 351
+Encoding: 373 57951 351
 Width: 375
 Flags: HMW
 LayerCount: 2
@@ -13477,7 +13477,7 @@ EndSplineSet
 EndChar
 
 StartChar: clefs.kievan.do_change
-Encoding: 57952 57952 352
+Encoding: 374 57952 352
 Width: 375
 Flags: HMW
 LayerCount: 2
@@ -13499,7 +13499,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.hufnagel.u0
-Encoding: 57953 57953 353
+Encoding: 375 57953 353
 Width: 165
 Flags: HMW
 LayerCount: 2
@@ -13525,7 +13525,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.hufnagel.u1
-Encoding: 57954 57954 354
+Encoding: 376 57954 354
 Width: 165
 Flags: HMW
 LayerCount: 2
@@ -13551,7 +13551,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.hufnagel.u2
-Encoding: 57955 57955 355
+Encoding: 377 57955 355
 Width: 165
 Flags: HMW
 LayerCount: 2
@@ -13577,7 +13577,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.hufnagel.d0
-Encoding: 57956 57956 356
+Encoding: 378 57956 356
 Width: 165
 Flags: HMW
 LayerCount: 2
@@ -13603,7 +13603,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.hufnagel.d1
-Encoding: 57957 57957 357
+Encoding: 379 57957 357
 Width: 165
 Flags: HMW
 LayerCount: 2
@@ -13629,7 +13629,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.hufnagel.d2
-Encoding: 57958 57958 358
+Encoding: 380 57958 358
 Width: 165
 Flags: HMW
 LayerCount: 2
@@ -13655,7 +13655,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.medicaea.u0
-Encoding: 57959 57959 359
+Encoding: 381 57959 359
 Width: 68
 Flags: HMW
 LayerCount: 2
@@ -13675,7 +13675,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.medicaea.u1
-Encoding: 57960 57960 360
+Encoding: 382 57960 360
 Width: 68
 Flags: HMW
 LayerCount: 2
@@ -13695,7 +13695,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.medicaea.u2
-Encoding: 57961 57961 361
+Encoding: 383 57961 361
 Width: 68
 Flags: HMW
 LayerCount: 2
@@ -13715,7 +13715,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.medicaea.d0
-Encoding: 57962 57962 362
+Encoding: 384 57962 362
 Width: 68
 Flags: HMW
 LayerCount: 2
@@ -13735,7 +13735,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.medicaea.d1
-Encoding: 57963 57963 363
+Encoding: 385 57963 363
 Width: 68
 Flags: HMW
 LayerCount: 2
@@ -13755,7 +13755,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.medicaea.d2
-Encoding: 57964 57964 364
+Encoding: 386 57964 364
 Width: 68
 Flags: HMW
 LayerCount: 2
@@ -13775,7 +13775,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.vaticana.u0
-Encoding: 57965 57965 365
+Encoding: 387 57965 365
 Width: 66
 Flags: HMW
 LayerCount: 2
@@ -13795,7 +13795,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.vaticana.u1
-Encoding: 57966 57966 366
+Encoding: 388 57966 366
 Width: 66
 Flags: HMW
 LayerCount: 2
@@ -13815,7 +13815,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.vaticana.u2
-Encoding: 57967 57967 367
+Encoding: 389 57967 367
 Width: 66
 Flags: HMW
 LayerCount: 2
@@ -13835,7 +13835,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.vaticana.d0
-Encoding: 57968 57968 368
+Encoding: 390 57968 368
 Width: 66
 Flags: HMW
 LayerCount: 2
@@ -13855,7 +13855,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.vaticana.d1
-Encoding: 57969 57969 369
+Encoding: 391 57969 369
 Width: 66
 Flags: HMW
 LayerCount: 2
@@ -13875,7 +13875,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.vaticana.d2
-Encoding: 57970 57970 370
+Encoding: 392 57970 370
 Width: 66
 Flags: HMW
 LayerCount: 2
@@ -13895,7 +13895,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.mensural.u0
-Encoding: 57971 57971 371
+Encoding: 393 57971 371
 Width: 330
 Flags: HMW
 LayerCount: 2
@@ -13928,7 +13928,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.mensural.u1
-Encoding: 57972 57972 372
+Encoding: 394 57972 372
 Width: 330
 Flags: HMW
 LayerCount: 2
@@ -13961,7 +13961,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.mensural.u2
-Encoding: 57973 57973 373
+Encoding: 395 57973 373
 Width: 330
 Flags: HMW
 LayerCount: 2
@@ -13994,7 +13994,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.mensural.d0
-Encoding: 57974 57974 374
+Encoding: 396 57974 374
 Width: 330
 Flags: HMW
 LayerCount: 2
@@ -14027,7 +14027,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.mensural.d1
-Encoding: 57975 57975 375
+Encoding: 397 57975 375
 Width: 330
 Flags: HMW
 LayerCount: 2
@@ -14060,7 +14060,7 @@ EndSplineSet
 EndChar
 
 StartChar: custodes.mensural.d2
-Encoding: 57976 57976 376
+Encoding: 398 57976 376
 Width: 330
 Flags: HMW
 LayerCount: 2
@@ -14093,7 +14093,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.medicaeaM1
-Encoding: 57977 57977 377
+Encoding: 399 57977 377
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14120,7 +14120,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.vaticanaM1
-Encoding: 57978 57978 378
+Encoding: 400 57978 378
 Width: 131
 Flags: HW
 LayerCount: 2
@@ -14147,7 +14147,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.vaticana0
-Encoding: 57979 57979 379
+Encoding: 401 57979 379
 Width: 109
 Flags: HW
 LayerCount: 2
@@ -14177,7 +14177,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.mensural1
-Encoding: 57980 57980 380
+Encoding: 402 57980 380
 Width: 139
 Flags: HW
 LayerCount: 2
@@ -14237,7 +14237,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.mensuralM1
-Encoding: 57981 57981 381
+Encoding: 403 57981 381
 Width: 118
 Flags: HW
 LayerCount: 2
@@ -14259,7 +14259,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.hufnagelM1
-Encoding: 57982 57982 382
+Encoding: 404 57982 382
 Width: 150
 Flags: HW
 LayerCount: 2
@@ -14286,7 +14286,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.kievan1
-Encoding: 57983 57983 383
+Encoding: 405 57983 383
 Width: 400
 Flags: HW
 LayerCount: 2
@@ -14341,7 +14341,7 @@ EndSplineSet
 EndChar
 
 StartChar: accidentals.kievanM1
-Encoding: 57984 57984 384
+Encoding: 406 57984 384
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -14367,7 +14367,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu03
-Encoding: 57985 57985 385
+Encoding: 407 57985 385
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14391,7 +14391,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu13
-Encoding: 57986 57986 386
+Encoding: 408 57986 386
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14414,7 +14414,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu23
-Encoding: 57987 57987 387
+Encoding: 409 57987 387
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14438,7 +14438,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald03
-Encoding: 57988 57988 388
+Encoding: 410 57988 388
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -14462,7 +14462,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald13
-Encoding: 57989 57989 389
+Encoding: 411 57989 389
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -14485,7 +14485,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald23
-Encoding: 57990 57990 390
+Encoding: 412 57990 390
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -14509,7 +14509,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu04
-Encoding: 57991 57991 391
+Encoding: 413 57991 391
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14542,7 +14542,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu14
-Encoding: 57992 57992 392
+Encoding: 414 57992 392
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14574,7 +14574,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu24
-Encoding: 57993 57993 393
+Encoding: 415 57993 393
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14605,7 +14605,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald04
-Encoding: 57994 57994 394
+Encoding: 416 57994 394
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -14638,7 +14638,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald14
-Encoding: 57995 57995 395
+Encoding: 417 57995 395
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -14670,7 +14670,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald24
-Encoding: 57996 57996 396
+Encoding: 418 57996 396
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -14701,7 +14701,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu05
-Encoding: 57997 57997 397
+Encoding: 419 57997 397
 Width: 150
 Flags: HW
 LayerCount: 2
@@ -14743,7 +14743,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu15
-Encoding: 57998 57998 398
+Encoding: 420 57998 398
 Width: 150
 Flags: HW
 LayerCount: 2
@@ -14784,7 +14784,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu25
-Encoding: 57999 57999 399
+Encoding: 421 57999 399
 Width: 150
 Flags: HW
 LayerCount: 2
@@ -14824,7 +14824,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald05
-Encoding: 58000 58000 400
+Encoding: 422 58000 400
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -14866,7 +14866,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald15
-Encoding: 58001 58001 401
+Encoding: 423 58001 401
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -14907,7 +14907,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald25
-Encoding: 58002 58002 402
+Encoding: 424 58002 402
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -14947,7 +14947,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu06
-Encoding: 58003 58003 403
+Encoding: 425 58003 403
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -14998,7 +14998,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu16
-Encoding: 58004 58004 404
+Encoding: 426 58004 404
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -15048,7 +15048,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensuralu26
-Encoding: 58005 58005 405
+Encoding: 427 58005 405
 Width: 150
 Flags: HMW
 LayerCount: 2
@@ -15097,7 +15097,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald06
-Encoding: 58006 58006 406
+Encoding: 428 58006 406
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -15148,7 +15148,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald16
-Encoding: 58007 58007 407
+Encoding: 429 58007 407
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -15198,7 +15198,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.mensurald26
-Encoding: 58008 58008 408
+Encoding: 430 58008 408
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -15247,7 +15247,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural44
-Encoding: 58009 58009 409
+Encoding: 431 58009 409
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15272,7 +15272,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural22
-Encoding: 58010 58010 410
+Encoding: 432 58010 410
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15312,7 +15312,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural32
-Encoding: 58011 58011 411
+Encoding: 433 58011 411
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15332,7 +15332,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural64
-Encoding: 58012 58012 412
+Encoding: 434 58012 412
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15362,7 +15362,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural94
-Encoding: 58013 58013 413
+Encoding: 435 58013 413
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15387,7 +15387,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural34
-Encoding: 58014 58014 414
+Encoding: 436 58014 414
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15422,7 +15422,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural68
-Encoding: 58015 58015 415
+Encoding: 437 58015 415
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15468,7 +15468,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural98
-Encoding: 58016 58016 416
+Encoding: 438 58016 416
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15509,7 +15509,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural48
-Encoding: 58017 58017 417
+Encoding: 439 58017 417
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15534,7 +15534,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural68alt
-Encoding: 58018 58018 418
+Encoding: 440 58018 418
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15564,7 +15564,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.mensural24
-Encoding: 58019 58019 419
+Encoding: 441 58019 419
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15604,7 +15604,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural44
-Encoding: 58020 58020 420
+Encoding: 442 58020 420
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15629,7 +15629,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural22
-Encoding: 58021 58021 421
+Encoding: 443 58021 421
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15657,7 +15657,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural32
-Encoding: 58022 58022 422
+Encoding: 444 58022 422
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15677,7 +15677,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural64
-Encoding: 58023 58023 423
+Encoding: 445 58023 423
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15707,7 +15707,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural94
-Encoding: 58024 58024 424
+Encoding: 446 58024 424
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15732,7 +15732,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural34
-Encoding: 58025 58025 425
+Encoding: 447 58025 425
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15755,7 +15755,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural68
-Encoding: 58026 58026 426
+Encoding: 448 58026 426
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15789,7 +15789,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural98
-Encoding: 58027 58027 427
+Encoding: 449 58027 427
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15818,7 +15818,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural48
-Encoding: 58028 58028 428
+Encoding: 450 58028 428
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15843,7 +15843,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural68alt
-Encoding: 58029 58029 429
+Encoding: 451 58029 429
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15873,7 +15873,7 @@ EndSplineSet
 EndChar
 
 StartChar: timesig.neomensural24
-Encoding: 58030 58030 430
+Encoding: 452 58030 430
 Width: 425
 Flags: HMW
 LayerCount: 2
@@ -15901,7 +15901,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.ictus
-Encoding: 58031 58031 431
+Encoding: 453 58031 431
 Width: 12
 Flags: HMW
 LayerCount: 2
@@ -15918,7 +15918,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.uaccentus
-Encoding: 58032 58032 432
+Encoding: 454 58032 432
 Width: 31
 Flags: HMW
 LayerCount: 2
@@ -15937,7 +15937,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.daccentus
-Encoding: 58033 58033 433
+Encoding: 455 58033 433
 Width: 31
 Flags: HMW
 LayerCount: 2
@@ -15956,7 +15956,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.usemicirculus
-Encoding: 58034 58034 434
+Encoding: 456 58034 434
 Width: 39
 Flags: HMW
 LayerCount: 2
@@ -15973,7 +15973,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dsemicirculus
-Encoding: 58035 58035 435
+Encoding: 457 58035 435
 Width: 39
 Flags: HMW
 LayerCount: 2
@@ -15990,7 +15990,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.circulus
-Encoding: 58036 58036 436
+Encoding: 458 58036 436
 Width: 39
 Flags: HMW
 LayerCount: 2
@@ -16010,7 +16010,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.augmentum
-Encoding: 58037 58037 437
+Encoding: 459 58037 437
 Width: 31
 Flags: HMW
 LayerCount: 2
@@ -16025,7 +16025,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.usignumcongruentiae
-Encoding: 58038 58038 438
+Encoding: 460 58038 438
 Width: 162
 Flags: HMW
 LayerCount: 2
@@ -16064,7 +16064,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.dsignumcongruentiae
-Encoding: 58039 58039 439
+Encoding: 461 58039 439
 Width: 162
 Flags: HMW
 LayerCount: 2
@@ -16103,7 +16103,7 @@ EndSplineSet
 EndChar
 
 StartChar: scripts.barline.kievan
-Encoding: 58040 58040 440
+Encoding: 462 58040 440
 Width: 399
 Flags: HMW
 LayerCount: 2
@@ -16137,7 +16137,7 @@ EndSplineSet
 EndChar
 
 StartChar: dots.dotvaticana
-Encoding: 58041 58041 441
+Encoding: 463 58041 441
 Width: 74
 Flags: HMW
 LayerCount: 2
@@ -16152,7 +16152,7 @@ EndSplineSet
 EndChar
 
 StartChar: dots.dotkievan
-Encoding: 58042 58042 442
+Encoding: 464 58042 442
 Width: 224
 Flags: HMW
 LayerCount: 2
@@ -16171,7 +16171,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM3neomensural
-Encoding: 58043 58043 443
+Encoding: 465 58043 443
 Width: 650
 Flags: HMW
 LayerCount: 2
@@ -16210,7 +16210,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM3neomensural
-Encoding: 58044 58044 444
+Encoding: 466 58044 444
 Width: 650
 Flags: HMW
 LayerCount: 2
@@ -16249,7 +16249,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM2neomensural
-Encoding: 58045 58045 445
+Encoding: 467 58045 445
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16288,7 +16288,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM2neomensural
-Encoding: 58046 58046 446
+Encoding: 468 58046 446
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16327,7 +16327,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM1neomensural
-Encoding: 58047 58047 447
+Encoding: 469 58047 447
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16363,7 +16363,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.urM3neomensural
-Encoding: 58048 58048 448
+Encoding: 470 58048 448
 Width: 650
 Flags: HMW
 LayerCount: 2
@@ -16402,7 +16402,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.drM3neomensural
-Encoding: 58049 58049 449
+Encoding: 471 58049 449
 Width: 650
 Flags: HMW
 LayerCount: 2
@@ -16441,7 +16441,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.urM2neomensural
-Encoding: 58050 58050 450
+Encoding: 472 58050 450
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16480,7 +16480,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.drM2neomensural
-Encoding: 58051 58051 451
+Encoding: 473 58051 451
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16519,7 +16519,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.srM1neomensural
-Encoding: 58052 58052 452
+Encoding: 474 58052 452
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16555,7 +16555,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0neomensural
-Encoding: 58053 58053 453
+Encoding: 475 58053 453
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -16591,7 +16591,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1neomensural
-Encoding: 58054 58054 454
+Encoding: 476 58054 454
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -16627,7 +16627,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2neomensural
-Encoding: 58055 58055 455
+Encoding: 477 58055 455
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -16650,7 +16650,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0harmonic
-Encoding: 58056 58056 456
+Encoding: 478 58056 456
 Width: 325
 Flags: HMW
 LayerCount: 2
@@ -16686,7 +16686,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2harmonic
-Encoding: 58057 58057 457
+Encoding: 479 58057 457
 Width: 325
 Flags: HMW
 LayerCount: 2
@@ -16709,7 +16709,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM3mensural
-Encoding: 58058 58058 458
+Encoding: 480 58058 458
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16747,7 +16747,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM3mensural
-Encoding: 58059 58059 459
+Encoding: 481 58059 459
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16785,7 +16785,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM3ligmensural
-Encoding: 58060 58060 460
+Encoding: 482 58060 460
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -16821,7 +16821,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM2mensural
-Encoding: 58061 58061 461
+Encoding: 483 58061 461
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -16859,7 +16859,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM2mensural
-Encoding: 58062 58062 462
+Encoding: 484 58062 462
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -16897,7 +16897,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM2ligmensural
-Encoding: 58063 58063 463
+Encoding: 485 58063 463
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -16934,7 +16934,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM1mensural
-Encoding: 58064 58064 464
+Encoding: 486 58064 464
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -16970,7 +16970,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.urM3mensural
-Encoding: 58065 58065 465
+Encoding: 487 58065 465
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17008,7 +17008,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.drM3mensural
-Encoding: 58066 58066 466
+Encoding: 488 58066 466
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17046,7 +17046,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.srM3ligmensural
-Encoding: 58067 58067 467
+Encoding: 489 58067 467
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17082,7 +17082,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.urM2mensural
-Encoding: 58068 58068 468
+Encoding: 490 58068 468
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17120,7 +17120,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.drM2mensural
-Encoding: 58069 58069 469
+Encoding: 491 58069 469
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17158,7 +17158,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.srM2ligmensural
-Encoding: 58070 58070 470
+Encoding: 492 58070 470
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17195,7 +17195,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.srM1mensural
-Encoding: 58071 58071 471
+Encoding: 493 58071 471
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17231,7 +17231,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM3semimensural
-Encoding: 58072 58072 472
+Encoding: 494 58072 472
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17267,7 +17267,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM3semimensural
-Encoding: 58073 58073 473
+Encoding: 495 58073 473
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17303,7 +17303,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM3semiligmensural
-Encoding: 58074 58074 474
+Encoding: 496 58074 474
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17337,7 +17337,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM2semimensural
-Encoding: 58075 58075 475
+Encoding: 497 58075 475
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17373,7 +17373,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM2semimensural
-Encoding: 58076 58076 476
+Encoding: 498 58076 476
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17409,7 +17409,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM2semiligmensural
-Encoding: 58077 58077 477
+Encoding: 499 58077 477
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17444,7 +17444,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM1semimensural
-Encoding: 58078 58078 478
+Encoding: 500 58078 478
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17478,7 +17478,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.urM3semimensural
-Encoding: 58079 58079 479
+Encoding: 501 58079 479
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17514,7 +17514,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.drM3semimensural
-Encoding: 58080 58080 480
+Encoding: 502 58080 480
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17550,7 +17550,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.srM3semiligmensural
-Encoding: 58081 58081 481
+Encoding: 503 58081 481
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17584,7 +17584,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.urM2semimensural
-Encoding: 58082 58082 482
+Encoding: 504 58082 482
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17620,7 +17620,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.drM2semimensural
-Encoding: 58083 58083 483
+Encoding: 505 58083 483
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17656,7 +17656,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.srM2semiligmensural
-Encoding: 58084 58084 484
+Encoding: 506 58084 484
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17691,7 +17691,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.srM1semimensural
-Encoding: 58085 58085 485
+Encoding: 507 58085 485
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17725,7 +17725,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM3blackmensural
-Encoding: 58086 58086 486
+Encoding: 508 58086 486
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17754,7 +17754,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM3blackmensural
-Encoding: 58087 58087 487
+Encoding: 509 58087 487
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17783,7 +17783,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM3blackligmensural
-Encoding: 58088 58088 488
+Encoding: 510 58088 488
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -17810,7 +17810,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.uM2blackmensural
-Encoding: 58089 58089 489
+Encoding: 511 58089 489
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17839,7 +17839,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.dM2blackmensural
-Encoding: 58090 58090 490
+Encoding: 512 58090 490
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17868,7 +17868,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM2blackligmensural
-Encoding: 58091 58091 491
+Encoding: 513 58091 491
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17896,7 +17896,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM1blackmensural
-Encoding: 58092 58092 492
+Encoding: 514 58092 492
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -17923,7 +17923,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0mensural
-Encoding: 58093 58093 493
+Encoding: 515 58093 493
 Width: 144
 Flags: HMW
 LayerCount: 2
@@ -17951,7 +17951,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1mensural
-Encoding: 58094 58094 494
+Encoding: 516 58094 494
 Width: 144
 Flags: HMW
 LayerCount: 2
@@ -17979,7 +17979,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2mensural
-Encoding: 58095 58095 495
+Encoding: 517 58095 495
 Width: 144
 Flags: HMW
 LayerCount: 2
@@ -18002,7 +18002,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0blackmensural
-Encoding: 58096 58096 496
+Encoding: 518 58096 496
 Width: 144
 Flags: HMW
 LayerCount: 2
@@ -18025,7 +18025,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0petrucci
-Encoding: 58097 58097 497
+Encoding: 519 58097 497
 Width: 277
 Flags: HMW
 LayerCount: 2
@@ -18061,7 +18061,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1petrucci
-Encoding: 58098 58098 498
+Encoding: 520 58098 498
 Width: 277
 Flags: HMW
 LayerCount: 2
@@ -18097,7 +18097,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2petrucci
-Encoding: 58099 58099 499
+Encoding: 521 58099 499
 Width: 277
 Flags: HMW
 LayerCount: 2
@@ -18120,7 +18120,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0blackpetrucci
-Encoding: 58100 58100 500
+Encoding: 522 58100 500
 Width: 277
 Flags: HMW
 LayerCount: 2
@@ -18143,7 +18143,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1blackpetrucci
-Encoding: 58101 58101 501
+Encoding: 523 58101 501
 Width: 277
 Flags: HMW
 LayerCount: 2
@@ -18166,7 +18166,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s2blackpetrucci
-Encoding: 58102 58102 502
+Encoding: 524 58102 502
 Width: 277
 Flags: HMW
 LayerCount: 2
@@ -18189,7 +18189,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.punctum
-Encoding: 58103 58103 503
+Encoding: 525 58103 503
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18210,7 +18210,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.punctum.cavum
-Encoding: 58104 58104 504
+Encoding: 526 58104 504
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18238,7 +18238,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.linea.punctum
-Encoding: 58105 58105 505
+Encoding: 527 58105 505
 Width: 219
 Flags: HMW
 LayerCount: 2
@@ -18273,7 +18273,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.linea.punctum.cavum
-Encoding: 58106 58106 506
+Encoding: 528 58106 506
 Width: 219
 Flags: HMW
 LayerCount: 2
@@ -18315,7 +18315,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.inclinatum
-Encoding: 58107 58107 507
+Encoding: 529 58107 507
 Width: 154
 Flags: HMW
 LayerCount: 2
@@ -18338,7 +18338,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.lpes
-Encoding: 58108 58108 508
+Encoding: 530 58108 508
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18357,7 +18357,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.vlpes
-Encoding: 58109 58109 509
+Encoding: 531 58109 509
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18376,7 +18376,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.upes
-Encoding: 58110 58110 510
+Encoding: 532 58110 510
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18395,7 +18395,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.vupes
-Encoding: 58111 58111 511
+Encoding: 533 58111 511
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18414,7 +18414,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.plica
-Encoding: 58112 58112 512
+Encoding: 534 58112 512
 Width: 83
 Flags: HMW
 LayerCount: 2
@@ -18433,7 +18433,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.vplica
-Encoding: 58113 58113 513
+Encoding: 535 58113 513
 Width: 83
 Flags: HMW
 LayerCount: 2
@@ -18452,7 +18452,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.epiphonus
-Encoding: 58114 58114 514
+Encoding: 536 58114 514
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18474,7 +18474,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.vepiphonus
-Encoding: 58115 58115 515
+Encoding: 537 58115 515
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18496,7 +18496,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.reverse.plica
-Encoding: 58116 58116 516
+Encoding: 538 58116 516
 Width: 83
 Flags: HMW
 LayerCount: 2
@@ -18515,7 +18515,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.reverse.vplica
-Encoding: 58117 58117 517
+Encoding: 539 58117 517
 Width: 83
 Flags: HMW
 LayerCount: 2
@@ -18534,7 +18534,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.inner.cephalicus
-Encoding: 58118 58118 518
+Encoding: 540 58118 518
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18556,7 +18556,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.cephalicus
-Encoding: 58119 58119 519
+Encoding: 541 58119 519
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18580,7 +18580,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.svaticana.quilisma
-Encoding: 58120 58120 520
+Encoding: 542 58120 520
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18614,7 +18614,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.ssolesmes.incl.parvum
-Encoding: 58121 58121 521
+Encoding: 543 58121 521
 Width: 96
 Flags: HMW
 LayerCount: 2
@@ -18637,7 +18637,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.ssolesmes.auct.asc
-Encoding: 58122 58122 522
+Encoding: 544 58122 522
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18658,7 +18658,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.ssolesmes.auct.desc
-Encoding: 58123 58123 523
+Encoding: 545 58123 523
 Width: 138
 Flags: HMW
 LayerCount: 2
@@ -18679,7 +18679,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.ssolesmes.incl.auctum
-Encoding: 58124 58124 524
+Encoding: 546 58124 524
 Width: 154
 Flags: HMW
 LayerCount: 2
@@ -18706,7 +18706,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.ssolesmes.stropha
-Encoding: 58125 58125 525
+Encoding: 547 58125 525
 Width: 154
 Flags: HMW
 LayerCount: 2
@@ -18729,7 +18729,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.ssolesmes.stropha.aucta
-Encoding: 58126 58126 526
+Encoding: 548 58126 526
 Width: 154
 Flags: HMW
 LayerCount: 2
@@ -18755,7 +18755,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.ssolesmes.oriscus
-Encoding: 58127 58127 527
+Encoding: 549 58127 527
 Width: 165
 Flags: HMW
 LayerCount: 2
@@ -18776,7 +18776,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.smedicaea.inclinatum
-Encoding: 58128 58128 528
+Encoding: 550 58128 528
 Width: 210
 Flags: HMW
 LayerCount: 2
@@ -18799,7 +18799,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.smedicaea.punctum
-Encoding: 58129 58129 529
+Encoding: 551 58129 529
 Width: 199
 Flags: HMW
 LayerCount: 2
@@ -18816,7 +18816,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.smedicaea.rvirga
-Encoding: 58130 58130 530
+Encoding: 552 58130 530
 Width: 199
 Flags: HMW
 LayerCount: 2
@@ -18836,7 +18836,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.smedicaea.virga
-Encoding: 58131 58131 531
+Encoding: 553 58131 531
 Width: 199
 Flags: HMW
 LayerCount: 2
@@ -18856,7 +18856,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.shufnagel.punctum
-Encoding: 58132 58132 532
+Encoding: 554 58132 532
 Width: 357
 Flags: HMW
 LayerCount: 2
@@ -18879,7 +18879,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.shufnagel.virga
-Encoding: 58133 58133 533
+Encoding: 555 58133 533
 Width: 357
 Flags: HMW
 LayerCount: 2
@@ -18906,7 +18906,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.shufnagel.lpes
-Encoding: 58134 58134 534
+Encoding: 556 58134 534
 Width: 500
 Flags: HMW
 LayerCount: 2
@@ -18927,7 +18927,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM2kievan
-Encoding: 58135 58135 535
+Encoding: 557 58135 535
 Width: 324
 Flags: HMW
 LayerCount: 2
@@ -18950,7 +18950,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sM1kievan
-Encoding: 58136 58136 536
+Encoding: 558 58136 536
 Width: 1300
 Flags: HMW
 LayerCount: 2
@@ -18988,7 +18988,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s0kievan
-Encoding: 58137 58137 537
+Encoding: 559 58137 537
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -19015,7 +19015,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d2kievan
-Encoding: 58138 58138 538
+Encoding: 560 58138 538
 Width: 255
 Flags: HMW
 LayerCount: 2
@@ -19036,7 +19036,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u2kievan
-Encoding: 58139 58139 539
+Encoding: 561 58139 539
 Width: 255
 Flags: HMW
 LayerCount: 2
@@ -19057,7 +19057,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.s1kievan
-Encoding: 58140 58140 540
+Encoding: 562 58140 540
 Width: 264
 Flags: HMW
 LayerCount: 2
@@ -19079,7 +19079,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.sr1kievan
-Encoding: 58141 58141 541
+Encoding: 563 58141 541
 Width: 275
 Flags: HMW
 LayerCount: 2
@@ -19101,7 +19101,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.d3kievan
-Encoding: 58142 58142 542
+Encoding: 564 58142 542
 Width: 312
 Flags: HMW
 LayerCount: 2
@@ -19124,7 +19124,7 @@ EndSplineSet
 EndChar
 
 StartChar: noteheads.u3kievan
-Encoding: 58143 58143 543
+Encoding: 565 58143 543
 Width: 250
 Flags: HMW
 LayerCount: 2
@@ -19151,7 +19151,7 @@ EndSplineSet
 EndChar
 
 StartChar: flags.u7
-Encoding: 57889 57889 544
+Encoding: 311 57889 544
 Width: 229
 Flags: HMW
 LayerCount: 2
@@ -19218,14 +19218,14 @@ EndSplineSet
 EndChar
 
 StartChar: space
-Encoding: 32 32 545
+Encoding: 0 32 545
 Width: 192
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: plus
-Encoding: 43 43 546
+Encoding: 1 43 546
 Width: 254
 Flags: HMW
 LayerCount: 2
@@ -19260,7 +19260,7 @@ EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 44 44 547
+Encoding: 2 44 547
 Width: 177
 Flags: HMW
 LayerCount: 2
@@ -19285,7 +19285,7 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 548
+Encoding: 3 45 548
 Width: 166
 Flags: HMW
 LayerCount: 2
@@ -19304,7 +19304,7 @@ EndSplineSet
 EndChar
 
 StartChar: period
-Encoding: 46 46 549
+Encoding: 4 46 549
 Width: 100
 Flags: HMW
 LayerCount: 2
@@ -19319,7 +19319,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 48 48 550
+Encoding: 5 48 550
 Width: 429
 Flags: HMW
 LayerCount: 2
@@ -19339,7 +19339,7 @@ EndSplineSet
 EndChar
 
 StartChar: one
-Encoding: 49 49 551
+Encoding: 6 49 551
 Width: 293
 Flags: HMW
 LayerCount: 2
@@ -19372,7 +19372,7 @@ EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 50 50 552
+Encoding: 7 50 552
 Width: 416
 Flags: HMW
 LayerCount: 2
@@ -19408,7 +19408,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 553
+Encoding: 8 51 553
 Width: 386
 Flags: HMW
 LayerCount: 2
@@ -19458,7 +19458,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 554
+Encoding: 9 52 554
 Width: 433
 Flags: HMW
 LayerCount: 2
@@ -19501,7 +19501,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 555
+Encoding: 10 53 555
 Width: 403
 Flags: HMW
 LayerCount: 2
@@ -19542,7 +19542,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 556
+Encoding: 11 54 556
 Width: 434
 Flags: HMW
 LayerCount: 2
@@ -19578,7 +19578,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 557
+Encoding: 12 55 557
 Width: 441
 Flags: HMW
 LayerCount: 2
@@ -19614,7 +19614,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 558
+Encoding: 13 56 558
 Width: 436
 Flags: HMW
 LayerCount: 2
@@ -19643,7 +19643,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 559
+Encoding: 14 57 559
 Width: 434
 Flags: HMW
 LayerCount: 2
@@ -19679,7 +19679,7 @@ EndSplineSet
 EndChar
 
 StartChar: f
-Encoding: 102 102 560
+Encoding: 15 102 560
 Width: 364
 Flags: HMW
 LayerCount: 2
@@ -19722,7 +19722,7 @@ EndSplineSet
 EndChar
 
 StartChar: m
-Encoding: 109 109 561
+Encoding: 16 109 561
 Width: 437
 Flags: HMW
 LayerCount: 2
@@ -19775,7 +19775,7 @@ EndSplineSet
 EndChar
 
 StartChar: n
-Encoding: 110 110 562
+Encoding: 17 110 562
 Width: 308
 Flags: HMW
 LayerCount: 2
@@ -19815,7 +19815,7 @@ EndSplineSet
 EndChar
 
 StartChar: p
-Encoding: 112 112 563
+Encoding: 18 112 563
 Width: 365
 Flags: HMW
 LayerCount: 2
@@ -19861,7 +19861,7 @@ EndSplineSet
 EndChar
 
 StartChar: r
-Encoding: 114 114 564
+Encoding: 19 114 564
 Width: 277
 Flags: HMW
 LayerCount: 2
@@ -19895,7 +19895,7 @@ EndSplineSet
 EndChar
 
 StartChar: s
-Encoding: 115 115 565
+Encoding: 20 115 565
 Width: 229
 Flags: HMW
 LayerCount: 2
@@ -19926,7 +19926,7 @@ EndSplineSet
 EndChar
 
 StartChar: z
-Encoding: 122 122 566
+Encoding: 21 122 566
 Width: 244
 Flags: HMW
 LayerCount: 2
@@ -19970,7 +19970,7 @@ EndSplineSet
 EndChar
 
 StartChar: .notdef
-Encoding: 65536 -1 567
+Encoding: 566 -1 567
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -19990,7 +19990,7 @@ EndSplineSet
 EndChar
 
 StartChar: pedwdot
-Encoding: 65537 -1 568
+Encoding: 567 -1 568
 Width: 1019
 Flags: HW
 LayerCount: 2
@@ -20089,11 +20089,2676 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: .notdef
-Encoding: 65538 -1 569
-Width: 1000
-Flags: HW
+StartChar: pppppp
+Encoding: 568 -1 569
+Width: 2124
+Flags: W
+HStem: -142 25<-101.988 -43.0009 55.0022 115.988 253.012 311.999 410.002 470.988 608.012 666.999 765.002 825.988 963.012 1022 1120 1180.99 1318.01 1377 1475 1535.99 1673.01 1732 1830 1890.99> -10 34<132.877 187.778 487.877 542.778 842.877 897.778 1197.88 1252.78 1552.88 1607.78 1907.88 1962.78> 17 256<98.866 130.578 453.814 485.578 808.814 840.578 1163.81 1195.58 1518.81 1550.58 1873.81 1905.58> 235 38<50.172 123 198.047 289 404.446 478 553.047 644 759.446 833 908.047 999 1114.45 1188 1263.05 1354 1469.45 1543 1618.05 1709 1824.45 1898 1973.05 2064>
+VStem: 257 96<118.911 236.92> 612 96<118.911 236.92> 967 96<118.911 236.92> 1322 96<118.911 236.92> 1677 96<118.911 236.92> 2032 96<118.911 236.92>
 LayerCount: 2
+Fore
+SplineSet
+-102 -130 m 0xafc0
+ -102 -121 -98 -117 -89 -117 c 2
+ -58 -117 l 2
+ -48 -117 -46 -115 -43 -107 c 2
+ 80 198 l 2
+ 83 205 86 215 86 223 c 0
+ 86 230 83 235 75 235 c 0x9fc0
+ 57 235 37 209 8 159 c 0
+ 3 150 -1 144 -8 144 c 0
+ -14 144 -19 148 -19 155 c 0
+ -19 160 -17 165 -12 174 c 0
+ 19 231 51 273 110 273 c 0xafc0
+ 136 273 151 264 158 252 c 0
+ 167 235 164 228 169 228 c 0
+ 173 228 176 236 190 248 c 0
+ 208 264 230 274 261 274 c 0
+ 317 274 353 243 353 185 c 0
+ 353 90 275 -10 179 -10 c 0xcfc0
+ 162 -10 149 -8 135 -1 c 0
+ 119 7 116 17 111 17 c 0
+ 106 17 104 10 102 5 c 2
+ 57 -107 l 2
+ 56 -110 55 -113 55 -114 c 0
+ 55 -117 58 -117 64 -117 c 2
+ 104 -117 l 2
+ 112 -117 116 -121 116 -129 c 0
+ 116 -138 112 -142 103 -142 c 2
+ -90 -142 l 2
+ -98 -142 -102 -138 -102 -130 c 0xafc0
+1685 -142 m 2
+ 1677 -142 1673 -138 1673 -130 c 0
+ 1673 -121 1677 -117 1686 -117 c 2
+ 1717 -117 l 2
+ 1727 -117 1729 -115 1732 -107 c 2
+ 1855 198 l 2
+ 1858 205 1861 215 1861 223 c 0
+ 1861 230 1858 235 1850 235 c 0x9fc0
+ 1835 235 1822 218 1812 205 c 0
+ 1810 203 1808 199 1808 199 c 2
+ 1803 192 1799 187 1792 187 c 0
+ 1786 187 1781 190 1781 197 c 0
+ 1781 202 1783 207 1789 216 c 0
+ 1811 247 1837 273 1885 273 c 0xafc0
+ 1911 273 1926 264 1933 252 c 0
+ 1942 235 1939 228 1944 228 c 0
+ 1948 228 1951 236 1965 248 c 0
+ 1983 264 2005 274 2036 274 c 0
+ 2092 274 2128 243 2128 185 c 0
+ 2128 90 2050 -10 1954 -10 c 0xcfc0
+ 1937 -10 1924 -8 1910 -1 c 0
+ 1894 7 1891 17 1886 17 c 0xafc0
+ 1881 17 1879 10 1877 5 c 2
+ 1832 -107 l 2
+ 1831 -110 1830 -113 1830 -114 c 0
+ 1830 -117 1833 -117 1839 -117 c 2
+ 1879 -117 l 2
+ 1887 -117 1891 -121 1891 -129 c 0
+ 1891 -138 1887 -142 1878 -142 c 2
+ 1685 -142 l 2
+975 -142 m 2
+ 967 -142 963 -138 963 -130 c 0
+ 963 -121 967 -117 976 -117 c 2
+ 1007 -117 l 2
+ 1017 -117 1019 -115 1022 -107 c 2
+ 1145 198 l 2
+ 1148 205 1151 215 1151 223 c 0
+ 1151 230 1148 235 1140 235 c 0x9fc0
+ 1125 235 1112 218 1102 205 c 0
+ 1100 203 1098 199 1098 199 c 2
+ 1093 192 1089 187 1082 187 c 0
+ 1076 187 1071 190 1071 197 c 0
+ 1071 202 1073 207 1079 216 c 0
+ 1101 247 1127 273 1175 273 c 0xafc0
+ 1201 273 1216 264 1223 252 c 0
+ 1232 235 1229 228 1234 228 c 0
+ 1238 228 1241 236 1255 248 c 0
+ 1273 264 1295 274 1326 274 c 0
+ 1382 274 1418 243 1418 185 c 0
+ 1418 90 1340 -10 1244 -10 c 0xcfc0
+ 1227 -10 1214 -8 1200 -1 c 0
+ 1184 7 1181 17 1176 17 c 0xafc0
+ 1171 17 1169 10 1167 5 c 2
+ 1122 -107 l 2
+ 1121 -110 1120 -113 1120 -114 c 0
+ 1120 -117 1123 -117 1129 -117 c 2
+ 1169 -117 l 2
+ 1177 -117 1181 -121 1181 -129 c 0
+ 1181 -138 1177 -142 1168 -142 c 2
+ 975 -142 l 2
+1318 -130 m 0
+ 1318 -121 1322 -117 1331 -117 c 2
+ 1362 -117 l 2
+ 1372 -117 1374 -115 1377 -107 c 2
+ 1500 198 l 2
+ 1503 205 1506 215 1506 223 c 0
+ 1506 230 1503 235 1495 235 c 0x9fc0
+ 1480 235 1467 218 1457 205 c 0
+ 1455 203 1453 199 1453 199 c 2
+ 1448 192 1444 187 1437 187 c 0
+ 1431 187 1426 190 1426 197 c 0
+ 1426 202 1428 207 1434 216 c 0
+ 1456 247 1482 273 1530 273 c 0xafc0
+ 1556 273 1571 264 1578 252 c 0
+ 1587 235 1584 228 1589 228 c 0
+ 1593 228 1596 236 1610 248 c 0
+ 1628 264 1650 274 1681 274 c 0
+ 1737 274 1773 243 1773 185 c 0
+ 1773 90 1695 -10 1599 -10 c 0xcfc0
+ 1582 -10 1569 -8 1555 -1 c 0
+ 1539 7 1536 17 1531 17 c 0xafc0
+ 1526 17 1524 10 1522 5 c 2
+ 1477 -107 l 2
+ 1476 -110 1475 -113 1475 -114 c 0
+ 1475 -117 1478 -117 1484 -117 c 2
+ 1524 -117 l 2
+ 1532 -117 1536 -121 1536 -129 c 0
+ 1536 -138 1532 -142 1523 -142 c 2
+ 1330 -142 l 2
+ 1322 -142 1318 -138 1318 -130 c 0
+265 -142 m 2
+ 257 -142 253 -138 253 -130 c 0
+ 253 -121 257 -117 266 -117 c 2
+ 297 -117 l 2
+ 307 -117 309 -115 312 -107 c 2
+ 435 198 l 2
+ 438 205 441 215 441 223 c 0
+ 441 230 438 235 430 235 c 0x9fc0
+ 415 235 402 218 392 205 c 0
+ 390 203 388 199 388 199 c 2
+ 383 192 379 187 372 187 c 0
+ 366 187 361 190 361 197 c 0
+ 361 202 363 207 369 216 c 0
+ 391 247 417 273 465 273 c 0xafc0
+ 491 273 506 264 513 252 c 0
+ 522 235 519 228 524 228 c 0
+ 528 228 531 236 545 248 c 0
+ 563 264 585 274 616 274 c 0
+ 672 274 708 243 708 185 c 0
+ 708 90 630 -10 534 -10 c 0xcfc0
+ 517 -10 504 -8 490 -1 c 0
+ 474 7 471 17 466 17 c 0xafc0
+ 461 17 459 10 457 5 c 2
+ 412 -107 l 2
+ 411 -110 410 -113 410 -114 c 0
+ 410 -117 413 -117 419 -117 c 2
+ 459 -117 l 2
+ 467 -117 471 -121 471 -129 c 0
+ 471 -138 467 -142 458 -142 c 2
+ 265 -142 l 2
+608 -130 m 0
+ 608 -121 612 -117 621 -117 c 2
+ 652 -117 l 2
+ 662 -117 664 -115 667 -107 c 2
+ 790 198 l 2
+ 793 205 796 215 796 223 c 0
+ 796 230 793 235 785 235 c 0x9fc0
+ 770 235 757 218 747 205 c 0
+ 745 203 743 199 743 199 c 2
+ 738 192 734 187 727 187 c 0
+ 721 187 716 190 716 197 c 0
+ 716 202 718 207 724 216 c 0
+ 746 247 772 273 820 273 c 0xafc0
+ 846 273 861 264 868 252 c 0
+ 877 235 874 228 879 228 c 0
+ 883 228 886 236 900 248 c 0
+ 918 264 940 274 971 274 c 0
+ 1027 274 1063 243 1063 185 c 0
+ 1063 90 985 -10 889 -10 c 0xcfc0
+ 872 -10 859 -8 845 -1 c 0
+ 829 7 826 17 821 17 c 0xafc0
+ 816 17 814 10 812 5 c 2
+ 767 -107 l 2
+ 766 -110 765 -113 765 -114 c 0
+ 765 -117 768 -117 774 -117 c 2
+ 814 -117 l 2
+ 822 -117 826 -121 826 -129 c 0
+ 826 -138 822 -142 813 -142 c 2
+ 620 -142 l 2
+ 612 -142 608 -138 608 -130 c 0
+1570 125 m 2
+ 1559 97 1551 77 1551 56 c 0
+ 1551 35 1559 24 1576 24 c 0xcfc0
+ 1624 24 1677 151 1677 200 c 0
+ 1677 222 1671 237 1654 237 c 0
+ 1630 237 1604 208 1590 174 c 2
+ 1570 125 l 2
+1925 125 m 2
+ 1914 97 1906 77 1906 56 c 0
+ 1906 35 1914 24 1931 24 c 0
+ 1979 24 2032 151 2032 200 c 0
+ 2032 222 2026 237 2009 237 c 0
+ 1985 237 1959 208 1945 174 c 2
+ 1925 125 l 2
+841 56 m 0
+ 841 35 849 24 866 24 c 0
+ 914 24 967 151 967 200 c 0
+ 967 222 961 237 944 237 c 0
+ 920 237 894 208 880 174 c 2
+ 860 125 l 2
+ 849 97 841 77 841 56 c 0
+486 56 m 0
+ 486 35 494 24 511 24 c 0
+ 559 24 612 151 612 200 c 0
+ 612 222 606 237 589 237 c 0
+ 565 237 539 208 525 174 c 2
+ 505 125 l 2
+ 494 97 486 77 486 56 c 0
+150 125 m 2
+ 139 97 131 77 131 56 c 0
+ 131 35 139 24 156 24 c 0
+ 204 24 257 151 257 200 c 0
+ 257 222 251 237 234 237 c 0
+ 210 237 184 208 170 174 c 2
+ 150 125 l 2
+1215 125 m 2
+ 1204 97 1196 77 1196 56 c 0
+ 1196 35 1204 24 1221 24 c 0
+ 1269 24 1322 151 1322 200 c 0
+ 1322 222 1316 237 1299 237 c 0
+ 1275 237 1249 208 1235 174 c 2
+ 1215 125 l 2
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" p p p p p p
+EndChar
+
+StartChar: ppppp
+Encoding: 569 -1 570
+Width: 1776
+Flags: W
+HStem: -142 25<-94 -58 -89 -58 -58 -53 64 103 266 297 297 302 419 458 621 652 652 657 774 813 976 1007 1007 1012 1129 1168 1331 1362 1362 1367 1484 1523> -10 34<170.5 180 147.5 227 525.5 535 880.5 890 1235.5 1245 1590.5 1600> 237 37<222 289>
+VStem: 257 96<175.5 211> 361 27<199 199 199 199.5> 612 96<175.5 211> 716 27<199 199 199 199.5> 967 96<175.5 211> 1071 27<199 199 199 199.5> 1322 96<175.5 211> 1426 27<199 199 199 199.5> 1677 96<175.5 211>
+LayerCount: 2
+Fore
+SplineSet
+-102 -130 m 0
+ -102 -121 -98 -117 -89 -117 c 2
+ -58 -117 l 2
+ -48 -117 -46 -115 -43 -107 c 2
+ 80 198 l 2
+ 83 205 86 215 86 223 c 0
+ 86 230 83 235 75 235 c 0
+ 57 235 37 209 8 159 c 0
+ 3 150 -1 144 -8 144 c 0
+ -14 144 -19 148 -19 155 c 0
+ -19 160 -17 165 -12 174 c 0
+ 19 231 51 273 110 273 c 0
+ 136 273 151 264 158 252 c 0
+ 167 235 164 228 169 228 c 0
+ 173 228 176 236 190 248 c 0
+ 208 264 230 274 261 274 c 0
+ 317 274 353 243 353 185 c 0
+ 353 90 275 -10 179 -10 c 0
+ 162 -10 149 -8 135 -1 c 0
+ 119 7 116 17 111 17 c 0
+ 106 17 104 10 102 5 c 2
+ 57 -107 l 2
+ 56 -110 55 -113 55 -114 c 0
+ 55 -117 58 -117 64 -117 c 2
+ 104 -117 l 2
+ 112 -117 116 -121 116 -129 c 0
+ 116 -138 112 -142 103 -142 c 2
+ -90 -142 l 2
+ -98 -142 -102 -138 -102 -130 c 0
+1318 -130 m 0
+ 1318 -121 1322 -117 1331 -117 c 2
+ 1362 -117 l 2
+ 1372 -117 1374 -115 1377 -107 c 2
+ 1500 198 l 2
+ 1503 205 1506 215 1506 223 c 0
+ 1506 230 1503 235 1495 235 c 0
+ 1480 235 1467 218 1457 205 c 0
+ 1455 203 1453 199 1453 199 c 2
+ 1448 192 1444 187 1437 187 c 0
+ 1431 187 1426 190 1426 197 c 0
+ 1426 202 1428 207 1434 216 c 0
+ 1456 247 1482 273 1530 273 c 0
+ 1556 273 1571 264 1578 252 c 0
+ 1587 235 1584 228 1589 228 c 0
+ 1593 228 1596 236 1610 248 c 0
+ 1628 264 1650 274 1681 274 c 0
+ 1737 274 1773 243 1773 185 c 0
+ 1773 90 1695 -10 1599 -10 c 0
+ 1582 -10 1569 -8 1555 -1 c 0
+ 1539 7 1536 17 1531 17 c 0
+ 1526 17 1524 10 1522 5 c 2
+ 1477 -107 l 2
+ 1476 -110 1475 -113 1475 -114 c 0
+ 1475 -117 1478 -117 1484 -117 c 2
+ 1524 -117 l 2
+ 1532 -117 1536 -121 1536 -129 c 0
+ 1536 -138 1532 -142 1523 -142 c 2
+ 1330 -142 l 2
+ 1322 -142 1318 -138 1318 -130 c 0
+963 -130 m 0
+ 963 -121 967 -117 976 -117 c 2
+ 1007 -117 l 2
+ 1017 -117 1019 -115 1022 -107 c 2
+ 1145 198 l 2
+ 1148 205 1151 215 1151 223 c 0
+ 1151 230 1148 235 1140 235 c 0
+ 1125 235 1112 218 1102 205 c 0
+ 1100 203 1098 199 1098 199 c 2
+ 1093 192 1089 187 1082 187 c 0
+ 1076 187 1071 190 1071 197 c 0
+ 1071 202 1073 207 1079 216 c 0
+ 1101 247 1127 273 1175 273 c 0
+ 1201 273 1216 264 1223 252 c 0
+ 1232 235 1229 228 1234 228 c 0
+ 1238 228 1241 236 1255 248 c 0
+ 1273 264 1295 274 1326 274 c 0
+ 1382 274 1418 243 1418 185 c 0
+ 1418 90 1340 -10 1244 -10 c 0
+ 1227 -10 1214 -8 1200 -1 c 0
+ 1184 7 1181 17 1176 17 c 0
+ 1171 17 1169 10 1167 5 c 2
+ 1122 -107 l 2
+ 1121 -110 1120 -113 1120 -114 c 0
+ 1120 -117 1123 -117 1129 -117 c 2
+ 1169 -117 l 2
+ 1177 -117 1181 -121 1181 -129 c 0
+ 1181 -138 1177 -142 1168 -142 c 2
+ 975 -142 l 2
+ 967 -142 963 -138 963 -130 c 0
+620 -142 m 2
+ 612 -142 608 -138 608 -130 c 0
+ 608 -121 612 -117 621 -117 c 2
+ 652 -117 l 2
+ 662 -117 664 -115 667 -107 c 2
+ 790 198 l 2
+ 793 205 796 215 796 223 c 0
+ 796 230 793 235 785 235 c 0
+ 770 235 757 218 747 205 c 0
+ 745 203 743 199 743 199 c 2
+ 738 192 734 187 727 187 c 0
+ 721 187 716 190 716 197 c 0
+ 716 202 718 207 724 216 c 0
+ 746 247 772 273 820 273 c 0
+ 846 273 861 264 868 252 c 0
+ 877 235 874 228 879 228 c 0
+ 883 228 886 236 900 248 c 0
+ 918 264 940 274 971 274 c 0
+ 1027 274 1063 243 1063 185 c 0
+ 1063 90 985 -10 889 -10 c 0
+ 872 -10 859 -8 845 -1 c 0
+ 829 7 826 17 821 17 c 0
+ 816 17 814 10 812 5 c 2
+ 767 -107 l 2
+ 766 -110 765 -113 765 -114 c 0
+ 765 -117 768 -117 774 -117 c 2
+ 814 -117 l 2
+ 822 -117 826 -121 826 -129 c 0
+ 826 -138 822 -142 813 -142 c 2
+ 620 -142 l 2
+253 -130 m 0
+ 253 -121 257 -117 266 -117 c 2
+ 297 -117 l 2
+ 307 -117 309 -115 312 -107 c 2
+ 435 198 l 2
+ 438 205 441 215 441 223 c 0
+ 441 230 438 235 430 235 c 0
+ 415 235 402 218 392 205 c 0
+ 390 203 388 199 388 199 c 2
+ 383 192 379 187 372 187 c 0
+ 366 187 361 190 361 197 c 0
+ 361 202 363 207 369 216 c 0
+ 391 247 417 273 465 273 c 0
+ 491 273 506 264 513 252 c 0
+ 522 235 519 228 524 228 c 0
+ 528 228 531 236 545 248 c 0
+ 563 264 585 274 616 274 c 0
+ 672 274 708 243 708 185 c 0
+ 708 90 630 -10 534 -10 c 0
+ 517 -10 504 -8 490 -1 c 0
+ 474 7 471 17 466 17 c 0
+ 461 17 459 10 457 5 c 2
+ 412 -107 l 2
+ 411 -110 410 -113 410 -114 c 0
+ 410 -117 413 -117 419 -117 c 2
+ 459 -117 l 2
+ 467 -117 471 -121 471 -129 c 0
+ 471 -138 467 -142 458 -142 c 2
+ 265 -142 l 2
+ 257 -142 253 -138 253 -130 c 0
+1196 56 m 0
+ 1196 35 1204 24 1221 24 c 0
+ 1269 24 1322 151 1322 200 c 0
+ 1322 222 1316 237 1299 237 c 0
+ 1275 237 1249 208 1235 174 c 2
+ 1215 125 l 2
+ 1204 97 1196 77 1196 56 c 0
+1570 125 m 2
+ 1559 97 1551 77 1551 56 c 0
+ 1551 35 1559 24 1576 24 c 0
+ 1624 24 1677 151 1677 200 c 0
+ 1677 222 1671 237 1654 237 c 0
+ 1630 237 1604 208 1590 174 c 2
+ 1570 125 l 2
+505 125 m 2
+ 494 97 486 77 486 56 c 0
+ 486 35 494 24 511 24 c 0
+ 559 24 612 151 612 200 c 0
+ 612 222 606 237 589 237 c 0
+ 565 237 539 208 525 174 c 2
+ 505 125 l 2
+131 56 m 0
+ 131 35 139 24 156 24 c 0
+ 204 24 257 151 257 200 c 0
+ 257 222 251 237 234 237 c 0
+ 210 237 184 208 170 174 c 2
+ 150 125 l 2
+ 139 97 131 77 131 56 c 0
+860 125 m 2
+ 849 97 841 77 841 56 c 0
+ 841 35 849 24 866 24 c 0
+ 914 24 967 151 967 200 c 0
+ 967 222 961 237 944 237 c 0
+ 920 237 894 208 880 174 c 2
+ 860 125 l 2
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" p p p p p
+EndChar
+
+StartChar: pppp
+Encoding: 570 -1 571
+Width: 1417
+Flags: W
+HStem: -142 25<-94 -58 -89 -58 -58 -53 64 103 266 297 297 302 419 458 621 652 652 657 774 813 976 1007 1007 1012 1129 1168> -10 34<170.5 180 147.5 227 525.5 535 880.5 890 1235.5 1245> 237 37<222 289>
+VStem: 257 96<175.5 211> 361 27<199 199 199 199.5> 612 96<175.5 211> 716 27<199 199 199 199.5> 967 96<175.5 211> 1071 27<199 199 199 199.5> 1322 96<175.5 211>
+LayerCount: 2
+Fore
+SplineSet
+-102 -130 m 0
+ -102 -121 -98 -117 -89 -117 c 2
+ -58 -117 l 2
+ -48 -117 -46 -115 -43 -107 c 2
+ 80 198 l 2
+ 83 205 86 215 86 223 c 0
+ 86 230 83 235 75 235 c 0
+ 57 235 37 209 8 159 c 0
+ 3 150 -1 144 -8 144 c 0
+ -14 144 -19 148 -19 155 c 0
+ -19 160 -17 165 -12 174 c 0
+ 19 231 51 273 110 273 c 0
+ 136 273 151 264 158 252 c 0
+ 167 235 164 228 169 228 c 0
+ 173 228 176 236 190 248 c 0
+ 208 264 230 274 261 274 c 0
+ 317 274 353 243 353 185 c 0
+ 353 90 275 -10 179 -10 c 0
+ 162 -10 149 -8 135 -1 c 0
+ 119 7 116 17 111 17 c 0
+ 106 17 104 10 102 5 c 2
+ 57 -107 l 2
+ 56 -110 55 -113 55 -114 c 0
+ 55 -117 58 -117 64 -117 c 2
+ 104 -117 l 2
+ 112 -117 116 -121 116 -129 c 0
+ 116 -138 112 -142 103 -142 c 2
+ -90 -142 l 2
+ -98 -142 -102 -138 -102 -130 c 0
+963 -130 m 0
+ 963 -121 967 -117 976 -117 c 2
+ 1007 -117 l 2
+ 1017 -117 1019 -115 1022 -107 c 2
+ 1145 198 l 2
+ 1148 205 1151 215 1151 223 c 0
+ 1151 230 1148 235 1140 235 c 0
+ 1125 235 1112 218 1102 205 c 0
+ 1100 203 1098 199 1098 199 c 2
+ 1093 192 1089 187 1082 187 c 0
+ 1076 187 1071 190 1071 197 c 0
+ 1071 202 1073 207 1079 216 c 0
+ 1101 247 1127 273 1175 273 c 0
+ 1201 273 1216 264 1223 252 c 0
+ 1232 235 1229 228 1234 228 c 0
+ 1238 228 1241 236 1255 248 c 0
+ 1273 264 1295 274 1326 274 c 0
+ 1382 274 1418 243 1418 185 c 0
+ 1418 90 1340 -10 1244 -10 c 0
+ 1227 -10 1214 -8 1200 -1 c 0
+ 1184 7 1181 17 1176 17 c 0
+ 1171 17 1169 10 1167 5 c 2
+ 1122 -107 l 2
+ 1121 -110 1120 -113 1120 -114 c 0
+ 1120 -117 1123 -117 1129 -117 c 2
+ 1169 -117 l 2
+ 1177 -117 1181 -121 1181 -129 c 0
+ 1181 -138 1177 -142 1168 -142 c 2
+ 975 -142 l 2
+ 967 -142 963 -138 963 -130 c 0
+253 -130 m 0
+ 253 -121 257 -117 266 -117 c 2
+ 297 -117 l 2
+ 307 -117 309 -115 312 -107 c 2
+ 435 198 l 2
+ 438 205 441 215 441 223 c 0
+ 441 230 438 235 430 235 c 0
+ 415 235 402 218 392 205 c 0
+ 390 203 388 199 388 199 c 2
+ 383 192 379 187 372 187 c 0
+ 366 187 361 190 361 197 c 0
+ 361 202 363 207 369 216 c 0
+ 391 247 417 273 465 273 c 0
+ 491 273 506 264 513 252 c 0
+ 522 235 519 228 524 228 c 0
+ 528 228 531 236 545 248 c 0
+ 563 264 585 274 616 274 c 0
+ 672 274 708 243 708 185 c 0
+ 708 90 630 -10 534 -10 c 0
+ 517 -10 504 -8 490 -1 c 0
+ 474 7 471 17 466 17 c 0
+ 461 17 459 10 457 5 c 2
+ 412 -107 l 2
+ 411 -110 410 -113 410 -114 c 0
+ 410 -117 413 -117 419 -117 c 2
+ 459 -117 l 2
+ 467 -117 471 -121 471 -129 c 0
+ 471 -138 467 -142 458 -142 c 2
+ 265 -142 l 2
+ 257 -142 253 -138 253 -130 c 0
+608 -130 m 0
+ 608 -121 612 -117 621 -117 c 2
+ 652 -117 l 2
+ 662 -117 664 -115 667 -107 c 2
+ 790 198 l 2
+ 793 205 796 215 796 223 c 0
+ 796 230 793 235 785 235 c 0
+ 770 235 757 218 747 205 c 0
+ 745 203 743 199 743 199 c 2
+ 738 192 734 187 727 187 c 0
+ 721 187 716 190 716 197 c 0
+ 716 202 718 207 724 216 c 0
+ 746 247 772 273 820 273 c 0
+ 846 273 861 264 868 252 c 0
+ 877 235 874 228 879 228 c 0
+ 883 228 886 236 900 248 c 0
+ 918 264 940 274 971 274 c 0
+ 1027 274 1063 243 1063 185 c 0
+ 1063 90 985 -10 889 -10 c 0
+ 872 -10 859 -8 845 -1 c 0
+ 829 7 826 17 821 17 c 0
+ 816 17 814 10 812 5 c 2
+ 767 -107 l 2
+ 766 -110 765 -113 765 -114 c 0
+ 765 -117 768 -117 774 -117 c 2
+ 814 -117 l 2
+ 822 -117 826 -121 826 -129 c 0
+ 826 -138 822 -142 813 -142 c 2
+ 620 -142 l 2
+ 612 -142 608 -138 608 -130 c 0
+860 125 m 2
+ 849 97 841 77 841 56 c 0
+ 841 35 849 24 866 24 c 0
+ 914 24 967 151 967 200 c 0
+ 967 222 961 237 944 237 c 0
+ 920 237 894 208 880 174 c 2
+ 860 125 l 2
+486 56 m 0
+ 486 35 494 24 511 24 c 0
+ 559 24 612 151 612 200 c 0
+ 612 222 606 237 589 237 c 0
+ 565 237 539 208 525 174 c 2
+ 505 125 l 2
+ 494 97 486 77 486 56 c 0
+131 56 m 0
+ 131 35 139 24 156 24 c 0
+ 204 24 257 151 257 200 c 0
+ 257 222 251 237 234 237 c 0
+ 210 237 184 208 170 174 c 2
+ 150 125 l 2
+ 139 97 131 77 131 56 c 0
+1196 56 m 0
+ 1196 35 1204 24 1221 24 c 0
+ 1269 24 1322 151 1322 200 c 0
+ 1322 222 1316 237 1299 237 c 0
+ 1275 237 1249 208 1235 174 c 2
+ 1215 125 l 2
+ 1204 97 1196 77 1196 56 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" p p p p
+EndChar
+
+StartChar: ppp
+Encoding: 571 -1 572
+Width: 1072
+Flags: W
+HStem: -142 25<-84 -48 -79 -48 -48 -43 74 113 276 307 307 312 429 468 631 662 662 667 784 823> -10 34<180.5 190 157.5 237 535.5 545 890.5 900> 237 37<232 299>
+VStem: 267 96<175.5 211> 371 27<199 199 199 199.5> 622 96<175.5 211> 726 27<199 199 199 199.5> 977 96<175.5 211>
+LayerCount: 2
+Fore
+SplineSet
+-92 -130 m 0
+ -92 -121 -88 -117 -79 -117 c 2
+ -48 -117 l 2
+ -38 -117 -36 -115 -33 -107 c 2
+ 90 198 l 2
+ 93 205 96 215 96 223 c 0
+ 96 230 93 235 85 235 c 0
+ 67 235 47 209 18 159 c 0
+ 13 150 9 144 2 144 c 0
+ -4 144 -9 148 -9 155 c 0
+ -9 160 -7 165 -2 174 c 0
+ 29 231 61 273 120 273 c 0
+ 146 273 161 264 168 252 c 0
+ 177 235 174 228 179 228 c 0
+ 183 228 186 236 200 248 c 0
+ 218 264 240 274 271 274 c 0
+ 327 274 363 243 363 185 c 0
+ 363 90 285 -10 189 -10 c 0
+ 172 -10 159 -8 145 -1 c 0
+ 129 7 126 17 121 17 c 0
+ 116 17 114 10 112 5 c 2
+ 67 -107 l 2
+ 66 -110 65 -113 65 -114 c 0
+ 65 -117 68 -117 74 -117 c 2
+ 114 -117 l 2
+ 122 -117 126 -121 126 -129 c 0
+ 126 -138 122 -142 113 -142 c 2
+ -80 -142 l 2
+ -88 -142 -92 -138 -92 -130 c 0
+618 -130 m 0
+ 618 -121 622 -117 631 -117 c 2
+ 662 -117 l 2
+ 672 -117 674 -115 677 -107 c 2
+ 800 198 l 2
+ 803 205 806 215 806 223 c 0
+ 806 230 803 235 795 235 c 0
+ 780 235 767 218 757 205 c 0
+ 755 203 753 199 753 199 c 2
+ 748 192 744 187 737 187 c 0
+ 731 187 726 190 726 197 c 0
+ 726 202 728 207 734 216 c 0
+ 756 247 782 273 830 273 c 0
+ 856 273 871 264 878 252 c 0
+ 887 235 884 228 889 228 c 0
+ 893 228 896 236 910 248 c 0
+ 928 264 950 274 981 274 c 0
+ 1037 274 1073 243 1073 185 c 0
+ 1073 90 995 -10 899 -10 c 0
+ 882 -10 869 -8 855 -1 c 0
+ 839 7 836 17 831 17 c 0
+ 826 17 824 10 822 5 c 2
+ 777 -107 l 2
+ 776 -110 775 -113 775 -114 c 0
+ 775 -117 778 -117 784 -117 c 2
+ 824 -117 l 2
+ 832 -117 836 -121 836 -129 c 0
+ 836 -138 832 -142 823 -142 c 2
+ 630 -142 l 2
+ 622 -142 618 -138 618 -130 c 0
+263 -130 m 0
+ 263 -121 267 -117 276 -117 c 2
+ 307 -117 l 2
+ 317 -117 319 -115 322 -107 c 2
+ 445 198 l 2
+ 448 205 451 215 451 223 c 0
+ 451 230 448 235 440 235 c 0
+ 425 235 412 218 402 205 c 0
+ 400 203 398 199 398 199 c 2
+ 393 192 389 187 382 187 c 0
+ 376 187 371 190 371 197 c 0
+ 371 202 373 207 379 216 c 0
+ 401 247 427 273 475 273 c 0
+ 501 273 516 264 523 252 c 0
+ 532 235 529 228 534 228 c 0
+ 538 228 541 236 555 248 c 0
+ 573 264 595 274 626 274 c 0
+ 682 274 718 243 718 185 c 0
+ 718 90 640 -10 544 -10 c 0
+ 527 -10 514 -8 500 -1 c 0
+ 484 7 481 17 476 17 c 0
+ 471 17 469 10 467 5 c 2
+ 422 -107 l 2
+ 421 -110 420 -113 420 -114 c 0
+ 420 -117 423 -117 429 -117 c 2
+ 469 -117 l 2
+ 477 -117 481 -121 481 -129 c 0
+ 481 -138 477 -142 468 -142 c 2
+ 275 -142 l 2
+ 267 -142 263 -138 263 -130 c 0
+515 125 m 2
+ 504 97 496 77 496 56 c 0
+ 496 35 504 24 521 24 c 0
+ 569 24 622 151 622 200 c 0
+ 622 222 616 237 599 237 c 0
+ 575 237 549 208 535 174 c 2
+ 515 125 l 2
+851 56 m 0
+ 851 35 859 24 876 24 c 0
+ 924 24 977 151 977 200 c 0
+ 977 222 971 237 954 237 c 0
+ 930 237 904 208 890 174 c 2
+ 870 125 l 2
+ 859 97 851 77 851 56 c 0
+160 125 m 2
+ 149 97 141 77 141 56 c 0
+ 141 35 149 24 166 24 c 0
+ 214 24 267 151 267 200 c 0
+ 267 222 261 237 244 237 c 0
+ 220 237 194 208 180 174 c 2
+ 160 125 l 2
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" p p p
+EndChar
+
+StartChar: pp
+Encoding: 572 -1 573
+Width: 727
+Flags: W
+HStem: -142 25<-74 -38 -69 -38 -38 -33 84 123 286 317 317 322 439 478> -10 34<190.5 200 167.5 247 545.5 555> 237 37<242 309>
+VStem: 277 96<175.5 211> 381 27<199 199 199 199.5> 632 96<175.5 211>
+LayerCount: 2
+Fore
+SplineSet
+-70 -142 m 2
+ -78 -142 -82 -138 -82 -130 c 0
+ -82 -121 -78 -117 -69 -117 c 2
+ -38 -117 l 2
+ -28 -117 -26 -115 -23 -107 c 2
+ 100 198 l 2
+ 103 205 106 215 106 223 c 0
+ 106 230 103 235 95 235 c 0
+ 77 235 57 209 28 159 c 0
+ 23 150 19 144 12 144 c 0
+ 6 144 1 148 1 155 c 0
+ 1 160 3 165 8 174 c 0
+ 39 231 71 273 130 273 c 0
+ 156 273 171 264 178 252 c 0
+ 187 235 184 228 189 228 c 0
+ 193 228 196 236 210 248 c 0
+ 228 264 250 274 281 274 c 0
+ 337 274 373 243 373 185 c 0
+ 373 90 295 -10 199 -10 c 0
+ 182 -10 169 -8 155 -1 c 0
+ 139 7 136 17 131 17 c 0
+ 126 17 124 10 122 5 c 2
+ 77 -107 l 2
+ 76 -110 75 -113 75 -114 c 0
+ 75 -117 78 -117 84 -117 c 2
+ 124 -117 l 2
+ 132 -117 136 -121 136 -129 c 0
+ 136 -138 132 -142 123 -142 c 2
+ -70 -142 l 2
+285 -142 m 2
+ 277 -142 273 -138 273 -130 c 0
+ 273 -121 277 -117 286 -117 c 2
+ 317 -117 l 2
+ 327 -117 329 -115 332 -107 c 2
+ 455 198 l 2
+ 458 205 461 215 461 223 c 0
+ 461 230 458 235 450 235 c 0
+ 435 235 422 218 412 205 c 0
+ 410 203 408 199 408 199 c 2
+ 403 192 399 187 392 187 c 0
+ 386 187 381 190 381 197 c 0
+ 381 202 383 207 389 216 c 0
+ 411 247 437 273 485 273 c 0
+ 511 273 526 264 533 252 c 0
+ 542 235 539 228 544 228 c 0
+ 548 228 551 236 565 248 c 0
+ 583 264 605 274 636 274 c 0
+ 692 274 728 243 728 185 c 0
+ 728 90 650 -10 554 -10 c 0
+ 537 -10 524 -8 510 -1 c 0
+ 494 7 491 17 486 17 c 0
+ 481 17 479 10 477 5 c 2
+ 432 -107 l 2
+ 431 -110 430 -113 430 -114 c 0
+ 430 -117 433 -117 439 -117 c 2
+ 479 -117 l 2
+ 487 -117 491 -121 491 -129 c 0
+ 491 -138 487 -142 478 -142 c 2
+ 285 -142 l 2
+506 56 m 0
+ 506 35 514 24 531 24 c 0
+ 579 24 632 151 632 200 c 0
+ 632 222 626 237 609 237 c 0
+ 585 237 559 208 545 174 c 2
+ 525 125 l 2
+ 514 97 506 77 506 56 c 0
+151 56 m 0
+ 151 35 159 24 176 24 c 0
+ 224 24 277 151 277 200 c 0
+ 277 222 271 237 254 237 c 0
+ 230 237 204 208 190 174 c 2
+ 170 125 l 2
+ 159 97 151 77 151 56 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" p p
+EndChar
+
+StartChar: mp
+Encoding: 573 -1 574
+Width: 826
+Flags: W
+HStem: -142 25<378 414 383 414 414 419 536 575> -10 34<642.5 652 619.5 699> -10 44<317.5 381> 0 21G<10 14 14 63 145 149 149 198> 224 50<188 244.5> 235 38<75.5 78 544.5 552>
+VStem: 287 76<40 51> 349 72<192.5 214> 729 96<175.5 211>
+LayerCount: 2
+Fore
+SplineSet
+-9 144 m 0x9580
+ -15 144 -20 148 -20 155 c 0
+ -20 160 -18 165 -13 174 c 0
+ 18 230 49 273 102 273 c 0xc580
+ 121 273 135 263 141 250 c 0
+ 147 236 144 229 149 229 c 0
+ 153 229 154 233 164 243 c 0
+ 180 260 203 274 232 274 c 0
+ 257 274 270 263 276 250 c 0
+ 282 237 279 229 284 229 c 0
+ 288 229 289 233 299 243 c 0
+ 315 260 338 274 367 274 c 0
+ 408 274 421 245 421 220 c 0x9980
+ 421 165 363 78 363 43 c 0
+ 363 37 365 34 371 34 c 0
+ 391 34 416 71 444 132 c 2
+ 451 148 l 2
+ 475 202 507 273 582 273 c 0
+ 608 273 623 264 630 252 c 0xa680
+ 639 235 636 228 641 228 c 0
+ 645 228 648 236 662 248 c 0
+ 680 264 702 274 733 274 c 0x9980
+ 789 274 825 243 825 185 c 0
+ 825 90 747 -10 651 -10 c 0
+ 634 -10 621 -8 607 -1 c 0
+ 591 7 588 17 583 17 c 0
+ 578 17 576 10 574 5 c 2
+ 529 -107 l 2
+ 528 -110 527 -113 527 -114 c 0
+ 527 -117 530 -117 536 -117 c 2
+ 576 -117 l 2
+ 584 -117 588 -121 588 -129 c 0
+ 588 -138 584 -142 575 -142 c 2
+ 382 -142 l 2
+ 374 -142 370 -138 370 -130 c 0
+ 370 -121 374 -117 383 -117 c 2
+ 414 -117 l 2
+ 424 -117 426 -115 429 -107 c 2
+ 552 198 l 2
+ 555 205 558 215 558 223 c 0
+ 558 230 556 235 548 235 c 0
+ 522 235 496 184 466 116 c 0
+ 435 45 395 -10 332 -10 c 0
+ 303 -10 287 4 287 30 c 0xc680
+ 287 72 349 175 349 210 c 0
+ 349 218 346 224 334 224 c 0
+ 312 224 291 203 279 174 c 2
+ 214 12 l 2
+ 210 2 207 0 198 0 c 2
+ 149 0 l 2
+ 141 0 138 2 138 6 c 0
+ 138 9 139 12 141 17 c 0
+ 203 172 204 172 204 173 c 0
+ 210 187 214 198 214 210 c 0
+ 214 218 211 224 199 224 c 0x9980
+ 177 224 156 203 144 174 c 2
+ 79 12 l 2
+ 75 2 72 0 63 0 c 2
+ 14 0 l 2
+ 6 0 3 2 3 6 c 0
+ 3 9 4 12 6 17 c 2
+ 79 198 l 2
+ 82 205 85 215 85 223 c 0
+ 85 230 82 235 74 235 c 0
+ 56 235 36 208 6 157 c 0
+ 1 149 -2 144 -9 144 c 0x9580
+603 56 m 0
+ 603 35 611 24 628 24 c 0
+ 676 24 729 151 729 200 c 0
+ 729 222 723 237 706 237 c 0
+ 682 237 656 208 642 174 c 2
+ 622 125 l 2
+ 611 97 603 77 603 56 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" m p
+EndChar
+
+StartChar: mf
+Encoding: 574 -1 575
+Width: 797
+Flags: W
+HStem: -165 22<377.5 404 377.5 426> -10 44<317.5 377.5> 0 21G<10 14 14 63 145 149 149 198> 220 31<464 528 470 527 661 720> 224 50<188 244.5> 235 38<75.5 78> 408 23<720 749>
+VStem: 287 76<40 51> 313 97<-92 -82.5> 349 72<192.5 214> 724 94<345.5 361>
+LayerCount: 2
+Fore
+SplineSet
+388 -165 m 0xb2a0
+ 346 -165 313 -142 313 -98 c 0
+ 313 -67 335 -43 365 -43 c 0
+ 392 -43 410 -58 410 -84 c 0
+ 410 -100 402 -113 390 -121 c 0
+ 375 -131 366 -126 366 -134 c 0
+ 366 -139 371 -143 384 -143 c 0
+ 424 -143 442 -111 470 -13 c 2
+ 533 206 l 2
+ 534 211 535 214 535 216 c 0
+ 535 220 533 220 527 220 c 2
+ 469 220 l 2
+ 459 220 454 225 454 235 c 0
+ 454 246 459 251 470 251 c 2
+ 528 251 l 2
+ 542 251 543 251 548 266 c 0
+ 581 362 635 431 732 431 c 0
+ 795 431 818 401 818 364 c 0
+ 818 327 795 310 769 310 c 0
+ 744 310 724 324 724 352 c 0
+ 724 370 732 384 745 390 c 0
+ 756 395 761 394 761 400 c 0
+ 761 406 753 408 745 408 c 0
+ 695 408 673 355 653 268 c 0
+ 652 262 651 259 651 256 c 0
+ 651 251 654 251 661 251 c 2
+ 721 251 l 2
+ 731 251 736 246 736 236 c 0
+ 736 225 731 220 720 220 c 2
+ 655 220 l 2
+ 651 220 641 211 641 206 c 0
+ 617 122 595 60 566 -1 c 0
+ 511 -114 464 -165 388 -165 c 0xb2a0
+-20 155 m 0xa660
+ -20 160 -18 165 -13 174 c 0
+ 18 230 49 273 102 273 c 0
+ 121 273 135 263 141 250 c 0
+ 147 236 144 229 149 229 c 0xa660
+ 153 229 154 233 164 243 c 0
+ 180 260 203 274 232 274 c 0
+ 257 274 270 263 276 250 c 0
+ 282 237 279 229 284 229 c 0
+ 288 229 289 233 299 243 c 0
+ 315 260 338 274 367 274 c 0
+ 408 274 421 245 421 220 c 0xaa60
+ 421 165 363 78 363 43 c 0
+ 363 37 365 34 371 34 c 0
+ 384 34 403 58 422 88 c 0
+ 427 96 430 101 437 101 c 0
+ 442 101 446 98 446 92 c 0
+ 446 87 443 81 437 71 c 0
+ 405 18 370 -10 332 -10 c 0
+ 303 -10 287 4 287 30 c 0xd320
+ 287 72 349 175 349 210 c 0
+ 349 218 346 224 334 224 c 0
+ 312 224 291 203 279 174 c 2
+ 214 12 l 2
+ 210 2 207 0 198 0 c 2
+ 149 0 l 2
+ 141 0 138 2 138 6 c 0
+ 138 9 139 12 141 17 c 0
+ 203 172 204 172 204 173 c 0
+ 210 187 214 198 214 210 c 0
+ 214 218 211 224 199 224 c 0
+ 177 224 156 203 144 174 c 2xaa60
+ 79 12 l 2
+ 75 2 72 0 63 0 c 2
+ 14 0 l 2
+ 6 0 3 2 3 6 c 0
+ 3 9 4 12 6 17 c 2
+ 79 198 l 2
+ 82 205 85 215 85 223 c 0
+ 85 230 82 235 74 235 c 0
+ 56 235 36 208 6 157 c 0
+ 1 149 -2 144 -9 144 c 0
+ -15 144 -20 148 -20 155 c 0xa660
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" m f
+EndChar
+
+StartChar: pf
+Encoding: 575 -1 576
+Width: 770
+Flags: W
+HStem: -152 22<329.5 356 329.5 378> -142 25<-64 -28 -59 -28 -28 -23 94 133> -10 34<200.5 210 177.5 257> 233 31<416 480 422 479 613 672> 237 37<252 319> 421 23<672 701>
+VStem: 265 97<-79 -69.5> 287 96<175.5 211> 676 94<358.5 374>
+LayerCount: 2
+Fore
+SplineSet
+-72 -130 m 0xb580
+ -72 -121 -68 -117 -59 -117 c 2
+ -28 -117 l 2
+ -18 -117 -16 -115 -13 -107 c 2
+ 110 198 l 2
+ 113 205 116 215 116 223 c 0
+ 116 230 113 235 105 235 c 0
+ 87 235 67 209 38 159 c 0
+ 33 150 29 144 22 144 c 0
+ 16 144 11 148 11 155 c 0
+ 11 160 13 165 18 174 c 0
+ 49 231 81 273 140 273 c 0
+ 166 273 181 264 188 252 c 0
+ 197 235 194 228 199 228 c 0
+ 203 228 206 236 220 248 c 0x7580
+ 238 264 260 274 291 274 c 0
+ 347 274 383 243 383 185 c 0
+ 383 90 305 -10 209 -10 c 0
+ 192 -10 179 -8 165 -1 c 0
+ 149 7 146 17 141 17 c 0
+ 136 17 134 10 132 5 c 2
+ 87 -107 l 2
+ 86 -110 85 -113 85 -114 c 0
+ 85 -117 88 -117 94 -117 c 2
+ 134 -117 l 2
+ 142 -117 146 -121 146 -129 c 0
+ 146 -138 142 -142 133 -142 c 2
+ -60 -142 l 2x6d80
+ -68 -142 -72 -138 -72 -130 c 0xb580
+265 -85 m 0
+ 265 -54 287 -30 317 -30 c 0
+ 344 -30 362 -45 362 -71 c 0
+ 362 -87 354 -100 342 -108 c 0
+ 327 -118 318 -113 318 -121 c 0
+ 318 -126 323 -130 336 -130 c 0
+ 376 -130 394 -98 422 0 c 2
+ 485 219 l 2
+ 486 224 487 227 487 229 c 0
+ 487 233 485 233 479 233 c 2
+ 421 233 l 2
+ 411 233 406 238 406 248 c 0
+ 406 259 411 264 422 264 c 2
+ 480 264 l 2
+ 494 264 495 264 500 279 c 0
+ 533 375 587 444 684 444 c 0
+ 747 444 770 414 770 377 c 0
+ 770 340 747 323 721 323 c 0
+ 696 323 676 337 676 365 c 0
+ 676 383 684 397 697 403 c 0
+ 708 408 713 407 713 413 c 0
+ 713 419 705 421 697 421 c 0
+ 647 421 625 368 605 281 c 0
+ 604 275 603 272 603 269 c 0
+ 603 264 606 264 613 264 c 2
+ 673 264 l 2
+ 683 264 688 259 688 249 c 0
+ 688 238 683 233 672 233 c 2
+ 607 233 l 2
+ 603 233 593 224 593 219 c 0
+ 569 135 547 73 518 12 c 0
+ 463 -101 416 -152 340 -152 c 0
+ 298 -152 265 -129 265 -85 c 0
+161 56 m 0
+ 161 35 169 24 186 24 c 0
+ 234 24 287 151 287 200 c 0x7580
+ 287 222 281 237 264 237 c 0
+ 240 237 214 208 200 174 c 2
+ 180 125 l 2
+ 169 97 161 77 161 56 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" p f
+EndChar
+
+StartChar: ff
+Encoding: 576 -1 577
+Width: 609
+Flags: W
+HStem: -152 22<-70.5 -44 -70.5 -22 172 196> 233 31<16 80 22 79 213 319 453 512> 421 23<259.5 281.5 512 541>
+VStem: -135 97<-79 -69.5> 108 90<-85 -74.5> 269 86<372.5 392.5> 516 94<358.5 374>
+LayerCount: 2
+Fore
+SplineSet
+-135 -85 m 0
+ -135 -54 -113 -30 -83 -30 c 0
+ -56 -30 -38 -45 -38 -71 c 0
+ -38 -87 -46 -100 -58 -108 c 0
+ -73 -118 -82 -113 -82 -121 c 0
+ -82 -126 -77 -130 -64 -130 c 0
+ -24 -130 -6 -98 22 0 c 2
+ 85 219 l 2
+ 86 224 87 227 87 229 c 0
+ 87 233 85 233 79 233 c 2
+ 21 233 l 2
+ 11 233 6 238 6 248 c 0
+ 6 259 11 264 22 264 c 2
+ 80 264 l 2
+ 94 264 95 264 100 279 c 0
+ 133 376 180 444 278 444 c 0
+ 335 444 355 415 355 389 c 0
+ 355 356 338 338 311 338 c 0
+ 287 338 269 350 269 379 c 0
+ 269 406 287 410 287 417 c 0
+ 287 420 284 421 279 421 c 0
+ 240 421 225 368 205 281 c 0
+ 204 275 203 272 203 269 c 0
+ 203 264 206 264 213 264 c 2
+ 320 264 l 2
+ 334 264 335 264 340 279 c 0
+ 373 375 427 444 524 444 c 0
+ 587 444 610 414 610 377 c 0
+ 610 340 587 323 561 323 c 0
+ 536 323 516 337 516 365 c 0
+ 516 383 524 397 537 403 c 0
+ 548 408 553 407 553 413 c 0
+ 553 419 545 421 537 421 c 0
+ 487 421 465 368 445 281 c 0
+ 444 275 443 272 443 269 c 0
+ 443 264 446 264 453 264 c 2
+ 513 264 l 2
+ 523 264 528 259 528 249 c 0
+ 528 238 523 233 512 233 c 2
+ 447 233 l 2
+ 443 233 433 224 433 219 c 0
+ 409 135 387 73 358 12 c 0
+ 303 -101 256 -152 180 -152 c 0
+ 138 -152 108 -129 108 -90 c 0
+ 108 -59 126 -38 157 -38 c 0
+ 181 -38 198 -53 198 -77 c 0
+ 198 -93 193 -104 181 -112 c 0
+ 170 -119 166 -121 166 -125 c 0
+ 166 -128 168 -130 176 -130 c 0
+ 216 -130 234 -98 262 0 c 2
+ 325 219 l 2
+ 326 224 327 227 327 229 c 0
+ 327 233 325 233 319 233 c 2
+ 207 233 l 2
+ 203 233 193 224 193 219 c 0
+ 169 135 147 73 118 12 c 0
+ 63 -101 16 -152 -60 -152 c 0
+ -102 -152 -135 -129 -135 -85 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" f f
+EndChar
+
+StartChar: fff
+Encoding: 577 -1 578
+Width: 831
+Flags: W
+HStem: -152 22<-90.5 -64 -90.5 -42 152 176 392 416> 233 31<-4 60 2 59 193 299 433 539 673 732> 421 23<239.5 261.5 479.5 501.5 732 761>
+VStem: -155 97<-79 -69.5> 88 90<-85 -74.5> 249 86<372.5 392.5> 328 90<-85 -74.5> 489 86<372.5 392.5> 736 94<358.5 374>
+LayerCount: 2
+Fore
+SplineSet
+-80 -152 m 0xfb80
+ -122 -152 -155 -129 -155 -85 c 0
+ -155 -54 -133 -30 -103 -30 c 0
+ -76 -30 -58 -45 -58 -71 c 0
+ -58 -87 -66 -100 -78 -108 c 0
+ -93 -118 -102 -113 -102 -121 c 0
+ -102 -126 -97 -130 -84 -130 c 0
+ -44 -130 -26 -98 2 0 c 2
+ 65 219 l 2
+ 66 224 67 227 67 229 c 0
+ 67 233 65 233 59 233 c 2
+ 1 233 l 2
+ -9 233 -14 238 -14 248 c 0
+ -14 259 -9 264 2 264 c 2
+ 60 264 l 2
+ 74 264 75 264 80 279 c 0
+ 113 376 160 444 258 444 c 0
+ 315 444 335 415 335 389 c 0
+ 335 356 318 338 291 338 c 0
+ 267 338 249 350 249 379 c 0
+ 249 406 267 410 267 417 c 0
+ 267 420 264 421 259 421 c 0
+ 220 421 205 368 185 281 c 0
+ 184 275 183 272 183 269 c 0
+ 183 264 186 264 193 264 c 2
+ 300 264 l 2
+ 314 264 315 264 320 279 c 0xfd80
+ 353 376 400 444 498 444 c 0
+ 555 444 575 415 575 389 c 0
+ 575 356 558 338 531 338 c 0
+ 507 338 489 350 489 379 c 0
+ 489 406 507 410 507 417 c 0
+ 507 420 504 421 499 421 c 0
+ 460 421 445 368 425 281 c 0
+ 424 275 423 272 423 269 c 0
+ 423 264 426 264 433 264 c 2
+ 540 264 l 2
+ 554 264 555 264 560 279 c 0
+ 593 375 647 444 744 444 c 0
+ 807 444 830 414 830 377 c 0
+ 830 340 807 323 781 323 c 0
+ 756 323 736 337 736 365 c 0
+ 736 383 744 397 757 403 c 0
+ 768 408 773 407 773 413 c 0
+ 773 419 765 421 757 421 c 0
+ 707 421 685 368 665 281 c 0
+ 664 275 663 272 663 269 c 0
+ 663 264 666 264 673 264 c 2
+ 733 264 l 2
+ 743 264 748 259 748 249 c 0
+ 748 238 743 233 732 233 c 2
+ 667 233 l 2
+ 663 233 653 224 653 219 c 0
+ 629 135 607 73 578 12 c 0
+ 523 -101 476 -152 400 -152 c 0
+ 358 -152 328 -129 328 -90 c 0
+ 328 -59 346 -38 377 -38 c 0
+ 401 -38 418 -53 418 -77 c 0
+ 418 -93 413 -104 401 -112 c 0
+ 390 -119 386 -121 386 -125 c 0
+ 386 -128 388 -130 396 -130 c 0
+ 436 -130 454 -98 482 0 c 2
+ 545 219 l 2
+ 546 224 547 227 547 229 c 0
+ 547 233 545 233 539 233 c 2
+ 427 233 l 2
+ 423 233 413 224 413 219 c 0
+ 389 135 367 73 338 12 c 0
+ 283 -101 236 -152 160 -152 c 0
+ 118 -152 88 -129 88 -90 c 0
+ 88 -59 106 -38 137 -38 c 0
+ 161 -38 178 -53 178 -77 c 0
+ 178 -93 173 -104 161 -112 c 0
+ 150 -119 146 -121 146 -125 c 0
+ 146 -128 148 -130 156 -130 c 0
+ 196 -130 214 -98 242 0 c 2
+ 305 219 l 2
+ 306 224 307 227 307 229 c 0
+ 307 233 305 233 299 233 c 2
+ 187 233 l 2
+ 183 233 173 224 173 219 c 0
+ 149 135 127 73 98 12 c 0
+ 43 -101 -4 -152 -80 -152 c 0xfb80
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" f f f
+EndChar
+
+StartChar: ffff
+Encoding: 578 -1 579
+Width: 1070
+Flags: W
+HStem: -152 22<-90.5 -64 -90.5 -42 152 176 392 416 632 656> 233 31<-4 60 2 59 193 299 433 539 673 779 913 972> 421 23<239.5 261.5 479.5 501.5 719.5 741.5 972 1001>
+VStem: -155 97<-79 -69.5> 88 90<-85 -74.5> 249 86<372.5 392.5> 328 90<-85 -74.5> 489 86<372.5 392.5> 568 90<-85 -74.5> 729 86<372.5 392.5> 976 94<358.5 374>
+LayerCount: 2
+Fore
+SplineSet
+-80 -152 m 0xfae0
+ -122 -152 -155 -129 -155 -85 c 0
+ -155 -54 -133 -30 -103 -30 c 0
+ -76 -30 -58 -45 -58 -71 c 0
+ -58 -87 -66 -100 -78 -108 c 0
+ -93 -118 -102 -113 -102 -121 c 0
+ -102 -126 -97 -130 -84 -130 c 0
+ -44 -130 -26 -98 2 0 c 2
+ 65 219 l 2
+ 66 224 67 227 67 229 c 0
+ 67 233 65 233 59 233 c 2
+ 1 233 l 2
+ -9 233 -14 238 -14 248 c 0
+ -14 259 -9 264 2 264 c 2
+ 60 264 l 2
+ 74 264 75 264 80 279 c 0
+ 113 376 160 444 258 444 c 0
+ 315 444 335 415 335 389 c 0
+ 335 356 318 338 291 338 c 0
+ 267 338 249 350 249 379 c 0
+ 249 406 267 410 267 417 c 0
+ 267 420 264 421 259 421 c 0
+ 220 421 205 368 185 281 c 0
+ 184 275 183 272 183 269 c 0
+ 183 264 186 264 193 264 c 2
+ 300 264 l 2
+ 314 264 315 264 320 279 c 0
+ 353 376 400 444 498 444 c 0
+ 555 444 575 415 575 389 c 0
+ 575 356 558 338 531 338 c 0
+ 507 338 489 350 489 379 c 0
+ 489 406 507 410 507 417 c 0
+ 507 420 504 421 499 421 c 0
+ 460 421 445 368 425 281 c 0
+ 424 275 423 272 423 269 c 0
+ 423 264 426 264 433 264 c 2
+ 540 264 l 2
+ 554 264 555 264 560 279 c 0xfd60
+ 593 376 640 444 738 444 c 0
+ 795 444 815 415 815 389 c 0
+ 815 356 798 338 771 338 c 0
+ 747 338 729 350 729 379 c 0
+ 729 406 747 410 747 417 c 0
+ 747 420 744 421 739 421 c 0
+ 700 421 685 368 665 281 c 0
+ 664 275 663 272 663 269 c 0
+ 663 264 666 264 673 264 c 2
+ 780 264 l 2
+ 794 264 795 264 800 279 c 0
+ 833 375 887 444 984 444 c 0
+ 1047 444 1070 414 1070 377 c 0
+ 1070 340 1047 323 1021 323 c 0
+ 996 323 976 337 976 365 c 0
+ 976 383 984 397 997 403 c 0
+ 1008 408 1013 407 1013 413 c 0
+ 1013 419 1005 421 997 421 c 0
+ 947 421 925 368 905 281 c 0
+ 904 275 903 272 903 269 c 0
+ 903 264 906 264 913 264 c 2
+ 973 264 l 2
+ 983 264 988 259 988 249 c 0
+ 988 238 983 233 972 233 c 2
+ 907 233 l 2
+ 903 233 893 224 893 219 c 0
+ 869 135 847 73 818 12 c 0
+ 763 -101 716 -152 640 -152 c 0
+ 598 -152 568 -129 568 -90 c 0
+ 568 -59 586 -38 617 -38 c 0
+ 641 -38 658 -53 658 -77 c 0
+ 658 -93 653 -104 641 -112 c 0
+ 630 -119 626 -121 626 -125 c 0
+ 626 -128 628 -130 636 -130 c 0
+ 676 -130 694 -98 722 0 c 2
+ 785 219 l 2
+ 786 224 787 227 787 229 c 0
+ 787 233 785 233 779 233 c 2
+ 667 233 l 2
+ 663 233 653 224 653 219 c 0
+ 629 135 607 73 578 12 c 0
+ 523 -101 476 -152 400 -152 c 0
+ 358 -152 328 -129 328 -90 c 0
+ 328 -59 346 -38 377 -38 c 0
+ 401 -38 418 -53 418 -77 c 0
+ 418 -93 413 -104 401 -112 c 0
+ 390 -119 386 -121 386 -125 c 0
+ 386 -128 388 -130 396 -130 c 0
+ 436 -130 454 -98 482 0 c 2
+ 545 219 l 2
+ 546 224 547 227 547 229 c 0
+ 547 233 545 233 539 233 c 2
+ 427 233 l 2
+ 423 233 413 224 413 219 c 0
+ 389 135 367 73 338 12 c 0
+ 283 -101 236 -152 160 -152 c 0
+ 118 -152 88 -129 88 -90 c 0
+ 88 -59 106 -38 137 -38 c 0
+ 161 -38 178 -53 178 -77 c 0
+ 178 -93 173 -104 161 -112 c 0
+ 150 -119 146 -121 146 -125 c 0
+ 146 -128 148 -130 156 -130 c 0
+ 196 -130 214 -98 242 0 c 2
+ 305 219 l 2
+ 306 224 307 227 307 229 c 0
+ 307 233 305 233 299 233 c 2
+ 187 233 l 2
+ 183 233 173 224 173 219 c 0
+ 149 135 127 73 98 12 c 0
+ 43 -101 -4 -152 -80 -152 c 0xfae0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" f f f f
+EndChar
+
+StartChar: fffff
+Encoding: 579 -1 580
+Width: 1310
+Flags: W
+HStem: -152 22<-90.5 -64 -90.5 -42 152 176 392 416 632 656 872 896> 233 31<-4 60 2 59 193 299 433 539 673 779 913 1019 1153 1212> 421 23<239.5 261.5 479.5 501.5 719.5 741.5 959.5 981.5 1212 1241>
+VStem: -155 97<-79 -69.5> 88 90<-85 -74.5> 249 86<372.5 392.5> 328 90<-85 -74.5> 489 86<372.5 392.5> 568 90<-85 -74.5> 729 86<372.5 392.5> 808 90<-85 -74.5> 969 86<372.5 392.5> 1216 94<358.5 374>
+LayerCount: 2
+Fore
+SplineSet
+-80 -152 m 0xfab8
+ -122 -152 -155 -129 -155 -85 c 0
+ -155 -54 -133 -30 -103 -30 c 0
+ -76 -30 -58 -45 -58 -71 c 0
+ -58 -87 -66 -100 -78 -108 c 0
+ -93 -118 -102 -113 -102 -121 c 0
+ -102 -126 -97 -130 -84 -130 c 0
+ -44 -130 -26 -98 2 0 c 2
+ 65 219 l 2
+ 66 224 67 227 67 229 c 0
+ 67 233 65 233 59 233 c 2
+ 1 233 l 2
+ -9 233 -14 238 -14 248 c 0
+ -14 259 -9 264 2 264 c 2
+ 60 264 l 2
+ 74 264 75 264 80 279 c 0
+ 113 376 160 444 258 444 c 0
+ 315 444 335 415 335 389 c 0
+ 335 356 318 338 291 338 c 0
+ 267 338 249 350 249 379 c 0
+ 249 406 267 410 267 417 c 0
+ 267 420 264 421 259 421 c 0
+ 220 421 205 368 185 281 c 0
+ 184 275 183 272 183 269 c 0
+ 183 264 186 264 193 264 c 2
+ 300 264 l 2
+ 314 264 315 264 320 279 c 0
+ 353 376 400 444 498 444 c 0
+ 555 444 575 415 575 389 c 0
+ 575 356 558 338 531 338 c 0
+ 507 338 489 350 489 379 c 0
+ 489 406 507 410 507 417 c 0
+ 507 420 504 421 499 421 c 0
+ 460 421 445 368 425 281 c 0
+ 424 275 423 272 423 269 c 0
+ 423 264 426 264 433 264 c 2
+ 540 264 l 2
+ 554 264 555 264 560 279 c 0
+ 593 376 640 444 738 444 c 0
+ 795 444 815 415 815 389 c 0
+ 815 356 798 338 771 338 c 0
+ 747 338 729 350 729 379 c 0
+ 729 406 747 410 747 417 c 0
+ 747 420 744 421 739 421 c 0
+ 700 421 685 368 665 281 c 0
+ 664 275 663 272 663 269 c 0
+ 663 264 666 264 673 264 c 2
+ 780 264 l 2
+ 794 264 795 264 800 279 c 0xfd58
+ 833 376 880 444 978 444 c 0
+ 1035 444 1055 415 1055 389 c 0
+ 1055 356 1038 338 1011 338 c 0
+ 987 338 969 350 969 379 c 0
+ 969 406 987 410 987 417 c 0
+ 987 420 984 421 979 421 c 0
+ 940 421 925 368 905 281 c 0
+ 904 275 903 272 903 269 c 0
+ 903 264 906 264 913 264 c 2
+ 1020 264 l 2
+ 1034 264 1035 264 1040 279 c 0
+ 1073 375 1127 444 1224 444 c 0
+ 1287 444 1310 414 1310 377 c 0
+ 1310 340 1287 323 1261 323 c 0
+ 1236 323 1216 337 1216 365 c 0
+ 1216 383 1224 397 1237 403 c 0
+ 1248 408 1253 407 1253 413 c 0
+ 1253 419 1245 421 1237 421 c 0
+ 1187 421 1165 368 1145 281 c 0
+ 1144 275 1143 272 1143 269 c 0
+ 1143 264 1146 264 1153 264 c 2
+ 1213 264 l 2
+ 1223 264 1228 259 1228 249 c 0
+ 1228 238 1223 233 1212 233 c 2
+ 1147 233 l 2
+ 1143 233 1133 224 1133 219 c 0
+ 1109 135 1087 73 1058 12 c 0
+ 1003 -101 956 -152 880 -152 c 0
+ 838 -152 808 -129 808 -90 c 0
+ 808 -59 826 -38 857 -38 c 0
+ 881 -38 898 -53 898 -77 c 0
+ 898 -93 893 -104 881 -112 c 0
+ 870 -119 866 -121 866 -125 c 0
+ 866 -128 868 -130 876 -130 c 0
+ 916 -130 934 -98 962 0 c 2
+ 1025 219 l 2
+ 1026 224 1027 227 1027 229 c 0
+ 1027 233 1025 233 1019 233 c 2
+ 907 233 l 2
+ 903 233 893 224 893 219 c 0
+ 869 135 847 73 818 12 c 0
+ 763 -101 716 -152 640 -152 c 0
+ 598 -152 568 -129 568 -90 c 0
+ 568 -59 586 -38 617 -38 c 0
+ 641 -38 658 -53 658 -77 c 0
+ 658 -93 653 -104 641 -112 c 0
+ 630 -119 626 -121 626 -125 c 0
+ 626 -128 628 -130 636 -130 c 0
+ 676 -130 694 -98 722 0 c 2
+ 785 219 l 2
+ 786 224 787 227 787 229 c 0
+ 787 233 785 233 779 233 c 2
+ 667 233 l 2
+ 663 233 653 224 653 219 c 0
+ 629 135 607 73 578 12 c 0
+ 523 -101 476 -152 400 -152 c 0
+ 358 -152 328 -129 328 -90 c 0
+ 328 -59 346 -38 377 -38 c 0
+ 401 -38 418 -53 418 -77 c 0
+ 418 -93 413 -104 401 -112 c 0
+ 390 -119 386 -121 386 -125 c 0
+ 386 -128 388 -130 396 -130 c 0
+ 436 -130 454 -98 482 0 c 2
+ 545 219 l 2
+ 546 224 547 227 547 229 c 0
+ 547 233 545 233 539 233 c 2
+ 427 233 l 2
+ 423 233 413 224 413 219 c 0
+ 389 135 367 73 338 12 c 0
+ 283 -101 236 -152 160 -152 c 0
+ 118 -152 88 -129 88 -90 c 0
+ 88 -59 106 -38 137 -38 c 0
+ 161 -38 178 -53 178 -77 c 0
+ 178 -93 173 -104 161 -112 c 0
+ 150 -119 146 -121 146 -125 c 0
+ 146 -128 148 -130 156 -130 c 0
+ 196 -130 214 -98 242 0 c 2
+ 305 219 l 2
+ 306 224 307 227 307 229 c 0
+ 307 233 305 233 299 233 c 2
+ 187 233 l 2
+ 183 233 173 224 173 219 c 0
+ 149 135 127 73 98 12 c 0
+ 43 -101 -4 -152 -80 -152 c 0xfab8
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" f f f f f
+EndChar
+
+StartChar: ffffff
+Encoding: 580 -1 581
+Width: 1550
+Flags: W
+HStem: -152 22<-90.5 -64 -90.5 -42 152 176 392 416 632 656 872 896 1112 1136> 233 31<-4 60 2 59 193 299 433 539 673 779 913 1019 1153 1259 1393 1452> 421 23<239.5 261.5 479.5 501.5 719.5 741.5 959.5 981.5 1199.5 1221.5 1452 1481>
+VStem: -155 97<-79 -69.5> 88 90<-85 -74.5> 249 86<372.5 392.5> 328 90<-85 -74.5> 489 86<372.5 392.5> 568 90<-85 -74.5> 729 86<372.5 392.5> 808 90<-85 -74.5> 969 86<372.5 392.5> 1048 90<-85 -74.5> 1209 86<372.5 392.5> 1456 94<358.5 374>
+LayerCount: 2
+Fore
+SplineSet
+-80 -152 m 0xfaae
+ -122 -152 -155 -129 -155 -85 c 0
+ -155 -54 -133 -30 -103 -30 c 0
+ -76 -30 -58 -45 -58 -71 c 0
+ -58 -87 -66 -100 -78 -108 c 0
+ -93 -118 -102 -113 -102 -121 c 0
+ -102 -126 -97 -130 -84 -130 c 0
+ -44 -130 -26 -98 2 0 c 2
+ 65 219 l 2
+ 66 224 67 227 67 229 c 0
+ 67 233 65 233 59 233 c 2
+ 1 233 l 2
+ -9 233 -14 238 -14 248 c 0
+ -14 259 -9 264 2 264 c 2
+ 60 264 l 2
+ 74 264 75 264 80 279 c 0
+ 113 376 160 444 258 444 c 0
+ 315 444 335 415 335 389 c 0
+ 335 356 318 338 291 338 c 0
+ 267 338 249 350 249 379 c 0
+ 249 406 267 410 267 417 c 0
+ 267 420 264 421 259 421 c 0
+ 220 421 205 368 185 281 c 0
+ 184 275 183 272 183 269 c 0
+ 183 264 186 264 193 264 c 2
+ 300 264 l 2
+ 314 264 315 264 320 279 c 0
+ 353 376 400 444 498 444 c 0
+ 555 444 575 415 575 389 c 0
+ 575 356 558 338 531 338 c 0
+ 507 338 489 350 489 379 c 0
+ 489 406 507 410 507 417 c 0
+ 507 420 504 421 499 421 c 0
+ 460 421 445 368 425 281 c 0
+ 424 275 423 272 423 269 c 0
+ 423 264 426 264 433 264 c 2
+ 540 264 l 2
+ 554 264 555 264 560 279 c 0
+ 593 376 640 444 738 444 c 0
+ 795 444 815 415 815 389 c 0
+ 815 356 798 338 771 338 c 0
+ 747 338 729 350 729 379 c 0
+ 729 406 747 410 747 417 c 0
+ 747 420 744 421 739 421 c 0
+ 700 421 685 368 665 281 c 0
+ 664 275 663 272 663 269 c 0
+ 663 264 666 264 673 264 c 2
+ 780 264 l 2
+ 794 264 795 264 800 279 c 0
+ 833 376 880 444 978 444 c 0
+ 1035 444 1055 415 1055 389 c 0
+ 1055 356 1038 338 1011 338 c 0
+ 987 338 969 350 969 379 c 0
+ 969 406 987 410 987 417 c 0
+ 987 420 984 421 979 421 c 0
+ 940 421 925 368 905 281 c 0
+ 904 275 903 272 903 269 c 0
+ 903 264 906 264 913 264 c 2
+ 1020 264 l 2
+ 1034 264 1035 264 1040 279 c 0xfd56
+ 1073 376 1120 444 1218 444 c 0
+ 1275 444 1295 415 1295 389 c 0
+ 1295 356 1278 338 1251 338 c 0
+ 1227 338 1209 350 1209 379 c 0
+ 1209 406 1227 410 1227 417 c 0
+ 1227 420 1224 421 1219 421 c 0
+ 1180 421 1165 368 1145 281 c 0
+ 1144 275 1143 272 1143 269 c 0
+ 1143 264 1146 264 1153 264 c 2
+ 1260 264 l 2
+ 1274 264 1275 264 1280 279 c 0
+ 1313 375 1367 444 1464 444 c 0
+ 1527 444 1550 414 1550 377 c 0
+ 1550 340 1527 323 1501 323 c 0
+ 1476 323 1456 337 1456 365 c 0
+ 1456 383 1464 397 1477 403 c 0
+ 1488 408 1493 407 1493 413 c 0
+ 1493 419 1485 421 1477 421 c 0
+ 1427 421 1405 368 1385 281 c 0
+ 1384 275 1383 272 1383 269 c 0
+ 1383 264 1386 264 1393 264 c 2
+ 1453 264 l 2
+ 1463 264 1468 259 1468 249 c 0
+ 1468 238 1463 233 1452 233 c 2
+ 1387 233 l 2
+ 1383 233 1373 224 1373 219 c 0
+ 1349 135 1327 73 1298 12 c 0
+ 1243 -101 1196 -152 1120 -152 c 0
+ 1078 -152 1048 -129 1048 -90 c 0
+ 1048 -59 1066 -38 1097 -38 c 0
+ 1121 -38 1138 -53 1138 -77 c 0
+ 1138 -93 1133 -104 1121 -112 c 0
+ 1110 -119 1106 -121 1106 -125 c 0
+ 1106 -128 1108 -130 1116 -130 c 0
+ 1156 -130 1174 -98 1202 0 c 2
+ 1265 219 l 2
+ 1266 224 1267 227 1267 229 c 0
+ 1267 233 1265 233 1259 233 c 2
+ 1147 233 l 2
+ 1143 233 1133 224 1133 219 c 0
+ 1109 135 1087 73 1058 12 c 0
+ 1003 -101 956 -152 880 -152 c 0
+ 838 -152 808 -129 808 -90 c 0
+ 808 -59 826 -38 857 -38 c 0
+ 881 -38 898 -53 898 -77 c 0
+ 898 -93 893 -104 881 -112 c 0
+ 870 -119 866 -121 866 -125 c 0
+ 866 -128 868 -130 876 -130 c 0
+ 916 -130 934 -98 962 0 c 2
+ 1025 219 l 2
+ 1026 224 1027 227 1027 229 c 0
+ 1027 233 1025 233 1019 233 c 2
+ 907 233 l 2
+ 903 233 893 224 893 219 c 0
+ 869 135 847 73 818 12 c 0
+ 763 -101 716 -152 640 -152 c 0
+ 598 -152 568 -129 568 -90 c 0
+ 568 -59 586 -38 617 -38 c 0
+ 641 -38 658 -53 658 -77 c 0
+ 658 -93 653 -104 641 -112 c 0
+ 630 -119 626 -121 626 -125 c 0
+ 626 -128 628 -130 636 -130 c 0
+ 676 -130 694 -98 722 0 c 2
+ 785 219 l 2
+ 786 224 787 227 787 229 c 0
+ 787 233 785 233 779 233 c 2
+ 667 233 l 2
+ 663 233 653 224 653 219 c 0
+ 629 135 607 73 578 12 c 0
+ 523 -101 476 -152 400 -152 c 0
+ 358 -152 328 -129 328 -90 c 0
+ 328 -59 346 -38 377 -38 c 0
+ 401 -38 418 -53 418 -77 c 0
+ 418 -93 413 -104 401 -112 c 0
+ 390 -119 386 -121 386 -125 c 0
+ 386 -128 388 -130 396 -130 c 0
+ 436 -130 454 -98 482 0 c 2
+ 545 219 l 2
+ 546 224 547 227 547 229 c 0
+ 547 233 545 233 539 233 c 2
+ 427 233 l 2
+ 423 233 413 224 413 219 c 0
+ 389 135 367 73 338 12 c 0
+ 283 -101 236 -152 160 -152 c 0
+ 118 -152 88 -129 88 -90 c 0
+ 88 -59 106 -38 137 -38 c 0
+ 161 -38 178 -53 178 -77 c 0
+ 178 -93 173 -104 161 -112 c 0
+ 150 -119 146 -121 146 -125 c 0
+ 146 -128 148 -130 156 -130 c 0
+ 196 -130 214 -98 242 0 c 2
+ 305 219 l 2
+ 306 224 307 227 307 229 c 0
+ 307 233 305 233 299 233 c 2
+ 187 233 l 2
+ 183 233 173 224 173 219 c 0
+ 149 135 127 73 98 12 c 0
+ 43 -101 -4 -152 -80 -152 c 0xfaae
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" f f f f f f
+EndChar
+
+StartChar: fp
+Encoding: 581 -1 582
+Width: 619
+Flags: W
+HStem: -134 26 1 33 238 39 243 37
+VStem: 164 477 552 89
+LayerCount: 2
+Fore
+SplineSet
+164 -130 m 0xd8
+ 164 -121 168 -117 177 -117 c 2
+ 208 -117 l 2
+ 218 -117 220 -115 223 -107 c 2
+ 346 198 l 2
+ 349 205 352 215 352 223 c 0
+ 352 230 349 235 341 235 c 0
+ 323 235 303 209 274 159 c 0
+ 269 150 265 144 258 144 c 0
+ 252 144 247 148 247 155 c 0
+ 247 160 249 165 254 174 c 0
+ 285 231 317 273 376 273 c 0
+ 402 273 417 264 424 252 c 0
+ 433 235 430 228 435 228 c 0
+ 439 228 442 236 456 248 c 0
+ 474 264 496 274 527 274 c 0
+ 583 274 619 243 619 185 c 0
+ 619 90 541 -10 445 -10 c 0
+ 428 -10 415 -8 401 -1 c 0
+ 385 7 382 17 377 17 c 0
+ 372 17 370 10 368 5 c 2
+ 323 -107 l 2
+ 322 -110 321 -113 321 -114 c 0
+ 321 -117 324 -117 330 -117 c 2
+ 370 -117 l 2
+ 378 -117 382 -121 382 -129 c 0
+ 382 -138 378 -142 369 -142 c 2
+ 176 -142 l 2
+ 168 -142 164 -138 164 -130 c 0xd8
+-141 -85 m 0
+ -141 -54 -119 -30 -89 -30 c 0
+ -62 -30 -44 -45 -44 -71 c 0
+ -44 -87 -52 -100 -64 -108 c 0
+ -79 -118 -88 -113 -88 -121 c 0
+ -88 -126 -83 -130 -70 -130 c 0
+ -30 -130 -12 -98 16 0 c 2
+ 79 219 l 2
+ 80 224 81 227 81 229 c 0
+ 81 233 79 233 73 233 c 2
+ 15 233 l 2
+ 5 233 0 238 0 248 c 0
+ 0 259 5 264 16 264 c 2
+ 74 264 l 2
+ 88 264 89 264 94 279 c 0
+ 127 375 181 444 278 444 c 0
+ 341 444 364 414 364 377 c 0
+ 364 340 341 323 315 323 c 0
+ 290 323 270 337 270 365 c 0
+ 270 383 278 397 291 403 c 0
+ 302 408 307 407 307 413 c 0
+ 307 419 299 421 291 421 c 0
+ 241 421 219 368 199 281 c 0
+ 198 275 197 272 197 269 c 0
+ 197 264 200 264 207 264 c 2
+ 267 264 l 2
+ 277 264 282 259 282 249 c 0xe4
+ 282 238 277 233 266 233 c 2
+ 201 233 l 2
+ 197 233 187 224 187 219 c 0
+ 163 135 141 73 112 12 c 0
+ 57 -101 10 -152 -66 -152 c 0
+ -108 -152 -141 -129 -141 -85 c 0
+397 56 m 0
+ 397 35 405 24 422 24 c 0
+ 470 24 523 151 523 200 c 0
+ 523 222 517 237 500 237 c 0
+ 476 237 450 208 436 174 c 2
+ 416 125 l 2
+ 405 97 397 77 397 56 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" f p
+EndChar
+
+StartChar: fz
+Encoding: 582 -1 583
+Width: 497
+Flags: W
+HStem: -152 22<-76.5 -50 -76.5 -28> -10 41<397 405> -1 21G<232 240.5> 21 45<276 353.5> 50 65<414 422> 203 54<355.5 426> 233 31<10 74 16 73 207 266> 421 23<266 295>
+VStem: -141 97<-79 -69.5> 270 94<358.5 374> 390 69<70.5 86.5 50.5 90.5>
+LayerCount: 2
+Fore
+SplineSet
+-141 -85 m 0xa3a0
+ -141 -54 -119 -30 -89 -30 c 0
+ -62 -30 -44 -45 -44 -71 c 0
+ -44 -87 -52 -100 -64 -108 c 0
+ -79 -118 -88 -113 -88 -121 c 0
+ -88 -126 -83 -130 -70 -130 c 0
+ -30 -130 -12 -98 16 0 c 2
+ 79 219 l 2
+ 80 224 81 227 81 229 c 0
+ 81 233 79 233 73 233 c 2
+ 15 233 l 2
+ 5 233 0 238 0 248 c 0
+ 0 259 5 264 16 264 c 2
+ 74 264 l 2
+ 88 264 89 264 94 279 c 0
+ 127 375 181 444 278 444 c 0
+ 341 444 364 414 364 377 c 0
+ 364 340 341 323 315 323 c 0
+ 290 323 270 337 270 365 c 0
+ 270 383 278 397 291 403 c 0
+ 302 408 307 407 307 413 c 0
+ 307 419 299 421 291 421 c 0xa3e0
+ 241 421 219 368 199 281 c 0
+ 198 275 197 272 197 269 c 0
+ 197 264 200 264 207 264 c 2
+ 267 264 l 2
+ 277 264 282 259 282 249 c 0
+ 282 238 277 233 266 233 c 2
+ 201 233 l 2
+ 197 233 187 224 187 219 c 0
+ 163 135 141 73 112 12 c 0
+ 57 -101 10 -152 -66 -152 c 0
+ -108 -152 -141 -129 -141 -85 c 0xa3a0
+236 -1 m 0
+ 228 -1 223 4 223 11 c 0
+ 223 19 227 23 235 31 c 2xa3a0
+ 389 187 l 2
+ 390 188 412 210 408 210 c 0
+ 402 210 388 203 370 203 c 0
+ 341 203 324 206 320 206 c 0
+ 314 206 312 200 309 194 c 2
+ 299 173 l 2
+ 295 164 291 158 284 158 c 0
+ 278 158 273 161 273 168 c 0
+ 273 172 274 177 276 183 c 2
+ 300 253 l 2
+ 303 262 308 266 318 266 c 0
+ 330 266 359 257 419 257 c 0
+ 433 257 449 259 460 262 c 0
+ 471 265 476 268 484 268 c 0
+ 491 268 497 264 497 257 c 0
+ 497 249 492 243 484 235 c 2
+ 324 77 l 2
+ 319 72 312 60 312 60 c 1
+ 315 60 321 66 334 66 c 0x95a0
+ 373 66 382 31 412 31 c 0xc3a0
+ 421 31 428 35 432 42 c 0
+ 434 46 436 50 436 52 c 0
+ 436 54 435 55 433 55 c 0
+ 430 55 427 50 417 50 c 0
+ 403 50 390 61 390 80 c 0
+ 390 101 405 115 423 115 c 0xaba0
+ 441 115 459 102 459 71 c 0
+ 459 30 433 -10 377 -10 c 0xc3a0
+ 328 -10 308 21 280 21 c 0x93a0
+ 272 21 264 17 256 11 c 0
+ 251 7 245 -1 236 -1 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" f z
+EndChar
+
+StartChar: sf
+Encoding: 583 -1 584
+Width: 604
+Flags: W
+HStem: 0 31 250 35
+VStem: 0 68 37 49 142 59
+LayerCount: 2
+Fore
+SplineSet
+99 -85 m 0xd8
+ 99 -54 121 -30 151 -30 c 0
+ 178 -30 196 -45 196 -71 c 0
+ 196 -87 188 -100 176 -108 c 0
+ 161 -118 152 -113 152 -121 c 0
+ 152 -126 157 -130 170 -130 c 0
+ 210 -130 228 -98 256 0 c 2
+ 319 219 l 2
+ 320 224 321 227 321 229 c 0
+ 321 233 319 233 313 233 c 2
+ 255 233 l 2
+ 245 233 240 238 240 248 c 0
+ 240 259 245 264 256 264 c 2
+ 314 264 l 2
+ 328 264 329 264 334 279 c 0
+ 367 375 421 444 518 444 c 0
+ 581 444 604 414 604 377 c 0
+ 604 340 581 323 555 323 c 0
+ 530 323 510 337 510 365 c 0
+ 510 383 518 397 531 403 c 0
+ 542 408 547 407 547 413 c 0
+ 547 419 539 421 531 421 c 0
+ 481 421 459 368 439 281 c 0
+ 438 275 437 272 437 269 c 0
+ 437 264 440 264 447 264 c 2
+ 507 264 l 2
+ 517 264 522 259 522 249 c 0
+ 522 238 517 233 506 233 c 2
+ 441 233 l 2
+ 437 233 427 224 427 219 c 0
+ 403 135 381 73 352 12 c 0
+ 297 -101 250 -152 174 -152 c 0
+ 132 -152 99 -129 99 -85 c 0xd8
+87 -10 m 0
+ 34 -10 0 21 0 54 c 0xe8
+ 0 81 17 101 41 101 c 0
+ 60 101 77 88 77 68 c 0
+ 77 55 72 45 63 39 c 0
+ 52 32 46 34 46 29 c 0
+ 46 22 63 14 88 14 c 0
+ 120 14 139 37 139 59 c 0
+ 139 79 130 92 101 112 c 0
+ 66 136 47 155 47 190 c 0
+ 47 243 88 273 147 273 c 0
+ 198 273 229 250 229 213 c 0
+ 229 194 216 175 192 175 c 0
+ 172 175 157 187 157 207 c 0
+ 157 218 161 226 167 231 c 0
+ 174 236 179 236 179 240 c 0
+ 179 247 165 251 148 251 c 0
+ 117 251 105 234 105 218 c 0
+ 105 199 117 188 153 161 c 0
+ 192 132 202 111 202 83 c 0
+ 202 25 152 -10 87 -10 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" s f
+EndChar
+
+StartChar: sfp
+Encoding: 584 -1 585
+Width: 846
+Flags: W
+HStem: -134 26 0 31 1 33 238 39 243 37 250 35
+VStem: 0 68 37 49 142 59 390 477 778 89
+LayerCount: 2
+Fore
+SplineSet
+390 -130 m 0xc9c0
+ 390 -121 394 -117 403 -117 c 2
+ 434 -117 l 2
+ 444 -117 446 -115 449 -107 c 2
+ 572 198 l 2
+ 575 205 578 215 578 223 c 0
+ 578 230 575 235 567 235 c 0
+ 549 235 529 209 500 159 c 0
+ 495 150 491 144 484 144 c 0
+ 478 144 473 148 473 155 c 0
+ 473 160 475 165 480 174 c 0
+ 511 231 543 273 602 273 c 0
+ 628 273 643 264 650 252 c 0
+ 659 235 656 228 661 228 c 0
+ 665 228 668 236 682 248 c 0
+ 700 264 722 274 753 274 c 0
+ 809 274 845 243 845 185 c 0
+ 845 90 767 -10 671 -10 c 0
+ 654 -10 641 -8 627 -1 c 0
+ 611 7 608 17 603 17 c 0
+ 598 17 596 10 594 5 c 2
+ 549 -107 l 2
+ 548 -110 547 -113 547 -114 c 0
+ 547 -117 550 -117 556 -117 c 2
+ 596 -117 l 2
+ 604 -117 608 -121 608 -129 c 0
+ 608 -138 604 -142 595 -142 c 2
+ 402 -142 l 2
+ 394 -142 390 -138 390 -130 c 0xc9c0
+89 -85 m 0
+ 89 -54 111 -30 141 -30 c 0
+ 168 -30 186 -45 186 -71 c 0
+ 186 -87 178 -100 166 -108 c 0
+ 151 -118 142 -113 142 -121 c 0
+ 142 -126 147 -130 160 -130 c 0
+ 200 -130 218 -98 246 0 c 2
+ 309 219 l 2
+ 310 224 311 227 311 229 c 0
+ 311 233 309 233 303 233 c 2
+ 245 233 l 2
+ 235 233 230 238 230 248 c 0
+ 230 259 235 264 246 264 c 2
+ 304 264 l 2
+ 318 264 319 264 324 279 c 0
+ 357 375 411 444 508 444 c 0
+ 571 444 594 414 594 377 c 0
+ 594 340 571 323 545 323 c 0
+ 520 323 500 337 500 365 c 0
+ 500 383 508 397 521 403 c 0
+ 532 408 537 407 537 413 c 0
+ 537 419 529 421 521 421 c 0
+ 471 421 449 368 429 281 c 0
+ 428 275 427 272 427 269 c 0
+ 427 264 430 264 437 264 c 2
+ 497 264 l 2
+ 507 264 512 259 512 249 c 0xd1a0
+ 512 238 507 233 496 233 c 2
+ 431 233 l 2
+ 427 233 417 224 417 219 c 0
+ 393 135 371 73 342 12 c 0
+ 287 -101 240 -152 164 -152 c 0
+ 122 -152 89 -129 89 -85 c 0
+0 54 m 0xc6a0
+ 0 81 17 101 41 101 c 0
+ 60 101 77 88 77 68 c 0
+ 77 55 72 45 63 39 c 0
+ 52 32 46 34 46 29 c 0
+ 46 22 63 14 88 14 c 0
+ 120 14 139 37 139 59 c 0
+ 139 79 130 92 101 112 c 0
+ 66 136 47 155 47 190 c 0xa9a0
+ 47 243 88 273 147 273 c 0
+ 198 273 229 250 229 213 c 0
+ 229 194 216 175 192 175 c 0
+ 172 175 157 187 157 207 c 0
+ 157 218 161 226 167 231 c 0
+ 174 236 179 236 179 240 c 0
+ 179 247 165 251 148 251 c 0
+ 117 251 105 234 105 218 c 0
+ 105 199 117 188 153 161 c 0
+ 192 132 202 111 202 83 c 0
+ 202 25 152 -10 87 -10 c 0
+ 34 -10 0 21 0 54 c 0xc6a0
+623 56 m 0
+ 623 35 631 24 648 24 c 0
+ 696 24 749 151 749 200 c 0
+ 749 222 743 237 726 237 c 0
+ 702 237 676 208 662 174 c 2
+ 642 125 l 2
+ 631 97 623 77 623 56 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" s f p
+EndChar
+
+StartChar: sfpp
+Encoding: 585 -1 586
+Width: 1198
+Flags: W
+HStem: -152 22<164.5 191 164.5 213> -142 25<397 433 402 433 433 438 555 594 757 788 788 793 910 949> -10 24<75.5 104 75.5 119.5> -10 34<661.5 671 638.5 718 1016.5 1026> 233 31<251 315 257 314 448 491> 237 37<713 780> 251 22<132.5 156.5> 421 23<507 536>
+VStem: 0 77<61.5 67.5> 47 58<208.5 216.5> 100 97<-79 -69.5> 139 63<54 69> 157 72<203.5 212.5> 511 94<358.5 374> 748 96<175.5 211> 852 27<199 199 199 199.5> 1103 96<175.5 211>
+LayerCount: 2
+Fore
+SplineSet
+401 -142 m 2x655780
+ 393 -142 389 -138 389 -130 c 0xa95780
+ 389 -121 393 -117 402 -117 c 2
+ 433 -117 l 2
+ 443 -117 445 -115 448 -107 c 2
+ 571 198 l 2
+ 574 205 577 215 577 223 c 0
+ 577 230 574 235 566 235 c 0
+ 548 235 528 209 499 159 c 0
+ 494 150 490 144 483 144 c 0
+ 477 144 472 148 472 155 c 0
+ 472 160 474 165 479 174 c 0
+ 510 231 542 273 601 273 c 0x635780
+ 627 273 642 264 649 252 c 0
+ 658 235 655 228 660 228 c 0
+ 664 228 667 236 681 248 c 0x695780
+ 699 264 721 274 752 274 c 0
+ 808 274 844 243 844 185 c 0
+ 844 90 766 -10 670 -10 c 0
+ 653 -10 640 -8 626 -1 c 0
+ 610 7 607 17 602 17 c 0
+ 597 17 595 10 593 5 c 2
+ 548 -107 l 2
+ 547 -110 546 -113 546 -114 c 0
+ 546 -117 549 -117 555 -117 c 2
+ 595 -117 l 2
+ 603 -117 607 -121 607 -129 c 0
+ 607 -138 603 -142 594 -142 c 2
+ 401 -142 l 2x655780
+744 -130 m 0xa95780
+ 744 -121 748 -117 757 -117 c 2
+ 788 -117 l 2
+ 798 -117 800 -115 803 -107 c 2
+ 926 198 l 2
+ 929 205 932 215 932 223 c 0
+ 932 230 929 235 921 235 c 0
+ 906 235 893 218 883 205 c 0
+ 880 200 879 199 879 199 c 2
+ 874 192 870 187 863 187 c 0
+ 857 187 852 190 852 197 c 0
+ 852 202 854 207 860 216 c 0
+ 882 247 908 273 956 273 c 0x635780
+ 982 273 997 264 1004 252 c 0
+ 1013 235 1010 228 1015 228 c 0
+ 1019 228 1022 236 1036 248 c 0x695780
+ 1054 264 1076 274 1107 274 c 0
+ 1163 274 1199 243 1199 185 c 0
+ 1199 90 1121 -10 1025 -10 c 0
+ 1008 -10 995 -8 981 -1 c 0
+ 965 7 962 17 957 17 c 0
+ 952 17 950 10 948 5 c 2
+ 903 -107 l 2
+ 902 -110 901 -113 901 -114 c 0
+ 901 -117 904 -117 910 -117 c 2
+ 950 -117 l 2
+ 958 -117 962 -121 962 -129 c 0
+ 962 -138 958 -142 949 -142 c 2
+ 756 -142 l 2x655780
+ 748 -142 744 -138 744 -130 c 0xa95780
+100 -85 m 0
+ 100 -54 122 -30 152 -30 c 0
+ 179 -30 197 -45 197 -71 c 0x69a780
+ 197 -87 189 -100 177 -108 c 0
+ 162 -118 153 -113 153 -121 c 0
+ 153 -126 158 -130 171 -130 c 0xa94f80
+ 211 -130 229 -98 257 0 c 2
+ 320 219 l 2
+ 321 224 322 227 322 229 c 0
+ 322 233 320 233 314 233 c 2
+ 256 233 l 2
+ 246 233 241 238 241 248 c 0
+ 241 259 246 264 257 264 c 2
+ 315 264 l 2
+ 329 264 330 264 335 279 c 0
+ 368 375 422 444 521 444 c 0
+ 582 444 605 414 605 377 c 0
+ 605 340 582 323 556 323 c 0
+ 531 323 511 337 511 365 c 0
+ 511 383 519 397 532 403 c 0
+ 543 408 548 407 548 413 c 0
+ 548 419 540 421 532 421 c 0
+ 482 421 460 368 440 281 c 0
+ 439 275 438 272 438 269 c 0
+ 438 264 441 264 448 264 c 2
+ 492 264 l 2
+ 502 264 507 259 507 249 c 0
+ 507 238 502 233 491 233 c 2
+ 442 233 l 2
+ 438 233 428 224 428 219 c 0
+ 404 135 382 73 353 12 c 0
+ 298 -101 251 -152 175 -152 c 0
+ 133 -152 100 -129 100 -85 c 0
+87 -10 m 0
+ 34 -10 0 21 0 54 c 0
+ 0 81 17 101 41 101 c 0
+ 60 101 77 88 77 68 c 0
+ 77 55 72 45 63 39 c 0
+ 52 32 46 34 46 29 c 0
+ 46 22 63 14 88 14 c 0
+ 120 14 139 37 139 59 c 0x659780
+ 139 79 130 92 101 112 c 0
+ 66 136 47 155 47 190 c 0
+ 47 243 88 273 147 273 c 0
+ 198 273 229 250 229 213 c 0
+ 229 194 216 175 192 175 c 0
+ 172 175 157 187 157 207 c 0x634f80
+ 157 218 161 226 167 231 c 0
+ 174 236 179 236 179 240 c 0
+ 179 247 165 251 148 251 c 0
+ 117 251 105 234 105 218 c 0
+ 105 199 117 188 153 161 c 0
+ 192 132 202 111 202 83 c 0x635780
+ 202 25 152 -10 87 -10 c 0
+977 56 m 0
+ 977 35 985 24 1002 24 c 0x555780
+ 1050 24 1103 151 1103 200 c 0
+ 1103 222 1097 237 1080 237 c 0
+ 1056 237 1030 208 1016 174 c 2
+ 996 125 l 2
+ 985 97 977 77 977 56 c 0
+622 56 m 0
+ 622 35 630 24 647 24 c 0
+ 695 24 748 151 748 200 c 0
+ 748 222 742 237 725 237 c 0
+ 701 237 675 208 661 174 c 2
+ 641 125 l 2
+ 630 97 622 77 622 56 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" s f p p
+EndChar
+
+StartChar: sfz
+Encoding: 586 -1 587
+Width: 732
+Flags: W
+HStem: 0 31 250 35
+VStem: 0 68 37 49 142 59
+LayerCount: 2
+Fore
+SplineSet
+94 -85 m 0xd8
+ 94 -54 116 -30 146 -30 c 0
+ 173 -30 191 -45 191 -71 c 0
+ 191 -87 183 -100 171 -108 c 0
+ 156 -118 147 -113 147 -121 c 0
+ 147 -126 152 -130 165 -130 c 0
+ 205 -130 223 -98 251 0 c 2
+ 314 219 l 2
+ 315 224 316 227 316 229 c 0
+ 316 233 314 233 308 233 c 2
+ 250 233 l 2
+ 240 233 235 238 235 248 c 0
+ 235 259 240 264 251 264 c 2
+ 309 264 l 2
+ 323 264 324 264 329 279 c 0
+ 362 375 416 444 513 444 c 0
+ 576 444 599 414 599 377 c 0
+ 599 340 576 323 550 323 c 0
+ 525 323 505 337 505 365 c 0
+ 505 383 513 397 526 403 c 0
+ 537 408 542 407 542 413 c 0
+ 542 419 534 421 526 421 c 0
+ 476 421 454 368 434 281 c 0
+ 433 275 432 272 432 269 c 0
+ 432 264 435 264 442 264 c 2
+ 502 264 l 2
+ 512 264 517 259 517 249 c 0
+ 517 238 512 233 501 233 c 2
+ 436 233 l 2
+ 432 233 422 224 422 219 c 0
+ 398 135 376 73 347 12 c 0
+ 292 -101 245 -152 169 -152 c 0
+ 127 -152 94 -129 94 -85 c 0xd8
+87 -10 m 0
+ 34 -10 0 21 0 54 c 0xe8
+ 0 81 17 101 41 101 c 0
+ 60 101 77 88 77 68 c 0
+ 77 55 72 45 63 39 c 0
+ 52 32 46 34 46 29 c 0
+ 46 22 63 14 88 14 c 0
+ 120 14 139 37 139 59 c 0
+ 139 79 130 92 101 112 c 0
+ 66 136 47 155 47 190 c 0
+ 47 243 88 273 147 273 c 0
+ 198 273 229 250 229 213 c 0
+ 229 194 216 175 192 175 c 0
+ 172 175 157 187 157 207 c 0
+ 157 218 161 226 167 231 c 0
+ 174 236 179 236 179 240 c 0
+ 179 247 165 251 148 251 c 0
+ 117 251 105 234 105 218 c 0
+ 105 199 117 188 153 161 c 0
+ 192 132 202 111 202 83 c 0
+ 202 25 152 -10 87 -10 c 0
+472 -1 m 0
+ 464 -1 459 4 459 11 c 0
+ 459 19 463 23 471 31 c 2
+ 625 187 l 2
+ 626 188 648 210 644 210 c 0
+ 638 210 624 203 606 203 c 0
+ 577 203 560 206 556 206 c 0
+ 550 206 548 200 545 194 c 2
+ 535 173 l 2
+ 531 164 527 158 520 158 c 0
+ 514 158 509 161 509 168 c 0
+ 509 172 510 177 512 183 c 2
+ 536 253 l 2
+ 539 262 544 266 554 266 c 0
+ 566 266 595 257 655 257 c 0
+ 669 257 685 259 696 262 c 0
+ 707 265 712 268 720 268 c 0
+ 727 268 733 264 733 257 c 0
+ 733 249 728 243 720 235 c 2
+ 560 77 l 2
+ 555 72 548 60 548 60 c 1
+ 551 60 557 66 570 66 c 0
+ 609 66 618 31 648 31 c 0
+ 657 31 664 35 668 42 c 0
+ 670 46 672 50 672 52 c 0
+ 672 54 671 55 669 55 c 0
+ 666 55 663 50 653 50 c 0
+ 639 50 626 61 626 80 c 0
+ 626 101 641 115 659 115 c 0
+ 677 115 695 102 695 71 c 0
+ 695 30 669 -10 613 -10 c 0
+ 564 -10 544 21 516 21 c 0
+ 508 21 500 17 492 11 c 0
+ 487 7 481 -1 472 -1 c 0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" s f z
+EndChar
+
+StartChar: sfzp
+Encoding: 587 -1 588
+Width: 1075
+Flags: W
+HStem: -134 26 0 31 1 33 238 39 243 37 250 35
+VStem: 0 68 37 49 142 59 621 477 1009 89
+LayerCount: 2
+Fore
+SplineSet
+633 -142 m 2xc9a0
+ 625 -142 621 -138 621 -130 c 0xd1c0
+ 621 -121 625 -117 634 -117 c 2
+ 665 -117 l 2
+ 675 -117 677 -115 680 -107 c 2
+ 803 198 l 2
+ 806 205 809 215 809 223 c 0
+ 809 230 806 235 798 235 c 0
+ 780 235 760 209 731 159 c 0
+ 726 150 722 144 715 144 c 0
+ 709 144 704 148 704 155 c 0
+ 704 160 706 165 711 174 c 0
+ 742 231 774 273 833 273 c 0
+ 859 273 874 264 881 252 c 0
+ 890 235 887 228 892 228 c 0
+ 896 228 899 236 913 248 c 0
+ 931 264 953 274 984 274 c 0
+ 1040 274 1076 243 1076 185 c 0
+ 1076 90 998 -10 902 -10 c 0
+ 885 -10 872 -8 858 -1 c 0
+ 842 7 839 17 834 17 c 0
+ 829 17 827 10 825 5 c 2
+ 780 -107 l 2
+ 779 -110 778 -113 778 -114 c 0
+ 778 -117 781 -117 787 -117 c 2
+ 827 -117 l 2
+ 835 -117 839 -121 839 -129 c 0
+ 839 -138 835 -142 826 -142 c 2
+ 633 -142 l 2xc9a0
+99 -85 m 0
+ 99 -54 121 -30 151 -30 c 0
+ 178 -30 196 -45 196 -71 c 0
+ 196 -87 188 -100 176 -108 c 0
+ 161 -118 152 -113 152 -121 c 0
+ 152 -126 157 -130 170 -130 c 0
+ 210 -130 228 -98 256 0 c 2
+ 319 219 l 2
+ 320 224 321 227 321 229 c 0
+ 321 233 319 233 313 233 c 2
+ 255 233 l 2
+ 245 233 240 238 240 248 c 0
+ 240 259 245 264 256 264 c 2
+ 314 264 l 2
+ 328 264 329 264 334 279 c 0
+ 367 375 421 444 518 444 c 0
+ 581 444 604 414 604 377 c 0
+ 604 340 581 323 555 323 c 0
+ 530 323 510 337 510 365 c 0
+ 510 383 518 397 531 403 c 0
+ 542 408 547 407 547 413 c 0
+ 547 419 539 421 531 421 c 0
+ 481 421 459 368 439 281 c 0
+ 438 275 437 272 437 269 c 0
+ 437 264 440 264 447 264 c 2
+ 507 264 l 2
+ 517 264 522 259 522 249 c 0
+ 522 238 517 233 506 233 c 2
+ 441 233 l 2
+ 437 233 427 224 427 219 c 0
+ 403 135 381 73 352 12 c 0
+ 297 -101 250 -152 174 -152 c 0
+ 132 -152 99 -129 99 -85 c 0
+87 -10 m 0
+ 34 -10 0 21 0 54 c 0xcaa0
+ 0 81 17 101 41 101 c 0
+ 60 101 77 88 77 68 c 0
+ 77 55 72 45 63 39 c 0
+ 52 32 46 34 46 29 c 0
+ 46 22 63 14 88 14 c 0
+ 120 14 139 37 139 59 c 0
+ 139 79 130 92 101 112 c 0
+ 66 136 47 155 47 190 c 0xa9a0
+ 47 243 88 273 147 273 c 0xc5a0
+ 198 273 229 250 229 213 c 0
+ 229 194 216 175 192 175 c 0
+ 172 175 157 187 157 207 c 0
+ 157 218 161 226 167 231 c 0
+ 174 236 179 236 179 240 c 0
+ 179 247 165 251 148 251 c 0
+ 117 251 105 234 105 218 c 0
+ 105 199 117 188 153 161 c 0
+ 192 132 202 111 202 83 c 0
+ 202 25 152 -10 87 -10 c 0
+465 11 m 0
+ 465 19 469 23 477 31 c 2
+ 631 187 l 2
+ 632 188 654 210 650 210 c 0
+ 644 210 630 203 612 203 c 0
+ 583 203 566 206 562 206 c 0
+ 556 206 554 200 551 194 c 2
+ 541 173 l 2
+ 537 164 533 158 526 158 c 0
+ 520 158 515 161 515 168 c 0
+ 515 172 516 177 518 183 c 2
+ 542 253 l 2
+ 545 262 550 266 560 266 c 0
+ 572 266 601 257 661 257 c 0
+ 675 257 691 259 702 262 c 0
+ 713 265 718 268 726 268 c 0
+ 733 268 739 264 739 257 c 0
+ 739 249 734 243 726 235 c 2
+ 566 77 l 2
+ 561 72 554 60 554 60 c 1
+ 557 60 563 66 576 66 c 0
+ 615 66 624 31 654 31 c 0
+ 663 31 670 35 674 42 c 0
+ 676 46 678 50 678 52 c 0
+ 678 54 677 55 675 55 c 0
+ 672 55 669 50 659 50 c 0
+ 645 50 632 61 632 80 c 0
+ 632 101 647 115 665 115 c 0
+ 683 115 701 102 701 71 c 0
+ 701 30 675 -10 619 -10 c 0
+ 570 -10 550 21 522 21 c 0
+ 514 21 506 17 498 11 c 0
+ 493 7 487 -1 478 -1 c 0
+ 470 -1 465 4 465 11 c 0
+873 125 m 2
+ 862 97 854 77 854 56 c 0
+ 854 35 862 24 879 24 c 0
+ 927 24 980 151 980 200 c 0
+ 980 222 974 237 957 237 c 0
+ 933 237 907 208 893 174 c 2
+ 873 125 l 2
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" s f z p
+EndChar
+
+StartChar: sffz
+Encoding: 588 -1 589
+Width: 964
+Flags: W
+HStem: -152 22<164.5 191 164.5 213 407 431> -10 24<75.5 104 75.5 119.5> -10 41<864 872> -1 21G<699 707.5> 21 45<743 820.5> 50 65<881 889> 203 54<822.5 893> 233 31<251 315 257 314 448 554 688 731> 251 22<132.5 156.5> 421 23<494.5 516.5 747 776>
+VStem: 0 77<61.5 67.5> 47 58<208.5 216.5> 100 97<-79 -69.5> 139 63<54 69> 157 72<203.5 212.5> 343 90<-85 -74.5> 504 86<372.5 392.5> 751 94<358.5 374> 857 69<70.5 86.5 50.5 90.5>
+LayerCount: 2
+Fore
+SplineSet
+175 -152 m 0x9149e0
+ 133 -152 100 -129 100 -85 c 0
+ 100 -54 122 -30 152 -30 c 0
+ 179 -30 197 -45 197 -71 c 0
+ 197 -87 189 -100 177 -108 c 0
+ 162 -118 153 -113 153 -121 c 0
+ 153 -126 158 -130 171 -130 c 0
+ 211 -130 229 -98 257 0 c 2
+ 320 219 l 2
+ 321 224 322 227 322 229 c 0
+ 322 233 320 233 314 233 c 2
+ 256 233 l 2
+ 246 233 241 238 241 248 c 0
+ 241 259 246 264 257 264 c 2
+ 315 264 l 2
+ 329 264 330 264 335 279 c 0
+ 368 376 415 444 513 444 c 0
+ 570 444 590 415 590 389 c 0
+ 590 356 573 338 546 338 c 0
+ 522 338 504 350 504 379 c 0
+ 504 406 522 410 522 417 c 0
+ 522 420 519 421 514 421 c 0
+ 475 421 460 368 440 281 c 0
+ 439 275 438 272 438 269 c 0
+ 438 264 441 264 448 264 c 2
+ 555 264 l 2
+ 569 264 570 264 575 279 c 0
+ 608 375 662 444 761 444 c 0
+ 822 444 845 414 845 377 c 0
+ 845 340 822 323 796 323 c 0
+ 771 323 751 337 751 365 c 0
+ 751 383 759 397 772 403 c 0
+ 783 408 788 407 788 413 c 0
+ 788 419 780 421 772 421 c 0
+ 722 421 700 368 680 281 c 0
+ 679 275 678 272 678 269 c 0
+ 678 264 681 264 688 264 c 2
+ 732 264 l 2
+ 742 264 747 259 747 249 c 0
+ 747 238 742 233 731 233 c 2
+ 682 233 l 2
+ 678 233 668 224 668 219 c 0
+ 644 135 622 73 593 12 c 0
+ 538 -101 491 -152 415 -152 c 0
+ 373 -152 343 -129 343 -90 c 0
+ 343 -59 361 -38 392 -38 c 0
+ 416 -38 433 -53 433 -77 c 0
+ 433 -93 428 -104 416 -112 c 0
+ 405 -119 401 -121 401 -125 c 0
+ 401 -128 403 -130 411 -130 c 0
+ 451 -130 469 -98 497 0 c 2
+ 560 219 l 2
+ 561 224 562 227 562 229 c 0
+ 562 233 560 233 554 233 c 2
+ 442 233 l 2
+ 438 233 428 224 428 219 c 0
+ 404 135 382 73 353 12 c 0
+ 298 -101 251 -152 175 -152 c 0x9149e0
+87 -10 m 0xc0e5a0
+ 34 -10 0 21 0 54 c 0
+ 0 81 17 101 41 101 c 0
+ 60 101 77 88 77 68 c 0
+ 77 55 72 45 63 39 c 0
+ 52 32 46 34 46 29 c 0
+ 46 22 63 14 88 14 c 0
+ 120 14 139 37 139 59 c 0xc165a0
+ 139 79 130 92 101 112 c 0
+ 66 136 47 155 47 190 c 0
+ 47 243 88 273 147 273 c 0
+ 198 273 229 250 229 213 c 0
+ 229 194 216 175 192 175 c 0
+ 172 175 157 187 157 207 c 0
+ 157 218 161 226 167 231 c 0
+ 174 236 179 236 179 240 c 0
+ 179 247 165 251 148 251 c 0
+ 117 251 105 234 105 218 c 0xc0d3a0
+ 105 199 117 188 153 161 c 0
+ 192 132 202 111 202 83 c 0
+ 202 25 152 -10 87 -10 c 0xc0e5a0
+690 11 m 0x9155a0
+ 690 19 694 23 702 31 c 2x9155a0
+ 856 187 l 2
+ 857 188 879 210 875 210 c 0
+ 869 210 855 203 837 203 c 0
+ 808 203 791 206 787 206 c 0
+ 781 206 779 200 776 194 c 2
+ 766 173 l 2
+ 762 164 758 158 751 158 c 0
+ 745 158 740 161 740 168 c 0
+ 740 172 741 177 743 183 c 2
+ 767 253 l 2
+ 770 262 775 266 785 266 c 0
+ 797 266 826 257 886 257 c 0
+ 900 257 916 259 927 262 c 0
+ 938 265 943 268 951 268 c 0
+ 958 268 964 264 964 257 c 0
+ 964 249 959 243 951 235 c 2
+ 791 77 l 2
+ 786 72 779 60 779 60 c 1
+ 782 60 788 66 801 66 c 0x8a55a0
+ 840 66 849 31 879 31 c 0xa155a0
+ 888 31 895 35 899 42 c 0
+ 901 46 903 50 903 52 c 0
+ 903 54 902 55 900 55 c 0
+ 897 55 894 50 884 50 c 0
+ 870 50 857 61 857 80 c 0
+ 857 101 872 115 890 115 c 0x9555a0
+ 908 115 926 102 926 71 c 0
+ 926 30 900 -10 844 -10 c 0xa155a0
+ 795 -10 775 21 747 21 c 0x8955a0
+ 739 21 731 17 723 11 c 0
+ 718 7 712 -1 703 -1 c 0
+ 695 -1 690 4 690 11 c 0x9155a0
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" s f f z
+EndChar
+
+StartChar: rf
+Encoding: 589 -1 590
+Width: 625
+Flags: W
+HStem: -152 22<184.5 211 184.5 233> 0 21G<10 14 14 63 277 277> 233 31<297 335 303 334 468 527> 235 38<76.5 78> 244 30<212 214> 421 23<527 556>
+VStem: 120 97<-79 -69.5> 199 78<203.5 212> 531 94<358.5 374>
+LayerCount: 2
+Fore
+SplineSet
+120 -85 m 0xe680
+ 120 -54 142 -30 172 -30 c 0
+ 199 -30 217 -45 217 -71 c 0
+ 217 -87 209 -100 197 -108 c 0
+ 182 -118 173 -113 173 -121 c 0
+ 173 -126 178 -130 191 -130 c 0
+ 231 -130 249 -98 277 0 c 2
+ 340 219 l 2
+ 341 224 342 227 342 229 c 0
+ 342 233 340 233 334 233 c 2
+ 302 233 l 2
+ 292 233 287 238 287 248 c 0
+ 287 259 292 264 303 264 c 2
+ 335 264 l 2
+ 349 264 350 264 355 279 c 0
+ 388 375 442 444 539 444 c 0
+ 602 444 625 414 625 377 c 0
+ 625 340 602 323 576 323 c 0
+ 551 323 531 337 531 365 c 0
+ 531 383 539 397 552 403 c 0
+ 563 408 568 407 568 413 c 0
+ 568 419 560 421 552 421 c 0
+ 502 421 480 368 460 281 c 0
+ 459 275 458 272 458 269 c 0
+ 458 264 461 264 468 264 c 2
+ 528 264 l 2
+ 538 264 543 259 543 249 c 0
+ 543 238 538 233 527 233 c 2
+ 462 233 l 2
+ 458 233 448 224 448 219 c 0
+ 424 135 402 73 373 12 c 0
+ 318 -101 271 -152 195 -152 c 0
+ 153 -152 120 -129 120 -85 c 0xe680
+-9 144 m 0xd580
+ -15 144 -20 148 -20 155 c 0
+ -20 160 -18 165 -13 174 c 0
+ 19 234 52 273 101 273 c 0
+ 121 273 135 263 141 250 c 0
+ 148 234 144 229 149 229 c 0xd580
+ 153 229 154 233 163 243 c 0
+ 178 260 199 274 225 274 c 0
+ 262 274 277 250 277 221 c 0
+ 277 186 259 166 235 166 c 0
+ 214 166 199 178 199 198 c 0
+ 199 226 221 229 221 238 c 0
+ 221 242 217 244 211 244 c 0
+ 189 244 157 207 144 174 c 2xcd80
+ 79 12 l 2
+ 75 2 72 0 63 0 c 2
+ 14 0 l 2
+ 6 0 3 2 3 6 c 0
+ 3 9 4 12 6 17 c 2
+ 79 198 l 2
+ 82 205 85 215 85 223 c 0
+ 85 230 82 235 74 235 c 0
+ 56 235 36 209 6 157 c 0
+ 2 149 -2 144 -9 144 c 0xd580
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" r f
+EndChar
+
+StartChar: rfz
+Encoding: 590 -1 591
+Width: 744
+Flags: W
+HStem: -152 22<184.5 211 184.5 233> -10 41<644 652> -1 21G<479 487.5> 0 21G 21 45<523 600.5> 50 65<661 669> 203 54<602.5 673> 233 31<297 335 303 334 468 511> 235 38<76.5 78> 244 30<212 214> 421 23<527 556>
+VStem: 120 97<-79 -69.5> 199 78<203.5 212> 531 94<358.5 374> 637 69<70.5 86.5 50.5 90.5>
+LayerCount: 2
+Fore
+SplineSet
+120 -85 m 0xa136
+ 120 -54 142 -30 172 -30 c 0
+ 199 -30 217 -45 217 -71 c 0
+ 217 -87 209 -100 197 -108 c 0
+ 182 -118 173 -113 173 -121 c 0
+ 173 -126 178 -130 191 -130 c 0
+ 231 -130 249 -98 277 0 c 2
+ 340 219 l 2
+ 341 224 342 227 342 229 c 0
+ 342 233 340 233 334 233 c 2
+ 302 233 l 2
+ 292 233 287 238 287 248 c 0
+ 287 259 292 264 303 264 c 2
+ 335 264 l 2
+ 349 264 350 264 355 279 c 0
+ 388 375 442 444 541 444 c 0
+ 602 444 625 414 625 377 c 0
+ 625 340 602 323 576 323 c 0
+ 551 323 531 337 531 365 c 0
+ 531 383 539 397 552 403 c 0
+ 563 408 568 407 568 413 c 0
+ 568 419 560 421 552 421 c 0
+ 502 421 480 368 460 281 c 0
+ 459 275 458 272 458 269 c 0
+ 458 264 461 264 468 264 c 2
+ 512 264 l 2
+ 522 264 527 259 527 249 c 0
+ 527 238 522 233 511 233 c 2
+ 462 233 l 2
+ 458 233 448 224 448 219 c 0
+ 424 135 402 73 373 12 c 0
+ 318 -101 271 -152 195 -152 c 0
+ 153 -152 120 -129 120 -85 c 0xa136
+483 -1 m 0
+ 475 -1 470 4 470 11 c 0
+ 470 19 474 23 482 31 c 2xa12a
+ 636 187 l 2
+ 637 188 659 210 655 210 c 0
+ 649 210 635 203 617 203 c 0
+ 588 203 571 206 567 206 c 0
+ 561 206 559 200 556 194 c 2
+ 546 173 l 2
+ 542 164 538 158 531 158 c 0
+ 525 158 520 161 520 168 c 0
+ 520 172 521 177 523 183 c 2
+ 547 253 l 2
+ 550 262 555 266 565 266 c 0
+ 577 266 606 257 666 257 c 0
+ 680 257 696 259 707 262 c 0
+ 718 265 723 268 731 268 c 0
+ 738 268 744 264 744 257 c 0
+ 744 249 739 243 731 235 c 2
+ 571 77 l 2
+ 566 72 559 60 559 60 c 1
+ 562 60 568 66 581 66 c 0x8a2a
+ 620 66 629 31 659 31 c 0xc12a
+ 668 31 675 35 679 42 c 0
+ 681 46 683 50 683 52 c 0
+ 683 54 682 55 680 55 c 0
+ 677 55 674 50 664 50 c 0
+ 650 50 637 61 637 80 c 0
+ 637 101 652 115 670 115 c 0x952a
+ 688 115 706 102 706 71 c 0
+ 706 30 680 -10 624 -10 c 0xc12a
+ 575 -10 555 21 527 21 c 0x892a
+ 519 21 511 17 503 11 c 0
+ 498 7 492 -1 483 -1 c 0
+-9 144 m 0x90aa
+ -15 144 -20 148 -20 155 c 0
+ -20 160 -18 165 -13 174 c 0
+ 19 234 52 273 101 273 c 0
+ 121 273 135 263 141 250 c 0
+ 148 234 144 229 149 229 c 0x90aa
+ 153 229 154 233 163 243 c 0
+ 178 260 199 274 225 274 c 0
+ 262 274 277 250 277 221 c 0
+ 277 186 259 166 235 166 c 0
+ 214 166 199 178 199 198 c 0
+ 199 226 221 229 221 238 c 0
+ 221 242 217 244 211 244 c 0
+ 189 244 157 207 144 174 c 2x906a
+ 79 12 l 2
+ 75 2 72 0 63 0 c 2
+ 14 0 l 2
+ 6 0 3 2 3 6 c 0
+ 3 9 4 12 6 17 c 2
+ 79 198 l 2
+ 82 205 85 215 85 223 c 0
+ 85 230 82 235 74 235 c 0
+ 56 235 36 209 6 157 c 0
+ 2 149 -2 144 -9 144 c 0x90aa
+EndSplineSet
+Ligature2: "BMusicFont-11-ligaStandardLigaturesinLatinlookup0 subtable" r f z
 EndChar
 EndChars
 EndSplineFont

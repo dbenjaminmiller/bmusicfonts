@@ -29,7 +29,7 @@ lower = \relative c {
   \key c \major
   \time 4/4
 
-  a2 c \clef "bass^15" c'''4 a,8 b16 c32 b64 c128
+  a2 c\mp\< \clef "bass^15" c'''4 a,8\mf b16 c32 b64 c128
 }
 
 text = \lyricmode {

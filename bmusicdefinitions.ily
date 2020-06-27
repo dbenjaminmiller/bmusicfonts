@@ -411,7 +411,7 @@ bravuraOn = {
   \override Staff.ClefModifier.font-name = #"BMusicalTextFont"
   \override Staff.ClefModifier.font-size = #-4
   \override Staff.ClefModifier.padding = -0.11
-  \override DynamicText.font-name = "BMusicalTextFont" \override DynamicText.font-size = #5
+  %\override DynamicText.font-name = "BMusicalTextFont" \override DynamicText.font-size = #5
 
 }
 

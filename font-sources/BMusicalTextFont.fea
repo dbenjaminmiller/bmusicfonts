@@ -1,0 +1,31 @@
+lookup ligaStandardLigaturesinLatinlookup0 {
+  lookupflag 0;
+    sub \p \p \p \p \p \p  by \pppppp;
+    sub \p \p \p \p \p  by \ppppp;
+    sub \p \p \p \p  by \pppp;
+    sub \p \p \p  by \ppp;
+    sub \p \p  by \pp;
+    sub \m \p  by \mp;
+    sub \m \f  by \mf;
+    sub \p \f  by \pf;
+    sub \f \f  by \ff;
+    sub \f \f \f  by \fff;
+    sub \f \f \f \f  by \ffff;
+    sub \f \f \f \f \f  by \fffff;
+    sub \f \f \f \f \f \f  by \ffffff;
+    sub \f \p  by \fp;
+    sub \f \z  by \fz;
+    sub \s \f  by \sf;
+    sub \s \f \p  by \sfp;
+    sub \s \f \p \p  by \sfpp;
+    sub \s \f \z  by \sfz;
+    sub \s \f \z \p  by \sfzp;
+    sub \s \f \f \z  by \sffz;
+    sub \r \f  by \rf;
+    sub \r \f \z  by \rfz;
+} ligaStandardLigaturesinLatinlookup0;
+
+feature liga {
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup0;
+} liga;
