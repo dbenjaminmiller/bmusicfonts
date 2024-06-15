@@ -33,7 +33,7 @@ For LilyPond 2.25 and later:
 
 ```
 \paper{
-	property-defaults.fonts.serif = "STEP"
+	property-defaults.fonts.serif = "Academico"
 	property-defaults.fonts.music = "BMusicFont"
 }
 ```
