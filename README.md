@@ -10,22 +10,31 @@ To use the fonts, follow the following instructions:
 
 3. Download the latest release of [Bravura](https://github.com/steinbergmedia/bravura) and place it in LilyPond's music font directory.
 
-4. Download [profondo-brace](https://github.com/OpenLilyPondFonts/profondo/blob/master/otf/profondo-brace.otf) and place it in Lilypond's music font directory.
+4. Place `bmusicdefinitions.ily` and `smufldata.ily` in a directory accessible to LilyPond (so, either in an include directory, or in the local directory with your music file).
 
-5. Place `bmusicdefinitions.ily` and `smufldata.ily` in a directory accessible to LilyPond (so, either in an include directory, or in the local directory with your music file).
+5. Optionally, download the [Academico fonts](https://github.com/dbenjaminmiller/academico-mirror) and place them in your directory for text fonts, if you wish to closely match the default Dorico output appearance.
 
-6. Optionally, download the [Academico fonts](https://github.com/dbenjaminmiller/academico-mirror) and place them in your directory for text fonts, if you wish to closely match the default Dorico output appearance.
+6. In your `paper` block, define the music fonts (and optionally the Roman font as well):
 
-7. In your `paper` block, define the music fonts (and optionally the Roman font as well):
+For LilyPond versions before 2.25:
 
 ```
 \paper{
   #(define fonts
     (set-global-fonts
       #:music "BMusicFont"
-      #:brace "profondo"
+      #:brace "BMusicFont"
       #:roman "Academico"
   ))
+}
+```
+
+For LilyPond 2.25 and later:
+
+```
+\paper{
+	property-defaults.fonts.serif = "STEP"
+	property-defaults.fonts.music = "BMusicFont"
 }
 ```
 
