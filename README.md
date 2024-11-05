@@ -1,5 +1,39 @@
 # bmusicfonts
 
+# New recommended method for using Bravura (and other SMUFL fonts)
+
+I recommend using [esmuflily](https://github.com/tr-igem/esmuflily) and [ekmelily](https://github.com/tr-igem/ekmelily) instead, which can load any SMUFL font (including Bravura). Since Bravura expects different notehead sizes, you will need to adjust some properties to get Bravura defaults.
+
+1. Install Bravura as a regular font.
+2. Place the files from `esmuflily` and `ekmelily` wherever you'd like.
+3. Add the following to the beginning of your LilyPond file.
+
+```
+ekmFont = "Bravura"
+\include "/path/to/ekmel-12.ily"
+\include "/path/to/esmufl.ily"
+\ekmelicStyle std
+
+bravuraDef = {
+%%Bravura defaults
+\override Staff.StaffSymbol.thickness = #1.25
+\override Staff.Beam.beam-thickness = #0.5
+\override Staff.Slur.thickness = #1.2
+\override Staff.NoteHead.font-size = #1.115
+\override Staff.Stem.thickness=#1.25
+}
+
+ekmSet = {
+\bravuraDef
+\ekmSmuflOn #'all
+}
+```
+4. In your `layout` block, add `\context {\Score \ekmSet}`.
+
+If you're using a SMUFL font other than Bravura, can comment out `\bravuraDef` from `ekmSet` entirely, or adjust the properties as you wish. (Most non-Bravura SMUFL fonts do not use small noteheads by default, so you may want to comment out `\override Staff.NoteHead.font-size = #1.115`.)
+
+# Old method
+
 This is a setup for high quality typesetting using the Bravura design in current versions of LilyPond.
 
 To use the fonts, follow the following instructions:
