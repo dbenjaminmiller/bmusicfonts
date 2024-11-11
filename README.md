@@ -17,9 +17,10 @@ ekmFont = "Bravura"
 bravuraDef = {
 %%Bravura defaults
 \override Staff.StaffSymbol.thickness = #1.25
+\override Hairpin.thickness = #1.25
 \override Staff.Beam.beam-thickness = #0.5
 \override Staff.Slur.thickness = #1.2
-\override Staff.NoteHead.font-size = #1.115
+\override Staff.NoteHead.font-size = #1.115 %comment out if not using Bravura
 \override Staff.Stem.thickness=#1.25
 }
 
